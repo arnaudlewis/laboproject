@@ -2,270 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b05e7e6-d146-4dac-925f-67b6da85698d" name="Default" comment="Premier commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/laboproject_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/laboproject_war_exploded.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/laboproject.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/eric.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-resource/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-resource/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-resource/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-resource/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-resource/angular-resource.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-resource/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/config/jsdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/config/karma.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/lib/angular-1.0.6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/lib/angular-1.1.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/angular-ui-router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/$resolve.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/$templateFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/$urlMatcherFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/UrlMatcher.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/global.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/scripts/prettify/Apache-License-2.0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/scripts/prettify/lang-css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/scripts/prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/styles/jsdoc-default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/styles/prettify-jsdoc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/doc/styles/prettify-tomorrow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/contacts.detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/contacts.detail.item.edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/contacts.detail.item.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/contacts.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/contacts.list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/factory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/states.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/sample/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/compat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/stateDirectives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/templateFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/urlRouter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/viewDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/compat/matchers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/compat/routeParamsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/compat/routeSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/lib/angular-mocks-1.0.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/lib/angular-mocks-1.1.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/resolveSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/stateDirectivesSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/stateSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/templateFactorySpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/testUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/urlMatcherFactorySpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/urlRouterSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/test/viewDirectiveSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/DOCS-LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/LICENSE-MIT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/docs-assets/js/raw-files.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/js/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/jquery-migrate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/jquery-migrate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/jquery/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/display/ctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/display/essai.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/display/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/journey/Journey.java" afterPath="$PROJECT_DIR$/src/main/java/journey/Journey.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/user/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/dto/CreateUserRequestDTO.java" afterPath="$PROJECT_DIR$/src/main/java/user/dto/CreateUserRequestDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/dto/CreateUserResponseDTO.java" afterPath="$PROJECT_DIR$/src/main/java/user/dto/CreateUserResponseDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/dataAccess/Dao.java" afterPath="$PROJECT_DIR$/src/main/java/common/dataAccess/Dao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/journey/dataAccess/DaoJourney.java" afterPath="$PROJECT_DIR$/src/main/java/journey/dataAccess/DaoJourney.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/travel/dataAccess/DaoTravel.java" afterPath="$PROJECT_DIR$/src/main/java/travel/dataAccess/DaoTravel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java" afterPath="$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/journey/dto/EssaiResponseInsertDTO.java" afterPath="$PROJECT_DIR$/src/main/java/journey/dto/EssaiResponseInsertDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/journey/service/JourneyService.java" afterPath="$PROJECT_DIR$/src/main/java/journey/service/JourneyService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/dto/LoginRequestDTO.java" afterPath="$PROJECT_DIR$/src/main/java/user/dto/LoginRequestDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/dto/LoginResponseDTO.java" afterPath="$PROJECT_DIR$/src/main/java/user/dto/LoginResponseDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_stream_sjsxp_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_stream_sjsxp_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_28.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_28.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_0_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_5_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_5_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_5_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_5_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_2_2_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_2_2_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jackson_provider_2_0_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jackson_provider_2_0_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxb_provider_2_2_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxb_provider_2_2_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_2_2_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_2_2_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_multipart_provider_2_2_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_multipart_provider_2_2_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scannotation_scannotation_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scannotation_scannotation_1_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/rest/Rest.java" afterPath="$PROJECT_DIR$/src/main/java/common/rest/Rest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/journey/dto/SearchJourneyRequestDTO.java" afterPath="$PROJECT_DIR$/src/main/java/journey/dto/SearchJourneyRequestDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/journey/dto/SearchJourneyResponseDTO.java" afterPath="$PROJECT_DIR$/src/main/java/journey/dto/SearchJourneyResponseDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/travel/Travel.java" afterPath="$PROJECT_DIR$/src/main/java/travel/Travel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/user/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/_login.scss" afterPath="$PROJECT_DIR$/web/login/_login.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/_main.scss" afterPath="$PROJECT_DIR$/web/common/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/_mixin.scss" afterPath="$PROJECT_DIR$/web/common/_mixin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/_normalize.scss" afterPath="$PROJECT_DIR$/web/common/_normalize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/_signin.scss" afterPath="$PROJECT_DIR$/web/signin/_signin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/_variable.scss" afterPath="$PROJECT_DIR$/web/common/_variable.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bower.json" afterPath="$PROJECT_DIR$/web/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/ctrl.js" afterPath="$PROJECT_DIR$/web/login/ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search/ctrl.js" afterPath="$PROJECT_DIR$/web/search/ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/ctrl.js" afterPath="$PROJECT_DIR$/web/signin/ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.css" afterPath="$PROJECT_DIR$/web/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/header/index.html" afterPath="$PROJECT_DIR$/web/common/header/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/index.html" afterPath="$PROJECT_DIR$/web/login/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search/index.html" afterPath="$PROJECT_DIR$/web/search/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/index.html" afterPath="$PROJECT_DIR$/web/signin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.scss" afterPath="$PROJECT_DIR$/web/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laboproject.iml" afterPath="$PROJECT_DIR$/laboproject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/remote/remote.js" afterPath="$PROJECT_DIR$/web/common/remote/remote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/router/router.js" afterPath="$PROJECT_DIR$/web/common/router/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/icon/service.js" afterPath="$PROJECT_DIR$/web/common/icon/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/translation/service.js" afterPath="$PROJECT_DIR$/web/common/translation/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/service.js" afterPath="$PROJECT_DIR$/web/login/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search/service.js" afterPath="$PROJECT_DIR$/web/search/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/service.js" afterPath="$PROJECT_DIR$/web/signin/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/translation/translation_en.json" afterPath="$PROJECT_DIR$/web/common/translation/translation_en.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/translation/translation_fr.json" afterPath="$PROJECT_DIR$/web/common/translation/translation_fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="laboproject.iws" />
@@ -1247,6 +984,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1b05e7e6-d146-4dac-925f-67b6da85698d" name="Default" comment="" />
@@ -1254,12 +1008,12 @@
       <updated>1395406625513</updated>
       <workItem from="1395406630866" duration="66000" />
       <workItem from="1395406797405" duration="2381000" />
-      <workItem from="1395493070380" duration="1580000" />
+      <workItem from="1395493070380" duration="1831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4027000" />
+    <option name="totallyTimeSpent" value="4278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1288,7 +1042,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.49910232" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
