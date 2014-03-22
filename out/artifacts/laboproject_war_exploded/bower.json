@@ -1,0 +1,9 @@
+{
+    "name": "laboproject",
+    "version": "1.0.0",
+    "dependencies": {
+        "angular" : "*",
+        "bootstrap" : "*",
+        "angular-ui-router" : "*"
+    }
+}

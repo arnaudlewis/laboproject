@@ -1,0 +1,9 @@
+{
+    "VALIDATE" : "Validate",
+    "signin_FIRSTNAME": "Firstname",
+    "signin_LASTNAME": "Lastname",
+    "signin_USERNAME": "Username",
+    "signin_PASSWORD": "Password",
+    "signin_AGE": "Age",
+    "signin_EMAIL": "Email"
+}

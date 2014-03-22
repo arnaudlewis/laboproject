@@ -1,0 +1,9 @@
+{
+    "VALIDATE" : "Valider",
+    "signin_FIRSTNAME": "Prénom",
+    "signin_LASTNAME": "Nom",
+    "signin_USERNAME": "Identifiant",
+    "signin_PASSWORD": "Mot de passe",
+    "signin_AGE": "Age",
+    "signin_EMAIL": "Email"
+}

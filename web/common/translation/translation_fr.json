@@ -1,0 +1,21 @@
+{
+
+    "VALIDATE": "Valider",
+
+    "login_SIGNIN": "S'inscrire",
+
+    "signin_TITLE": "Inscription",
+
+    "user_FIRSTNAME": "Prénom",
+    "user_LASTNAME": "Nom",
+    "user_BIRTHDAY": "Date de naissance",
+    "user_USERNAME": "Identifiant",
+    "user_PASSWORD": "Mot de passe",
+    "user_AGE": "Age",
+    "user_EMAIL": "Email",
+
+    "search_TITLE": "rechercher",
+    "travel_DEPARTURE": "depart",
+    "travel_ARRIVAL": "arrivée",
+    "travel_JOURNEY_DATE": "date du voyage"
+}

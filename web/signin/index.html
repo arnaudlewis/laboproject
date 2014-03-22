@@ -1,0 +1,12 @@
+<div id="signin" class="page" ng-controller="signinCtrl">
+
+    <form ng-submit="submit()">
+        <input type="text" name="firstname" ng-model="prenom" placeholder="{{translation.user_FIRSTNAME}}"/></br>
+        <input type="text" name="lastname" ng-model="nom" placeholder="{{translation.user_LASTNAME}}"/></br>
+        <input type="text" name="mail" ng-model="mail" placeholder="{{translation.user_EMAIL}}"/></br>
+        <input type="date" name="birthday" ng-model="birthday" placeholder="{{translation.user_BIRTHDAY}}"/></br>
+        <input type="text" name="username" ng-model="username" placeholder="{{translation.user_USERNAME}}"/></br>
+        <input type="text" name="password" ng-model="password" placeholder="{{translation.user_PASSWORD}}"/></br>
+        <button class="button" type="submit">{{translation.VALIDATE}}</button>
+    </form>
+</div>

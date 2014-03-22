@@ -1,0 +1,71 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+
+    <title>Labo Project</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/angular-resource/angular-resource.min.js"></script>
+    <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="lib/angular-md5/angular-md5.min.js"></script>
+    <script src="lib/angular-md5/angular-md5.js"></script>
+    <script src="lib/fastclick/lib/fastclick.js"></script>
+    <script src="lib/Slidebars/slidebars/0.9/slidebars.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="lib/Slidebars/slidebars/0.9/slidebars.min.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+
+</head>
+<body>
+<div id="windowAlert" class="alert" ng-controller="alertCtrl">
+    <span id="iconAlert" ng-bind-html="iconAlert"></span>
+    <hr/>
+    <span id="alertMessage">{{message}}</span>
+</div>
+<div id="sb-site">
+    <div id="header-view" ui-view="headerView"></div>
+    <div id="main-view" ui-view="mainView"></div>
+</div>
+
+<div class="sb-slidebar sb-right">
+    <ul class="sb-menu">
+        <li><a href="#">Home</a></li>
+    </ul>
+</div>
+
+<!--<script>-->
+<!--window.addEventListener('load', function () {-->
+<!--FastClick.attach(document.body);-->
+<!--}, false);-->
+<!--</script>-->
+<script src="common/translation/service.js"></script>
+<script src="common/router/router.js"></script>
+<script src="common/remote/remote.js"></script>
+<script src="common/icon/service.js"></script>
+<script src="common/header/service.js"></script>
+<script src="common/header/ctrl.js"></script>
+<script src="common/alert/service.js"></script>
+<script src="common/alert/ctrl.js"></script>
+<script src="common/menu/menu.js"></script>
+
+<script src="search/service.js"></script>
+<script src="search/ctrl.js"></script>
+
+<script src="login/service.js"></script>
+<script src="login/ctrl.js"></script>
+
+<script src="signin/service.js"></script>
+<script src="signin/ctrl.js"></script>
+
+
+<!--<script src="display/ctrl.js"></script>-->
+
+<script src="index.js"></script>
+</body>
+</html>

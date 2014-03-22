@@ -1,0 +1,16 @@
+<div id="login" ng-controller="loginCtrl">
+
+
+    <div id="title-login"><span ng-bind-html="iconUser"></span></div>
+
+    <form ng-submit="submit()">
+        <input type="text" ng-model="username" ng-keyup="formValidation()" placeholder="{{translation.user_USERNAME}}"/>
+        <input type="password" ng-keyup="formValidation()" ng-model="password"
+               placeholder="{{translation.user_PASSWORD}}"/>
+        <button class="btn-validation disabled" id="btn-login" disabled type="submit">{{translation.VALIDATE}}</button>
+
+        <hr/>
+        <button class="btn-nav" ng-click="redirect()">{{translation.login_SIGNIN}}</button>
+    </form>
+
+</div>

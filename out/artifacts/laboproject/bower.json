@@ -1,0 +1,11 @@
+{
+    "name": "laboproject",
+    "version": "1.0.0",
+    "dependencies": {
+        "angular": "1.2.7",
+        "bootstrap": "*",
+        "angular-ui-router": "*",
+        "angular-resource": "1.2.7",
+        "angular-md5" : "*"
+    }
+}

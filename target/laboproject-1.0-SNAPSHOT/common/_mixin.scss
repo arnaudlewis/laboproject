@@ -1,0 +1,61 @@
+@mixin displayFlex {
+  -webkit-display: box;
+  -webkit-display: flex;
+  -webkit-display: flexbox;
+
+  -moz-display: box;
+  -moz-display: flexbox;
+  -moz-display: flex;
+
+  -ms-display: box;
+  -ms-display: flexbox;
+  -ms-display: flex;
+
+  display: box;
+  display: flexbox;
+  display: flex;
+}
+
+@mixin flex($value) {
+  -webkit-box-flex: $value;
+  -webkit-flex: $value;
+
+  -ms-box-flex: $value;
+  -ms-flex: $value;
+
+  -moz-box-flex: $value;
+  -moz-flex: $value;
+
+  flex: $value;
+  box-flex: $value;
+}
+
+@mixin stretch {
+  @include displayFlex();
+  -webkit-flex-direction: column;
+  -webkit-box-orient: column;
+
+  -moz-flex-direction: column;
+  -moz-box-orient: column;
+
+  -ms-flex-direction: column;
+  -ms-box-orient: column;
+
+  flex-direction: column;
+  box-orient: column;
+}
+
+@mixin lineClamp($nbLines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $nbLines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@mixin backgroundLinearGradient($fromDirection, $toDirection, $fromColor, $toColor) {
+  background: -webkit-linear-gradient($fromDirection, $fromColor, $toColor);
+  background: -moz-linear-gradient($fromDirection, $fromColor, $toColor);
+  background: -ms-linear-gradient($fromDirection, $fromColor, $toColor);
+  background: -o-linear-gradient($fromDirection, $fromColor, $toColor);
+  background: linear-gradient(to $toDirection, $fromColor, $toColor);
+}

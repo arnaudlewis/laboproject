@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+
+    <title>Labo Project</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular-md5/angular-md5.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+<div>
+    <div ui-view="mainView"></div>
+</div>
+
+
+<script src="common/translation/service.js"></script>
+<script src="common/router/router.js"></script>
+
+<script src="login/service.js"></script>
+<script src="login/ctrl.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

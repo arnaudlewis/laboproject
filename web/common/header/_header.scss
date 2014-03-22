@@ -1,0 +1,24 @@
+header {
+  display: table;
+
+  > span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  > .nav {
+    width: 3em;
+
+    svg {
+      margin-top: 0.5em;
+      fill: white;
+      width: 2em;
+      height: 2em;
+    }
+  }
+
+  > #title {
+    text-align: center;
+    font-size: 1.3em;
+  }
+}

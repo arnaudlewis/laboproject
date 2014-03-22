@@ -1,0 +1,21 @@
+{
+
+    "VALIDATE": "Validate",
+
+    "login_SIGNIN": "Sign up",
+
+    "signin_TITLE": "Sign Up",
+
+    "user_FIRSTNAME": "Firstname",
+    "userLASTNAME": "Lastname",
+    "user_BIRTHDAY": "Birthday",
+    "user_USERNAME": "Username",
+    "user_PASSWORD": "Password",
+    "user_AGE": "Age",
+    "user_EMAIL": "Email"
+
+    "search_TITLE": "search",
+    "travel_DEPARTURE": "departure",
+    "travel_ARRIVAL": "arrival",
+    "travel_JOURNEY_DATE": "journey-date"
+}

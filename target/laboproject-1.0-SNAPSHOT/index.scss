@@ -1,0 +1,19 @@
+@import 'common/normalize';
+@import 'common/main';
+@import "common/header/header";
+@import "common/alert/alert";
+@import 'login/login';
+@import 'signin/signin';
+
+body {
+  > #sb-site {
+    height: 100%;
+    @include stretch();
+
+    > #main-view {
+      padding: 1em;
+      @include flex(1);
+      @include stretch();
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import "variable";
+@import "mixin";
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-weight: $font-weight;
+  font-family: $font-family;
+
+  //nécessaire pour colorer le fond de l'appli
+  //Compte tenu du menu, il faut colorer le div "sb-site" et non pas le body
+  > #sb-site {
+    @include backgroundLinearGradient(top, bottom, $header-light-color, white);
+  }
+
+  header {
+    width: 100%;
+    height: $header-height;
+    background-color: $header-dark-color;
+    color: $header-font-color;
+  }
+
+  footer {
+    width: 100%;
+    //height: $header-height;
+    background-color: black;
+    color: white;
+
+  }
+
+  input {
+    height: $input-height;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: 1px solid #dcdcdc;
+    margin: 0.5em;
+  }
+
+  button {
+    margin: 0.5em;
+    height: $input-height;
+    border-radius: 0.3em;
+    padding: 0 1em 0 1em;
+
+    &.btn-validation {
+      background-color: $button-validation-color;
+      border: 1px solid $button-validation-border-color;
+      color: $font-light-color;
+
+      &.disabled {
+        background-color: $button-validation-disabled-color;
+      }
+
+    }
+
+    &.btn-standard {
+      background-color: $button-standard-color;
+      border: 1px solid $button-standard-border-color;
+      color: $font-dark-color;
+    }
+
+    &.btn-nav {
+      width: auto !important;
+      padding: 0 1em;
+      background-color: $button-nav-color;
+      border: 1px solid $button-nav-border-color;
+      color: $font-dark-color;
+    }
+  }
+  .page {
+    padding: 1em;
+    height: auto;
+    border-radius: 0.3em;
+    background-color: $page-color;
+    box-sizing: border-box;
+  }
+}
