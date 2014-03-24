@@ -7,25 +7,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b05e7e6-d146-4dac-925f-67b6da85698d" name="Default" comment="Premier commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/common/menu/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/common/menu/menu.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/common/alert/_alert.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/alert/_alert.scss" afterPath="$PROJECT_DIR$/web/common/alert/_alert.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/_main.scss" afterPath="$PROJECT_DIR$/web/common/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/_signin.scss" afterPath="$PROJECT_DIR$/web/signin/_signin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/ctrl.js" afterPath="$PROJECT_DIR$/web/login/ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/ctrl.js" afterPath="$PROJECT_DIR$/web/signin/ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.css" afterPath="$PROJECT_DIR$/web/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/index.html" afterPath="$PROJECT_DIR$/web/signin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.scss" afterPath="$PROJECT_DIR$/web/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laboproject.iml" afterPath="$PROJECT_DIR$/laboproject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/laboproject_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/laboproject_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/laboproject_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/laboproject_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/router/router.js" afterPath="$PROJECT_DIR$/web/common/router/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/service.js" afterPath="$PROJECT_DIR$/web/login/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/service.js" afterPath="$PROJECT_DIR$/web/signin/service.js" />
+    <list default="true" id="1b05e7e6-d146-4dac-925f-67b6da85698d" name="Default" comment="Style du menu&#10;Login complet&#10;style du formulaire d'inscription&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/common/menu/_menu.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="laboproject.iws" />
@@ -93,7 +77,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/signin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="717" selection-end="717" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
+            <state line="9" column="38" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -103,9 +87,7 @@
         <entry file="file://$PROJECT_DIR$/web/common/menu/menu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +95,7 @@
       <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/common/menu/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="281" selection-end="281" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="8" column="6" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
               <folding>
                 <marker date="1395660872000" expanded="true" signature="14:280" placeholder="..." />
               </folding>
@@ -121,10 +103,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_menu.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_menu.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/common/menu/_menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="52" selection-start="171" selection-end="171" vertical-scroll-proportion="0.1589404" vertical-offset="0" max-vertical-offset="755">
+            <state line="8" column="50" selection-start="169" selection-end="169" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bowerrc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/.bowerrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="20" selection-start="22" selection-end="22" vertical-scroll-proportion="0.019206146" vertical-offset="0" max-vertical-offset="781">
               <folding />
             </state>
           </provider>
@@ -133,7 +142,7 @@
       <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="569" column="0" selection-start="12515" selection-end="12515" vertical-scroll-proportion="-9.653846" vertical-offset="8284" max-vertical-offset="8625">
+            <state line="569" column="0" selection-start="12515" selection-end="12515" vertical-scroll-proportion="0.0" vertical-offset="8535" max-vertical-offset="8625">
               <folding />
             </state>
           </provider>
@@ -142,7 +151,7 @@
       <file leaf-file-name="index.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="375">
+            <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -151,36 +160,7 @@
       <file leaf-file-name="ctrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/signin/ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/common/_main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="20" selection-start="739" selection-end="739" vertical-scroll-proportion="-10.0" vertical-offset="285" max-vertical-offset="1230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="59" selection-start="300" selection-end="328" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_login.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/_login.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="3" selection-start="358" selection-end="358" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="645">
+            <state line="11" column="10" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -221,6 +201,7 @@
         <option value="$PROJECT_DIR$/web/index.scss" />
         <option value="$PROJECT_DIR$/web/common/menu/menu.html" />
         <option value="$PROJECT_DIR$/web/common/menu/_menu.scss" />
+        <option value="$PROJECT_DIR$/web/.bowerrc" />
       </list>
     </option>
   </component>
@@ -789,6 +770,10 @@
       <option name="testName" />
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -807,10 +792,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="GlassfishConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -874,12 +855,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -897,6 +872,12 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="laboproject" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.0.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -1093,12 +1074,18 @@
       <workItem from="1395406797405" duration="2381000" />
       <workItem from="1395493070380" duration="1831000" />
       <workItem from="1395496127203" duration="515000" />
-      <workItem from="1395652725766" duration="5508000" />
+      <workItem from="1395652725766" duration="5675000" />
+      <workItem from="1395671432611" duration="274000" />
     </task>
+    <task id="LOCAL-00001" summary="Style du menu&#10;Login complet&#10;style du formulaire d'inscription">
+      <created>1395668266024</created>
+      <updated>1395668266024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10301000" />
+    <option name="totallyTimeSpent" value="10742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1106,32 +1093,32 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.50089765" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.49910232" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1147,6 +1134,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Style du menu&#10;Login complet&#10;style du formulaire d'inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style du menu&#10;Login complet&#10;style du formulaire d'inscription" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1168,27 +1157,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/signin/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/common/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/common/_mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="2445">
@@ -1205,23 +1173,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="120" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="5" column="120" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="52" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1140">
-          <folding />
-        </state>
+        <state line="25" column="52" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1140" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/alert/_alert.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
@@ -1233,37 +1195,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="5" column="20" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="735">
-          <folding />
-        </state>
+        <state line="33" column="16" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="735" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/signin/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java">
@@ -1282,16 +1234,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="120" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="5" column="120" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="52" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1140">
-          <folding />
-        </state>
+        <state line="25" column="52" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1140" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
@@ -1310,37 +1258,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="5" column="20" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="720">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="720" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/signin/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java">
@@ -1366,16 +1304,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="5" column="20" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="1005">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="1005" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/User.java">
@@ -1387,9 +1321,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/alert/_alert.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="84" selection-end="84" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java">
@@ -1408,58 +1340,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/signin/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="5" column="62" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="982" selection-end="982" vertical-scroll-proportion="0.74110675" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
+        <state line="25" column="37" selection-start="982" selection-end="982" vertical-scroll-proportion="0.74110675" vertical-offset="0" max-vertical-offset="735" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/signin/_signin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="301" selection-end="301" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="18" column="18" selection-start="301" selection-end="301" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="435" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/_login.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="358" selection-end="358" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="645">
+        <state line="21" column="3" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="20" selection-start="739" selection-end="739" vertical-scroll-proportion="-10.0" vertical-offset="285" max-vertical-offset="1230">
+        <state line="35" column="20" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1230">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/signin/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="516">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="516" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="10" selection-start="479" selection-end="878" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
+        <state line="26" column="10" selection-start="479" selection-end="878" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="59" selection-start="300" selection-end="328" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="315">
+        <state line="7" column="59" selection-start="300" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
@@ -1467,15 +1387,13 @@
     <entry file="file://$PROJECT_DIR$/web/signin/ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="10" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/signin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="717" selection-end="717" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
+        <state line="9" column="38" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
@@ -1483,43 +1401,37 @@
     <entry file="file://$PROJECT_DIR$/web/common/menu/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="24" selection-start="1447" selection-end="1447" vertical-scroll-proportion="-20.0" vertical-offset="60" max-vertical-offset="1110">
-          <folding />
-        </state>
+        <state line="36" column="24" selection-start="1447" selection-end="1447" vertical-scroll-proportion="-20.0" vertical-offset="60" max-vertical-offset="1110" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="54" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
+        <state line="46" column="54" selection-start="1405" selection-end="1405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="569" column="0" selection-start="12515" selection-end="12515" vertical-scroll-proportion="-9.653846" vertical-offset="8284" max-vertical-offset="8625">
+        <state line="569" column="0" selection-start="12515" selection-end="12515" vertical-scroll-proportion="0.0" vertical-offset="8535" max-vertical-offset="8625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="375">
+        <state line="3" column="25" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/menu/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="281" selection-end="281" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="8" column="6" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
           <folding>
             <marker date="1395660872000" expanded="true" signature="14:280" placeholder="..." />
           </folding>
@@ -1528,7 +1440,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/menu/_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="171" selection-end="171" vertical-scroll-proportion="0.1589404" vertical-offset="0" max-vertical-offset="755">
+        <state line="8" column="50" selection-start="169" selection-end="169" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="781">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="22" selection-end="22" vertical-scroll-proportion="0.019206146" vertical-offset="0" max-vertical-offset="781">
           <folding />
         </state>
       </provider>
