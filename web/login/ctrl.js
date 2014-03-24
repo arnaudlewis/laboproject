@@ -30,6 +30,10 @@ angular.module('app.login')
             alertService.showAlert('Echec de login');
         });
 
+        $scope.$on('loggedUser', function(event) {
+            $state.go('main.signin');
+        })
+
         $scope.iconUser = $sce.trustAsHtml($rootScope.icon.USER);
         $scope.username = $scope.password = '';
 

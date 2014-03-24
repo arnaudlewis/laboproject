@@ -8,7 +8,7 @@ angular.module('app.signin')
         $scope.submit = function () {
             console.log('submit vient d etre execute');
             var creationDate = new Date();
-            signinService.createUser(creationDate, $scope.nom, $scope.prenom, $scope.mail, $scope.birthday, $scope.username, $scope.password);
+            signinService.createUser(creationDate, $scope.lastname, $scope.firstname, $scope.email, $scope.birthday, $scope.username, $scope.password);
         };
 
         headerService.setup('BACK', $rootScope.translation.signin_TITLE, 'MENU');

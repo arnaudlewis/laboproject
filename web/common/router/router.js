@@ -42,6 +42,9 @@ angular.module('app.router', ['ui.router'])
                     },
                     "headerView@": {
                         templateUrl: "signin/header.html"
+                    },
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
                     }
                 }
             });
