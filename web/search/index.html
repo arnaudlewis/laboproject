@@ -5,8 +5,7 @@
     <form ng-submit="submit()">
         <input type="text" name="departure" ng-model="departure" placeholder="{{translation.travel_DEPARTURE}}"/></br>
         <input type="text" name="arrival" ng-model="arrival" placeholder="{{translation.travel_ARRIVAL}}"/></br>
-        <input type="date" name="journey_date" ng-model="journey_date"
-               placeholder="{{translation.travel_JOURNEY_DATE}}"/></br>
+        <datepicker ng-model="travelDate"></datepicker>
         <button class="button" type="submit">{{translation.VALIDATE}}</button>
     </form>
 </div>

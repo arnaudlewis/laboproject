@@ -26,6 +26,15 @@ angular.module('app.router', ['ui.router'])
                     }
                 }
             })
+
+            .state('main.search.date', {
+                url: "/date",
+                views: {
+                    "searchView@main.search": {
+                        templateUrl: "search/date/index.html"
+                    }
+                }
+            })
 //            .state('display', {
 //                url: "/result/display",
 //                views: {
