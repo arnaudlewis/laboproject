@@ -1,8 +1,9 @@
 /*global angular */
 
-angular.module('app.search', [])
+angular.module('app.search', ['app.date'])
     .service('searchService', ['$http', '$rootScope', function ($http, $rootScope) {
         'use strict';
+
         function search(departure, arrival, journey_date) {
             $http({
                 method: 'POST',

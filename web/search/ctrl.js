@@ -10,4 +10,7 @@ angular.module('app.search')
             console.log('La fonction submit de la recherche vient d execute');
 //            searchService.searchJourney($scope.departure, $scope.arrival, $scope.journey_date);
         };
+
+        window.alert($scope.travelDate);
+
     });

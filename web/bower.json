@@ -9,6 +9,8 @@
         "angular-md5": "*",
         "angular-sanitize": "1.2.7",
         "fastclick": "*",
-        "Slidebars": "*"
+        "Slidebars": "*",
+        "pikaday": "*",
+        "momentjs": "*"
     }
 }

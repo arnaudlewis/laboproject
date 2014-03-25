@@ -8,9 +8,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
-/**
- * Created by arnaud on 12/02/2014.
- */
+
 public class DaoUser extends Dao<User> {
 
 
