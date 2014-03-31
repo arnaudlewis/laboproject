@@ -1,0 +1,20 @@
+@import "../common/variable";
+@import "../common/mixin";
+
+#search {
+  width: 100%;
+  border-radius: 0.5em;
+
+  > form {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+
+    > * {
+      width: 100%;
+    }
+
+  }
+
+}

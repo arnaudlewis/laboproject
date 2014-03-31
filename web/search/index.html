@@ -1,11 +1,8 @@
 <div id="search" class="page" ng-controller="searchCtrl">
-
-    <h1 id="title">{{translation.search_TITLE}}</h1>
-
     <form ng-submit="submit()">
-        <input type="text" name="departure" ng-model="departure" placeholder="{{translation.travel_DEPARTURE}}"/></br>
-        <input type="text" name="arrival" ng-model="arrival" placeholder="{{translation.travel_ARRIVAL}}"/></br>
-        <datepicker ng-model="travelDate"></datepicker>
-        <button class="button" type="submit">{{translation.VALIDATE}}</button>
+        <input type="text" name="departure" ng-model="departure" placeholder="{{translation.travel_DEPARTURE}}"/>
+        <input type="text" name="arrival" ng-model="arrival" placeholder="{{translation.travel_ARRIVAL}}"/>
+        <input type="date" ng-model="travelDate">
+        <button class="btn-validation" type="submit">{{translation.VALIDATE}}</button>
     </form>
 </div>

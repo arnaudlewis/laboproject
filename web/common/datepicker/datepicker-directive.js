@@ -3,18 +3,25 @@ angular.module('app.date', [])
     .directive("datepicker", function () {
         'use strict';
         return {
-            require: "ngModel",
             restrict: 'E',
+            scope: {
+                ngModel: '='
+            },
+            require: "ngModel",
             replace: true,
+            templateUrl: 'common/datepicker/datepicker.html',
             link: function (scope, element, attr, ngModel) {
 
-                var field = document.getElementById('datepicker');
-                var picker = new Pikaday({
-                    onSelect: function(date) {
-                        field.value = picker.toString();
-                    }
+                scope.date = new Date();
+
+                scope.$on('dateSelected', function(event, date) {
+                    ngModel.$modelValue = date;
                 });
-                field.parentNode.insertBefore(picker.el, field.nextSibling);
+
+                scope.selectDate = function() {
+                    $('#date-selector').focus();
+                }
+
             }
         }
     });

@@ -1,6 +1,7 @@
 package travel;
 
 
+import city.City;
 import user.User;
 
 import javax.persistence.*;
@@ -8,11 +9,6 @@ import java.io.Serializable;
 import java.util.List;
 
 @Entity
-/**
- * Created by eric on 15/01/14.
- * Cette table doit recupere les informations de la table ville tel que les cordonnés de géolocalisation,
- * mais aussi faire une comparaison de entre les valeurs de la class ville
- */
 public class Travel implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -20,14 +16,43 @@ public class Travel implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id_travel;
-
-    //  private City departure;
-    //  private City arrival;
-    //  Il faudra créer un objet avec les coordonnées du lieu pour référencer depart arrivée point d'arret etc
+    @OneToOne(fetch = FetchType.EAGER)
+    private City departure;
+    @OneToOne(fetch = FetchType.EAGER)
+    private City arrival;
+    @ManyToMany(fetch = FetchType.EAGER)
+    private List<City> stopover;
     private int duration;
     private double price;
 
+
     public Travel() {
+
+    }
+
+
+    public City getDeparture() {
+        return departure;
+    }
+
+    public void setDeparture(City departure) {
+        this.departure = departure;
+    }
+
+    public City getArrival() {
+        return arrival;
+    }
+
+    public void setArrival(City arrival) {
+        this.arrival = arrival;
+    }
+
+    public List<City> getStopover() {
+        return stopover;
+    }
+
+    public void setStopover(List<City> stopover) {
+        this.stopover = stopover;
     }
 
 

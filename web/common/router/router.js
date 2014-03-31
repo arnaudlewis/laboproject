@@ -23,15 +23,26 @@ angular.module('app.router', ['ui.router'])
                 views: {
                     "mainView@": {
                         templateUrl: "search/index.html"
+                    },
+                    "headerView@": {
+                        templateUrl: "search/header.html"
+                    },
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
                     }
                 }
             })
-
-            .state('main.search.date', {
-                url: "/date",
+            .state('main.proposal', {
+                url: "/proposal",
                 views: {
-                    "searchView@main.search": {
-                        templateUrl: "search/date/index.html"
+                    "mainView@": {
+                        templateUrl: "proposal/index.html"
+                    },
+                    "headerView@": {
+                        templateUrl: "proposal/header.html"
+                    },
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
                     }
                 }
             })

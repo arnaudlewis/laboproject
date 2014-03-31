@@ -20,5 +20,6 @@
     "travel_JOURNEY_DATE": "date du voyage",
     "duplicate_USERNAME_EMAIL": "Identifiant et e-mail existant",
     "duplicate_USERNAME": "Identifiant existant",
-    "duplicate_EMAIL": "E-mail existant"
+    "duplicate_EMAIL": "E-mail existant",
+    "proposal_TITLE": "Proposer un trajet"
 }
