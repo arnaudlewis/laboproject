@@ -129,6 +129,59 @@ public class DaoUser extends Dao<User> {
         }
     }
 
+
+    public boolean checkDuplicateUsername(String username) {
+        EntityManager em = getEntityManagerFactory().createEntityManager();
+        EntityTransaction t = em.getTransaction();
+        List<User> userList ;
+
+        try {
+            t.begin();
+            String sql = "select e from User e where e.username = :username" ;
+            TypedQuery<User> query = em.createQuery(sql, User.class);
+            query.setParameter("username", username);
+            userList = query.getResultList();
+            t.commit();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            userList =null;
+
+        } finally {
+            if (t.isActive()) {
+                t.rollback();
+                em.close();
+            }
+        }
+        return userList.size() > 0;
+    }
+
+    public boolean checkDuplicateEmail(String email) {
+        EntityManager em = getEntityManagerFactory().createEntityManager();
+        EntityTransaction t = em.getTransaction();
+        List<User> userList;
+
+        try {
+            t.begin();
+            String sql = "select e from User e where e.email = :email" ;
+            TypedQuery<User> query = em.createQuery(sql, User.class);
+            query.setParameter("email", email);
+            userList = query.getResultList();
+            t.commit();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            userList=null;
+        } finally {
+            if (t.isActive()) {
+                t.rollback();
+                em.close();
+
+            }
+        }
+        return userList.size() >0;
+    }
+
     public User authentication(String username, String password) {
         EntityManager em = getEntityManagerFactory().createEntityManager();
         EntityTransaction t = em.getTransaction();

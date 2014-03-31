@@ -3,6 +3,7 @@
 angular.module('app.search', [])
     .service('searchService', ['$http', '$rootScope', function ($http, $rootScope) {
         'use strict';
+
         function search(departure, arrival, journey_date) {
             $http({
                 method: 'POST',

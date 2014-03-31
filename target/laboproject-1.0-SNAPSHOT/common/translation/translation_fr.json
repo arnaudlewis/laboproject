@@ -1,6 +1,7 @@
 {
 
     "VALIDATE": "Valider",
+    "CANCEL": "Annuler",
 
     "login_SIGNIN": "S'inscrire",
 
@@ -14,8 +15,18 @@
     "user_AGE": "Age",
     "user_EMAIL": "Email",
 
-    "search_TITLE": "rechercher",
+    "search_TITLE": "Rechercher",
+    "search_DATE_TITLE": "Date du trajet",
+
     "travel_DEPARTURE": "depart",
     "travel_ARRIVAL": "arrivée",
-    "travel_JOURNEY_DATE": "date du voyage"
+    "travel_JOURNEY_DATE": "date du voyage",
+<<<<<<< HEAD
+
+=======
+    "duplicate_USERNAME_EMAIL": "Identifiant et e-mail existant",
+    "duplicate_USERNAME": "Identifiant existant",
+    "duplicate_EMAIL": "E-mail existant",
+>>>>>>> oliver
+    "proposal_TITLE": "Proposer un trajet"
 }

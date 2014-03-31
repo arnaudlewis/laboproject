@@ -34,7 +34,12 @@ body {
     border-radius: 0.3em;
     border: 1px solid #dcdcdc;
     margin: 0.5em 0;
-  }
+
+    &.alert_error{
+       border-color: red;
+      @include boxshadow(0.1em, 0.1em, 1.5em, 0.1em, #fe0000);
+    }
+   }
 
   button {
     margin: 0.5em 0;
@@ -74,4 +79,6 @@ body {
     background-color: $page-color;
     box-sizing: border-box;
   }
+
+
 }

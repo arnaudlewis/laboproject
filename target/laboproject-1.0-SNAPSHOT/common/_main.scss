@@ -10,7 +10,7 @@ body {
   //nécessaire pour colorer le fond de l'appli
   //Compte tenu du menu, il faut colorer le div "sb-site" et non pas le body
   > #sb-site {
-    @include backgroundLinearGradient(top, bottom, $header-light-color, white);
+    @include backgroundLinearGradient(top, bottom, $body-dark-color, $body-light-color);
   }
 
   header {
@@ -33,11 +33,16 @@ body {
     padding: 0.5em;
     border-radius: 0.3em;
     border: 1px solid #dcdcdc;
-    margin: 0.5em;
-  }
+    margin: 0.5em 0;
+
+    &.alert_error{
+       border-color: red;
+      @include boxshadow(0.1em, 0.1em, 1.5em, 0.1em, #fe0000);
+    }
+   }
 
   button {
-    margin: 0.5em;
+    margin: 0.5em 0;
     height: $input-height;
     border-radius: 0.3em;
     padding: 0 1em 0 1em;
@@ -74,4 +79,6 @@ body {
     background-color: $page-color;
     box-sizing: border-box;
   }
+
+
 }

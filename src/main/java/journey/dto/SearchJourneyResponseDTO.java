@@ -25,7 +25,6 @@ public class SearchJourneyResponseDTO {
     public List<Journey> getList_journey() {
         return list_journey;
     }
-
     public void setList_journey(List<Journey> list_journey) {
         this.list_journey = list_journey;
     }

@@ -20,6 +20,7 @@ public class Journey implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date journey_date;
     private boolean display;
+    private String price;
 
     public Journey() {
 
@@ -28,7 +29,6 @@ public class Journey implements Serializable {
     public int getId_journey() {
         return id_journey;
     }
-
     public void setId_journey(int id) {
         this.id_journey = id_journey;
     }
@@ -36,7 +36,6 @@ public class Journey implements Serializable {
     public String getDeparture() {
         return departure;
     }
-
     public void setDeparture(String departure) {
         this.departure = departure;
     }
@@ -44,7 +43,6 @@ public class Journey implements Serializable {
     public String getArrival() {
         return arrival;
     }
-
     public void setArrival(String arrival) {
         this.arrival = arrival;
     }
@@ -52,7 +50,6 @@ public class Journey implements Serializable {
     public Date getJourney_date() {
         return journey_date;
     }
-
     public void setJourney_date(Date travel_date) {
         this.journey_date = travel_date;
     }
@@ -60,8 +57,14 @@ public class Journey implements Serializable {
     public boolean isDisplay() {
         return display;
     }
-
     public void setDisplay(boolean display) {
         this.display = display;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+    public void setPrice(String price) {
+        this.price = price;
     }
 }

@@ -378,6 +378,12 @@ body {
     border-radius: 0.3em;
     border: 1px solid #dcdcdc;
     margin: 0.5em 0; }
+    body input.alert_error {
+      border-color: red;
+      -moz-box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
+      -webkit-box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
+      -o-box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
+      box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000; }
   body button {
     margin: 0.5em 0;
     height: 2.5em;

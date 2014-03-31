@@ -21,6 +21,8 @@ import javax.xml.bind.annotation.XmlType;
 public class CreateUserResponseDTO {
 
     private int id_user;
+    private boolean usernameExist;
+    private boolean emailExist;
 
     public CreateUserResponseDTO(){
        }
@@ -32,4 +34,17 @@ public class CreateUserResponseDTO {
         this.id_user = id_user;
     }
 
+    public boolean isUsernameExist() {
+        return usernameExist;
+    }
+    public void setUsernameExist(boolean usernameExist) {
+        this.usernameExist = usernameExist;
+    }
+
+    public boolean isEmailExist() {
+        return emailExist;
+    }
+    public void setEmailExist(boolean emailExist) {
+        this.emailExist = emailExist;
+    }
 }
