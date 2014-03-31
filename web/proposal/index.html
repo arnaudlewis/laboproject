@@ -1,0 +1,8 @@
+<div id="proposal" class="page" ng-controller="proposalCtrl">
+    <form ng-submit="submit()">
+        <autocomplete ng-model="departure" placeholder="{{translation.travel_DEPARTURE}}"></autocomplete>
+        <!--<autocomplete ng-model="arrival" placeholder="{{translation.travel_ARRIVAL}}"></autocomplete>-->
+        <input type="date" ng-model="travelDate">
+        <button class="btn-validation" type="submit">{{translation.VALIDATE}}</button>
+    </form>
+</div>

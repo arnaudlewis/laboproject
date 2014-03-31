@@ -12,6 +12,7 @@ public abstract class Dao<T> {
 //        put("hibernate.hbm2ddl.auto", "create");
 //    }};
 
+
     private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu");
 
     public EntityManagerFactory getEntityManagerFactory() {

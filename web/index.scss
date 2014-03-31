@@ -1,11 +1,12 @@
 @import 'common/normalize';
 @import 'common/main';
 @import "common/header/header";
-@import 'common/datepicker/datepicker';
 @import "common/menu/menu";
 @import "common/alert/alert";
 @import 'login/login';
 @import 'signin/signin';
+@import 'search/search';
+@import 'proposal/proposal';
 
 body {
   > #sb-site {

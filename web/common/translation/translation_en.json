@@ -1,6 +1,7 @@
 {
 
     "VALIDATE": "Validate",
+    "CANCEL": "Cancel",
 
     "login_SIGNIN": "Sign up",
 
@@ -12,10 +13,14 @@
     "user_USERNAME": "Username",
     "user_PASSWORD": "Password",
     "user_AGE": "Age",
-    "user_EMAIL": "Email"
+    "user_EMAIL": "Email",
 
-    "search_TITLE": "search",
+    "search_TITLE": "Search",
+    "search_DATE_TITLE": "Travel Date",
+
     "travel_DEPARTURE": "departure",
     "travel_ARRIVAL": "arrival",
-    "travel_JOURNEY_DATE": "journey-date"
+    "travel_JOURNEY_DATE": "journey-date",
+
+    "proposal_TITLE": "Travel proposal"
 }
