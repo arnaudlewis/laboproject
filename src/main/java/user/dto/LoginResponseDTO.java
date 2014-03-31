@@ -13,6 +13,7 @@ import java.util.Date;
 @Produces(MediaType.APPLICATION_JSON)
 public class LoginResponseDTO {
 
+
     @XmlElement(name = "firstname")
     private String firstname;
     @XmlElement(name = "lastname")
