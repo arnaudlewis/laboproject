@@ -23,6 +23,26 @@ angular.module('app.router', ['ui.router'])
                 views: {
                     "mainView@": {
                         templateUrl: "search/index.html"
+                    },
+                    "headerView@": {
+                        templateUrl: "search/header.html"
+                    },
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
+                    }
+                }
+            })
+            .state('main.proposal', {
+                url: "/proposal",
+                views: {
+                    "mainView@": {
+                        templateUrl: "proposal/index.html"
+                    },
+                    "headerView@": {
+                        templateUrl: "proposal/header.html"
+                    },
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
                     }
                 }
             })
@@ -42,6 +62,9 @@ angular.module('app.router', ['ui.router'])
                     },
                     "headerView@": {
                         templateUrl: "signin/header.html"
+                    },
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
                     }
                 }
             });

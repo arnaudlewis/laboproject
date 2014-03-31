@@ -6,12 +6,17 @@ angular.module('app.alert', [])
         'use strict';
 
         function show(type, message) {
+            var icon;
 
-            var icon = "icon en svg";
+            switch(type) {
+                case 'ALERT': icon = $rootScope.icon.WARNINGMARK;
+                    break;
+                case 'SUCCESS': icon = $rootScope.icon.CHECKMARK;
+                    break;
+                case 'ERROR': icon = $rootScope.icon.ERRORMARK;
+            }
+
             $rootScope.$broadcast('showMessage', icon, message);
-            //dans le controller afficher message avec icon grace à $sce
-            //alert en display none de base donc faire un fadein
-            //faire un timeout pour que l'alerte disparaisse en fade out
         }
 
         return {

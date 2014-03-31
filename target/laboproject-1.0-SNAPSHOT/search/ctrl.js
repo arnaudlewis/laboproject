@@ -1,6 +1,4 @@
-/**
- * Created by oliver on 09/03/14.
- */
+/*angular */
 
 angular.module('app.search')
 
