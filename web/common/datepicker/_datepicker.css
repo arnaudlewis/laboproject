@@ -1,0 +1,9 @@
+#date {
+  border: 1px solid black;
+  width: 100%;
+  height: 3em; }
+  #date #date-selector {
+    position: absolute;
+    left: 0;
+    height: 0em;
+    visibility: hidden; }

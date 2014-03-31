@@ -10,7 +10,7 @@ angular.module('app.alert')
 
             var alert = $("#windowAlert");
 
-            $scope.iconAlert = $sce.trustAsHtml($rootScope.icon.USER);
+            $scope.iconAlert = $sce.trustAsHtml(icon);
             $scope.message = message;
             alert.fadeIn();
             $timeout(function () {

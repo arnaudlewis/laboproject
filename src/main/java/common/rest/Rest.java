@@ -1,6 +1,7 @@
 package common.rest;
 
 
+import city.service.CityService;
 import journey.service.JourneyService;
 import user.service.UserService;
 
@@ -15,6 +16,7 @@ public class Rest extends Application {
 
         singletons.add(new UserService());
         singletons.add(new JourneyService());
+        singletons.add(new CityService());
 
     }
 

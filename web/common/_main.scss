@@ -10,7 +10,7 @@ body {
   //nécessaire pour colorer le fond de l'appli
   //Compte tenu du menu, il faut colorer le div "sb-site" et non pas le body
   > #sb-site {
-    @include backgroundLinearGradient(top, bottom, $header-light-color, white);
+    @include backgroundLinearGradient(top, bottom, $body-dark-color, $body-light-color);
   }
 
   header {
