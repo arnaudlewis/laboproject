@@ -2,7 +2,6 @@ package common.rest;
 
 
 import city.service.CityService;
-import journey.service.JourneyService;
 import user.service.UserService;
 
 import javax.ws.rs.core.Application;
@@ -15,7 +14,6 @@ public class Rest extends Application {
     public Rest() {
 
         singletons.add(new UserService());
-        singletons.add(new JourneyService());
         singletons.add(new CityService());
 
     }
