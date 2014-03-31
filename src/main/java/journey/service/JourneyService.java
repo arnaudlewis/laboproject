@@ -2,9 +2,7 @@ package journey.service;
 
 import journey.Journey;
 import journey.dataAccess.DaoJourney;
-import journey.dto.EssaiResponseInsertDTO;
-import journey.dto.SearchJourneyRequestDTO;
-import journey.dto.SearchJourneyResponseDTO;
+import journey.dto.*;
 
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -15,31 +13,33 @@ import javax.ws.rs.Path;
 @Path("/journey")
 public class JourneyService {
 
+    // Ce Web Service sert à rechercher un voyage
     @POST
     @Path("/search")
     public SearchJourneyResponseDTO search(SearchJourneyRequestDTO requete) {
         SearchJourneyResponseDTO reponse = new SearchJourneyResponseDTO();
 
         // execution de la requête SQL de selection à l'aide de notre singleton DaoJourney
-        reponse.setList_journey(DaoJourney.getInstance().findAll(requete.getDeparture(), requete.getArrival()));
+        reponse.setList_journey(DaoJourney.getInstance().findAll());
 
         return reponse;
     }
 
-    // Ce Web Service sert UNIQUEMENT à tester la bonne persistence dans la bdd
+    // Ce Web Service sert à proposer un voyage
     @POST
-    @Path("/insert")
-    public EssaiResponseInsertDTO insert(SearchJourneyRequestDTO requete) {
+    @Path("/proposal")
+    public ProposalJourneyResponseDTO insert(ProposalJourneyRequestDTO requete) {
 
-        EssaiResponseInsertDTO reponse1 = new EssaiResponseInsertDTO();
+        ProposalJourneyResponseDTO reponse = new ProposalJourneyResponseDTO();
         Journey journey = new Journey();
         journey.setArrival(requete.getArrival());
         journey.setDeparture(requete.getDeparture());
         journey.setJourney_date(requete.getJourney_date());
+        journey.setPrice(requete.getPrice());
 
         // execution de la requête SQL d'insertion à l'aide de notre singleton DaoJourney
-        reponse1.setId_journey(DaoJourney.getInstance().insert(journey));
+        reponse.setId_journey(DaoJourney.getInstance().insert(journey));
 
-        return reponse1;
+        return reponse;
     }
 }

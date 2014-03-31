@@ -59,3 +59,10 @@
   background: -o-linear-gradient($fromDirection, $fromColor, $toColor);
   background: linear-gradient(to $toDirection, $fromColor, $toColor);
 }
+
+@mixin boxshadow ($x_shadow, $y_shadow, $blur, $spread, $color){
+ -moz-box-shadow: $x_shadow $y_shadow $blur $spread $color;
+  -webkit-box-shadow: $x_shadow $y_shadow $blur $spread $color;
+  -o-box-shadow: $x_shadow $y_shadow $blur $spread $color;
+  box-shadow: $x_shadow $y_shadow $blur $spread $color;
+}

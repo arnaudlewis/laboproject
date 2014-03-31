@@ -17,5 +17,8 @@
     "search_TITLE": "rechercher",
     "travel_DEPARTURE": "depart",
     "travel_ARRIVAL": "arrivée",
-    "travel_JOURNEY_DATE": "date du voyage"
+    "travel_JOURNEY_DATE": "date du voyage",
+    "duplicate_USERNAME_EMAIL": "Identifiant et e-mail existant",
+    "duplicate_USERNAME": "Identifiant existant",
+    "duplicate_EMAIL": "E-mail existant"
 }

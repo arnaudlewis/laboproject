@@ -1,12 +1,12 @@
 <div id="signin" class="page" ng-controller="signinCtrl">
 
-    <form ng-submit="submit()">
-        <input type="text" ng-model="firstname" placeholder="{{translation.user_FIRSTNAME}}"/></br>
-        <input type="text" ng-model="lastname" placeholder="{{translation.user_LASTNAME}}"/></br>
-        <input type="text" ng-model="email" placeholder="{{translation.user_EMAIL}}"/></br>
+    <form ng-submit="submit()" >
+        <input type="text" ng-model="firstname" ng-keyup="formValidation()" placeholder="{{translation.user_FIRSTNAME}}"/></br>
+        <input type="text" ng-model="lastname" ng-keyup="formValidation()" placeholder="{{translation.user_LASTNAME}}"/></br>
+        <input id="email" type="text" ng-model="email" ng-keyup="formValidation()" placeholder="{{translation.user_EMAIL}}"/></br>
         <input type="date" ng-model="birthday" placeholder="{{translation.user_BIRTHDAY}}"/></br>
-        <input type="text" ng-model="username" placeholder="{{translation.user_USERNAME}}"/></br>
-        <input type="password" ng-model="password" placeholder="{{translation.user_PASSWORD}}"/></br>
-        <button class="btn-validation" id="btn-signup" type="submit">{{translation.VALIDATE}}</button>
+        <input id="username" type="text" ng-model="username" ng-keyup="formValidation()" placeholder="{{translation.user_USERNAME}}"/></br>
+        <input type="password" ng-model="password" ng-keyup="formValidation()" placeholder="{{translation.user_PASSWORD}}"/></br>
+        <button class="btn-validation disabled" id="btn-signup" disabled type="submit">{{translation.VALIDATE}}</button>
     </form>
 </div>

@@ -13,15 +13,10 @@ angular.module('app.signin', ['angular-md5', 'app.header'])
                 data: {creationDate: creationDate, lastname: nom, firstname: prenom, email: mail, birthday: birthday, username: username, password: md5.createHash(password)}
             })
                 .success(function (data) {
-                    if (data.id_user) {
-                        console.log('creation d utilisateur REUSSI');
-                        $rootScope.$broadcast("User creation successfull");
-                    } else {
-                        console.log('creation d utilisateur ECHEC');
-                        $rootScope.$broadcast("User creation failed");
-                    }
+                    data.id_user !== -1 ? $rootScope.$broadcast("signinSuccess") : $rootScope.$broadcast("signinFailed", data.usernameExist, data.emailExist);
                 })
                 .error(function (status) {
+                    $rootScope.$broadcast("signinSuccess");
                     console.log('echec de la requête');
                     console.log(status);
                 });

@@ -19,6 +19,7 @@ public class SearchJourneyRequestDTO {
     private String arrival;
     @XmlElement(name = "journey_date")
     private Date journey_date;
+
     private boolean display = false;
 
     public SearchJourneyRequestDTO() {
@@ -27,7 +28,6 @@ public class SearchJourneyRequestDTO {
     public String getDeparture() {
         return departure;
     }
-
     public void setDeparture(String departure) {
         this.departure = departure;
     }
@@ -35,7 +35,6 @@ public class SearchJourneyRequestDTO {
     public String getArrival() {
         return arrival;
     }
-
     public void setArrival(String arrival) {
         this.arrival = arrival;
     }
@@ -43,7 +42,6 @@ public class SearchJourneyRequestDTO {
     public Date getJourney_date() {
         return journey_date;
     }
-
     public void setJourney_date(Date journey_date) {
         this.journey_date = journey_date;
     }
@@ -51,9 +49,10 @@ public class SearchJourneyRequestDTO {
     public boolean isDisplay() {
         return display;
     }
-
     public void setDisplay(boolean display) {
         this.display = display;
     }
+
+
 
 }
