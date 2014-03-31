@@ -1,6 +1,6 @@
 /*global angular */
 
-angular.module('app.search', ['app.date'])
+angular.module('app.search', [])
     .service('searchService', ['$http', '$rootScope', function ($http, $rootScope) {
         'use strict';
 
