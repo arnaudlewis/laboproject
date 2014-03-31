@@ -4,10 +4,21 @@
 
 angular.module('app.menu', [])
 
-    .service('menuService', [function () {
+    .service('menuService', ['$state', function ($state) {
         'use strict';
 
         var menu;
+
+        function disconnection() {
+            cleanStorage();
+            $state.go('login');
+        }
+
+
+        function cleanStorage() {
+            window.localStorage.clear();
+
+        }
 
         function setupMenu() {
             menu = new $.slidebars();
@@ -28,6 +39,10 @@ angular.module('app.menu', [])
 
             close: function () {
                 menu.close();
+            },
+
+            disconnect: function () {
+                disconnection();
             }
         };
     }]);

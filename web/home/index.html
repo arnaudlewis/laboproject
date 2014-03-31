@@ -1,0 +1,35 @@
+<div id="home" ng-controller="homeCtrl">
+
+    <div>
+        <div id="proposal" ui-sref="main.proposal">
+            <span ng-bind-html="proposalIcon"></span>
+
+            <p>proposer</p>
+        </div>
+        <div id="search" ui-sref="main.search">
+            <span ng-bind-html="searchIcon"></span>
+
+            <p>rechercher</p>
+        </div>
+    </div>
+
+    <div>
+        <div id="profile">
+            <span ng-bind-html="profileIcon"></span>
+
+            <p>profil</p>
+        </div>
+        <div id="history">
+            <span ng-bind-html="historyIcon"></span>
+
+            <p>historique</p>
+        </div>
+        <div id="exit" ng-click="disconnect()">
+            <span ng-bind-html="exitIcon"></span>
+
+            <p>deconnexion</p>
+        </div>
+    </div>
+
+
+</div>

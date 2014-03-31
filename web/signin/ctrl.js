@@ -16,17 +16,13 @@ angular.module('app.signin')
         });
 
         $scope.$on('signinSuccess', function (event) {
-
             alertService.showSuccess('Creation de compte reussi');
-
-
             $timeout(function () {
-                $state.go('main.search');
-            }, 3000);
-
+                $state.go('login');
+            }, 2000);
         });
 
-        $scope.$on('signinFailed', function (event, usernameExist, emailExist){
+        $scope.$on('signinFailed', function (event, usernameExist, emailExist) {
             // ternaire // {{emailExist ? (usernameExist ? "l'email et l'identifiant existent" : "l'émail existe") : "le username existe"}}
 
             var alertUsername = $('#username');
@@ -34,16 +30,16 @@ angular.module('app.signin')
 
             $('input').removeClass();
 
-            if (usernameExist && emailExist){
+            if (usernameExist && emailExist) {
                 alertService.showError($rootScope.translation.duplicate_USERNAME_EMAIL);
                 alertUsername.addClass('alert_error');
                 alertEmail.addClass('alert_error');
-           }else if (usernameExist){
+            } else if (usernameExist) {
                 alertService.showError($rootScope.translation.duplicate_USERNAME);
                 alertUsername.addClass('alert_error');
-            }else if (emailExist)
+            } else if (emailExist)
                 alertService.showError($rootScope.translation.duplicate_EMAIL);
-                alertEmail.addClass('alert_error');
+            alertEmail.addClass('alert_error');
         });
 
 
@@ -51,7 +47,7 @@ angular.module('app.signin')
             var btnSignup = $('#btn-signup');
 
             if ($scope.firstname.length > 0 && $scope.lastname.length > 0 && $scope.email.length > 0
-                 && $scope.username.length > 0 && $scope.password.length > 0 && $scope.birthday) {
+                && $scope.username.length > 0 && $scope.password.length > 0 && $scope.birthday) {
                 btnSignup.removeAttr('disabled');
                 btnSignup.removeClass('disabled');
             } else {
@@ -59,7 +55,7 @@ angular.module('app.signin')
                 btnSignup.addClass('disabled');
             }
         };
-        $scope.firstname=$scope.lastname=$scope.email=$scope.username=$scope.password='';
+        $scope.firstname = $scope.lastname = $scope.email = $scope.username = $scope.password = '';
 
         headerService.setup('BACK', $rootScope.translation.signin_TITLE, 'MENU');
 

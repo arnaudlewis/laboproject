@@ -18,6 +18,19 @@ angular.module('app.router', ['ui.router'])
                     }
                 }
             })
+            .state('main.home', {
+                url: "/home",
+                views: {
+                    "mainView@": {
+                        templateUrl: "home/index.html"
+                    }, "headerView@": {
+                        templateUrl: "home/header.html"
+                    },
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
+                    }
+                }
+            })
             .state('main.search', {
                 url: "/search",
                 views: {

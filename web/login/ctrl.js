@@ -7,8 +7,8 @@ angular.module('app.login')
     .controller('loginCtrl', ['loginService', 'alertService', '$scope', '$rootScope', '$sce', '$state', function (loginService, alertService, $scope, $rootScope, $sce, $state) {
         'use strict';
 
-        if (localStorage.username !== null) {
-            $state.go('main.proposal');
+        if (localStorage.getItem('username')) {
+            $state.go('main.home');
         }
 
         $scope.submit = function () {
@@ -36,7 +36,7 @@ angular.module('app.login')
         });
 
         $scope.$on('loggedUser', function (event) {
-            $state.go('main.search');
+            $state.go('main.home');
         });
 
         $scope.iconUser = $sce.trustAsHtml($rootScope.icon.USER);

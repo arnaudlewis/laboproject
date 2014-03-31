@@ -7,6 +7,7 @@
 @import 'signin/signin';
 @import 'search/search';
 @import 'proposal/proposal';
+@import 'home/home';
 
 body {
   > #sb-site {
@@ -17,6 +18,7 @@ body {
       padding: 1em;
       @include flex(1);
       @include stretch();
+      margin-top: 3em;
     }
   }
 }

@@ -14,22 +14,20 @@
     "user_PASSWORD": "Password",
     "user_AGE": "Age",
     "user_EMAIL": "Email",
-<<<<<<< HEAD
-=======
 
     "search_TITLE": "Search",
     "search_DATE_TITLE": "Travel Date",
->>>>>>> origin/master
 
     "travel_DEPARTURE": "departure",
     "travel_ARRIVAL": "arrival",
     "travel_JOURNEY_DATE": "journey-date",
-<<<<<<< HEAD
+
     "duplicate_USERNAME_EMAIL": "Username and e-mail already exist",
     "duplicate_USERNAME": "Username already exist",
-    "duplicate_EMAIL": "E-mail already exist"
-=======
+    "duplicate_EMAIL": "E-mail already exist",
+    "home_TITLE": "Homepage",
+
 
     "proposal_TITLE": "Travel proposal"
->>>>>>> origin/master
+
 }

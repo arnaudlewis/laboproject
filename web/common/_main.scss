@@ -11,6 +11,7 @@ body {
   //Compte tenu du menu, il faut colorer le div "sb-site" et non pas le body
   > #sb-site {
     @include backgroundLinearGradient(top, bottom, $body-dark-color, $body-light-color);
+
   }
 
   header {
@@ -18,6 +19,7 @@ body {
     height: $header-height;
     background-color: $header-dark-color;
     color: $header-font-color;
+    position: fixed;
   }
 
   footer {
@@ -35,11 +37,11 @@ body {
     border: 1px solid #dcdcdc;
     margin: 0.5em 0;
 
-    &.alert_error{
-       border-color: red;
+    &.alert_error {
+      border-color: red;
       @include boxshadow(0.1em, 0.1em, 1.5em, 0.1em, #fe0000);
     }
-   }
+  }
 
   button {
     margin: 0.5em 0;
@@ -79,6 +81,5 @@ body {
     background-color: $page-color;
     box-sizing: border-box;
   }
-
 
 }
