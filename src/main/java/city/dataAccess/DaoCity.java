@@ -15,7 +15,7 @@ public class DaoCity extends Dao<City> {
 
     private final static DaoCity instance = new DaoCity();
 
-    private final int LIMIT = 4;
+    private final int LIMIT = 8;
 
     private DaoCity() {}
 
