@@ -28,6 +28,11 @@
     "home_TITLE": "Homepage",
 
 
-    "proposal_TITLE": "Travel proposal"
+    "proposal_TITLE": "Travel proposal",
+
+    "autocomplete_NORESULTS": "No results found",
+
+    "DEPARTURE": "Departure: ",
+    "ARRIVAL": "Arrival: "
 
 }

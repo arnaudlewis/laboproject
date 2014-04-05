@@ -8,12 +8,15 @@ angular.module('app.alert', [])
         function show(type, message) {
             var icon;
 
-            switch(type) {
-                case 'ALERT': icon = $rootScope.icon.WARNINGMARK;
+            switch (type) {
+                case 'ALERT':
+                    icon = $rootScope.icon.WARNINGMARK;
                     break;
-                case 'SUCCESS': icon = $rootScope.icon.CHECKMARK;
+                case 'SUCCESS':
+                    icon = $rootScope.icon.CHECKMARK;
                     break;
-                case 'ERROR': icon = $rootScope.icon.ERRORMARK;
+                case 'ERROR':
+                    icon = $rootScope.icon.ERRORMARK;
             }
 
             $rootScope.$broadcast('showMessage', icon, message);

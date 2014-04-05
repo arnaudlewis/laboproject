@@ -19,7 +19,7 @@ body {
     height: $header-height;
     background-color: $header-dark-color;
     color: $header-font-color;
-    position: fixed;
+    position: absolute;
   }
 
   footer {

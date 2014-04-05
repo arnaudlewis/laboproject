@@ -1,24 +1,24 @@
 /*global angular */
 
 angular.module('app.proposal')
-    .controller('proposalCtrl', ['$scope', function ($scope) {
+    .controller('proposalCtrl', ['$scope', 'autocompleteService', function ($scope, autocompleteService) {
         'use strict';
 
-        $scope.items = [
-            {
-                name_city: "Ville 1"
-            },
-            {
-                name_city: "Ville 2"
-            },
-            {
-                name_city: "Ville 3"
-            },
-            {
-                name_city: "Ville 4"
-            }
+        $scope.departure = $scope.arrival = {name_city: '____'};
 
-        ];
+        $scope.activateAutocompleteDeparture = function () {
+            autocompleteService.activateAutocompleteDeparture();
+        };
 
-    }])
-;
+        $scope.activateAutocompleteArrival = function () {
+            autocompleteService.activateAutocompleteArrival();
+        };
+
+        $scope.$on('departureCitySelected', function (event, city) {
+            $scope.departure = city;
+        });
+
+        $scope.$on('arrivalCitySelected', function (event, city) {
+            $scope.arrival = city;
+        });
+    }]);

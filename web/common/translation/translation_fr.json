@@ -1,5 +1,4 @@
 {
-
     "VALIDATE": "Valider",
     "CANCEL": "Annuler",
 
@@ -28,6 +27,11 @@
     "home_TITLE": "Page d'accueil",
 
 
-    "proposal_TITLE": "Proposer un trajet"
+    "proposal_TITLE": "Proposer un trajet",
+
+    "autocomplete_NORESULTS": "Aucun résultat trouvé",
+
+    "DEPARTURE": "Départ: ",
+    "ARRIVAL": "Arrivée: "
 
 }

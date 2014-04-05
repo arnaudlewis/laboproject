@@ -1,8 +1,0 @@
-<div id="autocomplete">
-    <input type="text" ng-keyup="proceedAutocomplete()" placeholder="{{placeholder}}" class="selected-autocomplete"/>
-
-    <div id="list-autocomplete">
-        <span ng-show="items.length < 1 && param">Aucun résultat trouvé</span>
-        <span ng-repeat="item in items track by $index">{{ item.name_city }}</span>
-    </div>
-</div>
