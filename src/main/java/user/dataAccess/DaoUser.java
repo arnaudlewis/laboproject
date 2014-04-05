@@ -18,7 +18,8 @@ public class DaoUser extends Dao<User> {
         return instance;
     }
 
-    private DaoUser() {}
+    private DaoUser() {
+    }
 
 
     @Override
@@ -64,6 +65,25 @@ public class DaoUser extends Dao<User> {
             }
         }
     }
+
+    /*public void updateProfile(User obj, int id_user) {
+        EntityManager em = getEntityManagerFactory().createEntityManager();
+        EntityTransaction t = em.getTransaction();
+
+        try {
+            t.begin();
+            String sql = "UPDATE user e SET e.hobby='none'";
+            Query requete = em.createQuery(sql);
+            t.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (t.isActive()) {
+                t.rollback();
+                em.close();
+            }
+        }
+    }*/
 
     @Override
     public void delete(User obj) {
@@ -133,11 +153,11 @@ public class DaoUser extends Dao<User> {
     public boolean checkDuplicateUsername(String username) {
         EntityManager em = getEntityManagerFactory().createEntityManager();
         EntityTransaction t = em.getTransaction();
-        List<User> userList ;
+        List<User> userList;
 
         try {
             t.begin();
-            String sql = "select e from User e where e.username = :username" ;
+            String sql = "select e from User e where e.username = :username";
             TypedQuery<User> query = em.createQuery(sql, User.class);
             query.setParameter("username", username);
             userList = query.getResultList();
@@ -145,7 +165,7 @@ public class DaoUser extends Dao<User> {
 
         } catch (Exception e) {
             e.printStackTrace();
-            userList =null;
+            userList = null;
 
         } finally {
             if (t.isActive()) {
@@ -163,7 +183,7 @@ public class DaoUser extends Dao<User> {
 
         try {
             t.begin();
-            String sql = "select e from User e where e.email = :email" ;
+            String sql = "select e from User e where e.email = :email";
             TypedQuery<User> query = em.createQuery(sql, User.class);
             query.setParameter("email", email);
             userList = query.getResultList();
@@ -171,7 +191,7 @@ public class DaoUser extends Dao<User> {
 
         } catch (Exception e) {
             e.printStackTrace();
-            userList=null;
+            userList = null;
         } finally {
             if (t.isActive()) {
                 t.rollback();
@@ -179,7 +199,7 @@ public class DaoUser extends Dao<User> {
 
             }
         }
-        return userList.size() >0;
+        return userList.size() > 0;
     }
 
     public User authentication(String username, String password) {

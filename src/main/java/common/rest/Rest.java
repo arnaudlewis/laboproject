@@ -2,6 +2,7 @@ package common.rest;
 
 
 import city.service.CityService;
+import travel.service.TravelService;
 import user.service.UserService;
 
 import javax.ws.rs.core.Application;
@@ -15,7 +16,7 @@ public class Rest extends Application {
 
         singletons.add(new UserService());
         singletons.add(new CityService());
-
+        singletons.add(new TravelService());
     }
 
     @Override

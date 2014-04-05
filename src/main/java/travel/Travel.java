@@ -2,10 +2,10 @@ package travel;
 
 
 import city.City;
-import user.User;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
 
 @Entity
@@ -24,6 +24,8 @@ public class Travel implements Serializable {
     private List<City> stopover;
     private int duration;
     private double price;
+    @Temporal(TemporalType.DATE)
+    private Date travelDate;
 
 
     public Travel() {
@@ -79,4 +81,13 @@ public class Travel implements Serializable {
     public void setId_travel(int id_travel) {
         this.id_travel = id_travel;
     }
+
+    public Date getTravelDate() {
+        return travelDate;
+    }
+
+    public void setTravelDate(Date travelDate) {
+        this.travelDate = travelDate;
+    }
+
 }

@@ -2,10 +2,7 @@ package user.service;
 
 import user.User;
 import user.dataAccess.DaoUser;
-import user.dto.CreateUserRequestDTO;
-import user.dto.CreateUserResponseDTO;
-import user.dto.LoginRequestDTO;
-import user.dto.LoginResponseDTO;
+import user.dto.*;
 
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -16,19 +13,19 @@ public class UserService {
     @POST
     @Path("/signin")
     public CreateUserResponseDTO signin(CreateUserRequestDTO request) {
-        boolean usernameExist=false;
-        boolean emailExist=false;
+        boolean usernameExist = false;
+        boolean emailExist = false;
         CreateUserResponseDTO reponse = new CreateUserResponseDTO();
         User createdUser = createUserFromSignUpData(request);
         // pour contrôler les doublons
-        usernameExist=DaoUser.getInstance().checkDuplicateUsername(request.getUsername());
-        emailExist=DaoUser.getInstance().checkDuplicateEmail(request.getEmail());
+        usernameExist = DaoUser.getInstance().checkDuplicateUsername(request.getUsername());
+        emailExist = DaoUser.getInstance().checkDuplicateEmail(request.getEmail());
         //pour insérer un user je dois vérifier que l'email et le username n'exite pas
-        if (!usernameExist && !emailExist){
-                reponse.setId_user(DaoUser.getInstance().insert(createdUser));
-                reponse.setUsernameExist(true);
-                reponse.setEmailExist(true);
-        }else{
+        if (!usernameExist && !emailExist) {
+            reponse.setId_user(DaoUser.getInstance().insert(createdUser));
+            reponse.setUsernameExist(true);
+            reponse.setEmailExist(true);
+        } else {
             reponse.setId_user(-1);
             reponse.setUsernameExist(usernameExist);
             reponse.setEmailExist(emailExist);
@@ -71,6 +68,24 @@ public class UserService {
         response.setBirthdate(loggedUser.getBirthdate());
         response.setCreationDate(loggedUser.getCreationDate());
         response.setEmail(loggedUser.getEmail());
+    }
+
+    @POST
+    @Path("/profile")
+    public void createProfile(CreateProfileRequestDTO requete) {
+
+        //CreateProfileResponseDTO reponseProfile = new CreateProfileResponseDTO();
+        User profile = new User();
+
+        profile.setSex(requete.isSex());
+        profile.setHobby(requete.getHobby());
+        profile.setMusic(requete.getMusic());
+        profile.setAnimal(requete.isAnimal());
+        profile.setSmoke(requete.isSmoke());
+        profile.setMoreInfo(requete.getMoreInfo());
+
+        DaoUser.getInstance().insert(profile);
+
     }
 }
 

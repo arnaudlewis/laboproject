@@ -59,6 +59,21 @@ angular.module('app.router', ['ui.router'])
                     }
                 }
             })
+            .state('main.profile', {
+                url: "/profile",
+                views: {
+                    "mainView@": {
+                        templateUrl: "profile/index.html"
+                    },
+                    "headerView@": {
+                        templateUrl: "profile/header.html"
+                    },
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
+                    }
+                }
+            })
+
 //            .state('display', {
 //                url: "/result/display",
 //                views: {

@@ -1,9 +1,9 @@
 package city;
 
 
-import org.hibernate.annotations.Table;
-
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
@@ -21,6 +21,13 @@ public class City implements Serializable {
     private int longitude;
 
     public City() {
+    }
+
+    public City(String name_city, int latitude, int longitude, int id_city) {
+        this.id_city = id_city;
+        this.name_city = name_city;
+        this.latitude = latitude;
+        this.longitude = longitude;
     }
 
     public int getId_city() {

@@ -22,6 +22,11 @@
     "travel_ARRIVAL": "arrival",
     "travel_JOURNEY_DATE": "journey-date",
 
+    "profile_HOBBY": "hobbies",
+    "profile_MUSIC": "music",
+    "profile_TITLE": "Profile",
+    "profile_DESCRIPTION": "Tell us more about you",
+
     "duplicate_USERNAME_EMAIL": "Username and e-mail already exist",
     "duplicate_USERNAME": "Username already exist",
     "duplicate_EMAIL": "E-mail already exist",

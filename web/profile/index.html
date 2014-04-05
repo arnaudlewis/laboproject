@@ -1,0 +1,17 @@
+<div id="profile" ng-controller="profileCtrl" class="page">
+
+    <form ng-submit="submit()">
+        <input type="radio" name="sex" ng-model="homme"/>homme
+        <input type="radio" name="sex" ng-model="femme"/>femme</br>
+        <input type="text" name="hobby" ng_model="hobby" placeholder="{{translation.profile_HOBBY}}"/>
+        <input type="text" name="music" ng-model="music" placeholder="{{translation.profile_MUSIC}}"/></br>
+        <input type="radio" name="animal" ng-model="animalOK"/>Oui animal
+        <input type="radio" name="animal" ng-model="animalNotOK"/>Non animal</br>
+        <input type="radio" name="smoke" ng-model="smoker"/>Fumeur
+        <input type="radio" name="smoke" ng-model="NonSmoker"/>Non fumeur</br>
+        <textarea rows="3" cols="40" name="description" ng-model="moreInfo"
+                  placeholder="{{translation.profile_DESCRIPTION}}"></textarea>
+        <button class="btn-validation" type="submit">{{translation.VALIDATE}}</button>
+    </form>
+
+</div>
