@@ -10,10 +10,16 @@ angular.module('app.autocomplete')
     .controller('autocompleteCtrl', ['$scope', 'autocompleteService', '$rootScope', function ($scope, autocompleteService, $rootScope) {
         'use strict';
 
+        function resetAutocomplete() {
+            $scope.results = {};
+            $scope.searchParam = '';
+        }
+
         $scope.searchParam = '';
 
         $scope.desactivateAutocomplete = function () {
             autocompleteService.desactivateAutocomplete();
+            resetAutocomplete();
         };
 
         $scope.loadResults = function () {
@@ -29,6 +35,7 @@ angular.module('app.autocomplete')
         });
 
         $scope.selectCity = function (city) {
+            resetAutocomplete();
             var typeOfAutocomplete = autocompleteService.getTypeOfAutocomplete();
             autocompleteService.desactivateAutocomplete();
             if (typeOfAutocomplete === "DEPARTURE") {

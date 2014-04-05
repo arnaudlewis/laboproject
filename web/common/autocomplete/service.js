@@ -25,8 +25,10 @@ angular.module('app.autocomplete', [])
         }
 
         function activate() {
+            var autocompleteSearch = $('#autocomplete-search');
+            autocompleteSearch.val('');
             $('#autocomplete').fadeIn();
-            $('#autocomplete-search').focus();
+            autocompleteSearch.focus();
         }
 
 
@@ -40,7 +42,7 @@ angular.module('app.autocomplete', [])
                 activate();
             },
 
-            activateAutocompleteArrival: function () {
+            activateAutocompleteArrival: function (arrival) {
                 typeOfAutocomplete = "ARRIVAL";
                 activate();
             },
