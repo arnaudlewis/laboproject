@@ -56,5 +56,4 @@ angular.module('app.autocomplete', [])
             }
         };
 
-    }])
-;
+    }]);

@@ -7,15 +7,15 @@ angular.module('app.search', [])
 
         function search(departure, arrival, travelDate) {
 
-            departure = {id_city: 1,
-                name_city: 'Paris',
+            /*departure = {id_city: 1,
+             name_city: 'Paris',
                 latitude: 145,
                 longitude: 145};
 
             arrival = {id_city: 2,
                 name_city: 'Londres',
                 latitude: 145,
-                longitude: 145};
+             longitude: 145};*/
 
             /* travelDate = new Date();*/
 

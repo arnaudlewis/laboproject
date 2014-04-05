@@ -9,6 +9,7 @@
 @import 'search/search';
 @import 'proposal/proposal';
 @import 'home/home';
+@import "common/autocomplete/autocomplete-selection";
 
 body {
   > #sb-site {

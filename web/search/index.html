@@ -1,7 +1,6 @@
 <div id="search" class="page" ng-controller="searchCtrl">
     <form ng-submit="submit()">
-        <input type="text" name="departure" ng-model="DEPARTURE" placeholder="{{translation.travel_DEPARTURE}}"/>
-        <input type="text" name="arrival" ng-model="ARRIVAL" placeholder="{{translation.travel_ARRIVAL}}"/>
+        <div ng-include src="'common/autocomplete/autocomplete-selection.html'"></div>
         <input type="date" ng-model="travelDate">
         <button class="btn-validation" type="submit">{{translation.VALIDATE}}</button>
     </form>
