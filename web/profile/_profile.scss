@@ -1,0 +1,89 @@
+@import "../common/variable";
+@import "../common/mixin";
+
+#profile {
+
+  .page {
+    margin-bottom: 1em;
+  }
+  #basic-informations {
+    @include displayFlex;
+    width: 100%;
+    height: 100%;
+
+    > * {
+      display: table-cell;
+    }
+
+    .icon-profile {
+      width: 5em;
+      margin-right: 1.5em;
+      svg {
+        width: 5em;
+        height: 5em;
+      }
+    }
+
+    .fullname {
+      @include flex(1);
+      vertical-align: top;
+      font-size: 1.1em;
+
+      > * {
+        display: inline;
+      }
+
+      > .main-fullname {
+        display: block;
+
+        .username {
+          font-weight: bold;
+          font-size: 1.4em;
+        }
+
+        .sex {
+          float: right;
+          svg {
+            width: 1.4em;
+            height: 1.4em;
+          }
+        }
+      }
+    }
+  }
+
+  #description {
+    $width-textarea : 100%;
+    $height-textarea : 5em;
+    textarea {
+      max-width : $width-textarea;
+      min-width: $width-textarea;
+      max-height: $height-textarea;
+      min-height: $height-textarea;
+      border: none;
+    }
+  }
+
+  #preferences {
+    > span, button {
+      width: 100%;
+    }
+    span {
+      padding : 0.5em 0;
+      border-bottom: 1px solid #cecece;
+      @include displayFlex;
+
+
+      > input, label {
+        @include flex(1);
+      }
+
+      > label {
+        margin-top: 1em;
+        font-weight: normal;
+      }
+
+    }
+  }
+
+}

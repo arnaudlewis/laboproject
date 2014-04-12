@@ -1,7 +1,7 @@
 /*global angular*/
 /*global console*/
 
-angular.module('app.profile', [])
+angular.module('app.profile', ['app.toggle-switch'])
 
     .service('profileService', function ($http, $rootScope) {
         'use strict';

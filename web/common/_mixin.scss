@@ -1,15 +1,15 @@
 @mixin displayFlex {
-  -webkit-display: box;
-  -webkit-display: flex;
-  -webkit-display: flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -webkit-flexbox;
 
-  -moz-display: box;
-  -moz-display: flexbox;
-  -moz-display: flex;
+  display: -moz-box;
+  isplay: -moz-dflexbox;
+  display: -moz-flex;
 
-  -ms-display: box;
-  -ms-display: flexbox;
-  -ms-display: flex;
+  display: -ms-box;
+  display: -ms-flexbox;
+  display: -ms-flex;
 
   display: box;
   display: flexbox;

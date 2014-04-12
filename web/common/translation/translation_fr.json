@@ -1,10 +1,21 @@
 {
     "VALIDATE": "Valider",
     "CANCEL": "Annuler",
+    "DEPARTURE": "Départ: ",
+    "ARRIVAL": "Arrivée: ",
+
+    "autocomplete_NORESULTS": "Aucun résultat trouvé",
 
     "login_SIGNIN": "S'inscrire",
 
     "signin_TITLE": "Inscription",
+
+    "home_TITLE": "Homepage",
+    "home_DISCONNECT": "Déconnexion",
+    "home_HISTORY": "Historique",
+    "home_PROFILE": "Profil",
+    "home_SEARCH": "Recherche",
+    "home_PROPOSAL": "Proposer un trajet",
 
     "user_FIRSTNAME": "Prénom",
     "user_LASTNAME": "Nom",
@@ -21,22 +32,15 @@
     "travel_ARRIVAL": "arrivée",
     "travel_JOURNEY_DATE": "date du voyage",
 
-    "profile_HOBBY": "hobbies",
-    "profile_MUSIC": "musiques préférés",
+    "profile_HOBBY": "centres d'intêret",
+    "profile_MUSIC": "musiques préférées",
     "profile_TITLE": "Profile",
     "profile_DESCRIPTION": "votre description",
 
     "duplicate_USERNAME_EMAIL": "Identifiant et e-mail existant",
     "duplicate_USERNAME": "Identifiant existant",
     "duplicate_EMAIL": "E-mail existant",
-    "home_TITLE": "Page d'accueil",
 
-
-    "proposal_TITLE": "Proposer un trajet",
-
-    "autocomplete_NORESULTS": "Aucun résultat trouvé",
-
-    "DEPARTURE": "Départ: ",
-    "ARRIVAL": "Arrivée: "
+    "proposal_TITLE": "Proposer un trajet"
 
 }

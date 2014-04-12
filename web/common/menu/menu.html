@@ -1,9 +1,9 @@
-<div id="menu">
+<div id="menu" ng-controller="homeCtrl">
     <ul class="sb-menu">
-        <li><span href="#">Home</span></li>
-        <li><span href="#">Home2</span></li>
-        <li><span href="#">Home3</span></li>
-        <li><span href="#">Home4</span></li>
-        <li><span href="#">Home5</span></li>
+        <li><span ui-sref="main.proposal">{{ translation.home_PROPOSAL }}</span></li>
+        <li><span ui-sref="main.search">{{ translation.home_SEARCH }}</span></li>
+        <li><span ui-sref="main.profile">{{ translation.home_PROFILE }}</span></li>
+        <li><span ui-sref="main.history">{{ translation.home_HISTORY }}</span></li>
+        <li><span ng-click="disconnect()">{{ translation.home_DISCONNECT }}</span></li>
     </ul>
 </div>

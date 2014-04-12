@@ -30,7 +30,7 @@ angular.module('app.menu', [])
             },
 
             isOpen: function () {
-                menu.active('right');
+                return menu.active('right');
             },
 
             open: function () {
