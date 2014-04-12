@@ -7,43 +7,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b05e7e6-d146-4dac-925f-67b6da85698d" name="Default" comment="bug fix&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/profile/_profile.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/common/toggle-switch/_toggle-switch.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/common/toggle-switch/toggle-switch-directive.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/lib/Slidebars/slidebars/0.9/slidebars.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/lib/Slidebars/slidebars/0.9/slidebars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/lib/Slidebars/slidebars/0.9/slidebars.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/lib/Slidebars/slidebars/0.9/slidebars.min.css.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/lib/Slidebars/slidebars/0.9/slidebars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/lib/Slidebars/slidebars/0.9/slidebars.min.js.gz" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/.bower.json" afterPath="$PROJECT_DIR$/web/lib/Slidebars/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/fastclick/.bower.json" afterPath="$PROJECT_DIR$/web/lib/fastclick/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/.bower.json" afterPath="$PROJECT_DIR$/web/lib/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/README.md" afterPath="$PROJECT_DIR$/web/lib/Slidebars/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/fastclick/README.md" afterPath="$PROJECT_DIR$/web/lib/fastclick/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/_mixin.scss" afterPath="$PROJECT_DIR$/web/common/_mixin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bower.json" afterPath="$PROJECT_DIR$/web/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/bower.json" afterPath="$PROJECT_DIR$/web/lib/Slidebars/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/fastclick/bower.json" afterPath="$PROJECT_DIR$/web/lib/fastclick/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/ctrl.js" afterPath="$PROJECT_DIR$/web/home/ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/ctrl.js" afterPath="$PROJECT_DIR$/web/profile/ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/fastclick/lib/fastclick.js" afterPath="$PROJECT_DIR$/web/lib/fastclick/lib/fastclick.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.css" afterPath="$PROJECT_DIR$/web/index.css" />
+    <list default="true" id="1b05e7e6-d146-4dac-925f-67b6da85698d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/index.html" afterPath="$PROJECT_DIR$/web/profile/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.scss" afterPath="$PROJECT_DIR$/web/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/menu/menu.html" afterPath="$PROJECT_DIR$/web/common/menu/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/menu/menu.js" afterPath="$PROJECT_DIR$/web/common/menu/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/remote/remote.js" afterPath="$PROJECT_DIR$/web/common/remote/remote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/icon/service.js" afterPath="$PROJECT_DIR$/web/common/icon/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/service.js" afterPath="$PROJECT_DIR$/web/profile/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/slidebars.jquery.json" afterPath="$PROJECT_DIR$/web/lib/Slidebars/slidebars.jquery.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/slidebars/slidebars.min.css" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/slidebars/slidebars.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/slidebars/slidebars.min.js" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/slidebars/slidebars.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/translation/translation_en.json" afterPath="$PROJECT_DIR$/web/common/translation/translation_en.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/translation/translation_fr.json" afterPath="$PROJECT_DIR$/web/common/translation/translation_fr.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="6870ed24-b39c-4562-8f81-386d882ee2e0" name="no submit" comment="" />
@@ -109,10 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="60" selection-start="2882" selection-end="2882" vertical-scroll-proportion="-7.7083335" vertical-offset="895" max-vertical-offset="1515">
+            <state line="21" column="97" selection-start="984" selection-end="984" vertical-scroll-proportion="0.7934509" vertical-offset="0" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -165,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="0.43046358" vertical-offset="0" max-vertical-offset="453">
+            <state line="13" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -247,11 +212,11 @@
         <option value="$PROJECT_DIR$/web/index.scss" />
         <option value="$PROJECT_DIR$/web/common/toggle-switch/toggle-switch-directive.js" />
         <option value="$PROJECT_DIR$/web/profile/service.js" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/profile/index.html" />
         <option value="$PROJECT_DIR$/web/common/toggle-switch/_toggle-switch.scss" />
         <option value="$PROJECT_DIR$/web/profile/_profile.scss" />
         <option value="$PROJECT_DIR$/web/bower.json" />
+        <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
@@ -357,6 +322,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slidebars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slidebars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -924,7 +937,7 @@
       <workItem from="1396428993024" duration="23786000" />
       <workItem from="1396664808102" duration="27000" />
       <workItem from="1396664897398" duration="26000" />
-      <workItem from="1397251595700" duration="14071000" />
+      <workItem from="1397251595700" duration="14219000" />
     </task>
     <task id="LOCAL-00001" summary="Style du menu&#10;Login complet&#10;style du formulaire d'inscription">
       <created>1395668266024</created>
@@ -946,25 +959,29 @@
       <created>1396663840920</created>
       <updated>1396663840920</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Style du profil et créant de toggle switch button type IOS/Android">
+      <created>1397272456731</created>
+      <updated>1397272456731</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70838000" />
+    <option name="totallyTimeSpent" value="70986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34491315" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39826304" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18669528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39826304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39826304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39826304" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -977,7 +994,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17381974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2167382" sideWeight="0.4990758" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2167382" sideWeight="0.4990758" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34491315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892704" sideWeight="0.5009242" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1037,7 +1054,8 @@
     <MESSAGE value="bug fix" />
     <MESSAGE value="bug fix&#10;" />
     <MESSAGE value="autocomplete" />
-    <option name="LAST_COMMIT_MESSAGE" value="autocomplete" />
+    <MESSAGE value="Style du profil et créant de toggle switch button type IOS/Android" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style du profil et créant de toggle switch button type IOS/Android" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1331,13 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="60" selection-start="2882" selection-end="2882" vertical-scroll-proportion="-7.7083335" vertical-offset="895" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/common/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="16" selection-start="753" selection-end="774" vertical-scroll-proportion="-5.75" vertical-offset="417" max-vertical-offset="1350">
@@ -1384,7 +1395,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="0.43046358" vertical-offset="0" max-vertical-offset="453">
+        <state line="13" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="97" selection-start="984" selection-end="984" vertical-scroll-proportion="0.7934509" vertical-offset="0" max-vertical-offset="1515">
           <folding />
         </state>
       </provider>
