@@ -13,6 +13,7 @@ angular.module('app.login', ['angular-md5'])
             window.localStorage.email = data.email;
             window.localStorage.birthdate = data.birthdate;
             window.localStorage.creationDate = data.creationDate;
+            window.localStorage.id_user = data.id_user;
         }
 
         function loginRequestServer(username, password) {

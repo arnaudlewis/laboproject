@@ -3,6 +3,8 @@ package travel.service;
 import city.City;
 import travel.Travel;
 import travel.dataAccess.DaoTravel;
+import travel.dto.ProposeTravelRequestDTO;
+import travel.dto.ProposeTravelResponseDTO;
 import travel.dto.SearchTravelRequestDTO;
 import travel.dto.SearchTravelResponseDTO;
 
@@ -32,6 +34,20 @@ public class TravelService {
 //        reponse.setSearchResultsList(DaoTravel.getInstance().findAll());
         reponse.setSearchResultsList(DaoTravel.getInstance().searchByCriteria(dep, arr, date));
 
+        return reponse;
+    }
+
+    @POST
+    @Path("/propose")
+    public ProposeTravelResponseDTO propose(ProposeTravelRequestDTO requete) {
+        ProposeTravelResponseDTO reponse = new ProposeTravelResponseDTO();
+        Travel voyage = new Travel();
+
+        voyage.setDeparture(requete.getDeparture());
+        voyage.setArrival(requete.getArrival());
+        voyage.setTravelDate(requete.getTravelDate());
+
+        reponse.setId_travel(DaoTravel.getInstance().insert(voyage));
         return reponse;
     }
 

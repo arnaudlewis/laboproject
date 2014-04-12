@@ -15,12 +15,15 @@
     </div>
 
     <div id="description" class="page">
-        <textarea ng-model="moreInfo" placeholder="{{translation.profile_DESCRIPTION}}"></textarea>
+        <textarea ng-model="moreInfo" ng-keyup="formValidation()"
+                  placeholder="{{translation.profile_DESCRIPTION}}"></textarea>
     </div>
 
     <div id="preferences" class="page">
-        <span><input type="text" name="hobby" ng_model="hobby" placeholder="{{translation.profile_HOBBY}}"/></span>
-        <span><input type="text" name="music" ng-model="music" placeholder="{{translation.profile_MUSIC}}"/></span>
+        <span><input type="text" name="hobby" ng-keyup="formValidation()" ng_model="hobby"
+                     placeholder="{{translation.profile_HOBBY}}"/></span>
+        <span><input type="text" name="music" ng-keyup="formValidation()" ng-model="music"
+                     placeholder="{{translation.profile_MUSIC}}"/></span>
         <span>
          <label>Animal</label><toggle-switch model="animal"></toggle-switch>
         </span>
@@ -28,7 +31,10 @@
         <label>Fumeur</label><toggle-switch model="smoke"></toggle-switch>
         </span>
 
-        <button class="btn-validation" ng-click="submit" type="submit">{{translation.VALIDATE}}</button>
+        <button class="btn-validation disabled" disabled id="btn-profile" ng-click="submit()" type="submit">
+            {{translation.VALIDATE}}
+        </button>
+
     </div>
 
 </div>

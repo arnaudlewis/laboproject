@@ -53,7 +53,7 @@ public class DaoTravel extends Dao<Travel> {
 
         try {
             t.begin();
-            em.persist(obj);
+            em.merge(obj);
             t.commit();
         } catch (Exception e) {
             e.printStackTrace();

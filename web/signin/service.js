@@ -16,7 +16,7 @@ angular.module('app.signin', ['angular-md5', 'app.header'])
                     data.id_user !== -1 ? $rootScope.$broadcast("signinSuccess") : $rootScope.$broadcast("signinFailed", data.usernameExist, data.emailExist);
                 })
                 .error(function (status) {
-                    $rootScope.$broadcast("signinSuccess");
+                    $rootScope.$broadcast("signinFailed");
                     console.log('echec de la requête');
                     console.log(status);
                 });

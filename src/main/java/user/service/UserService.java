@@ -68,6 +68,7 @@ public class UserService {
         response.setBirthdate(loggedUser.getBirthdate());
         response.setCreationDate(loggedUser.getCreationDate());
         response.setEmail(loggedUser.getEmail());
+        response.setId_user(loggedUser.getId_user());
     }
 
     @POST
@@ -75,7 +76,7 @@ public class UserService {
     public void createProfile(CreateProfileRequestDTO requete) {
 
         //CreateProfileResponseDTO reponseProfile = new CreateProfileResponseDTO();
-        User profile = new User();
+        User profile = DaoUser.getInstance().find(requete.getId_user());
 
         profile.setSex(requete.isSex());
         profile.setHobby(requete.getHobby());
@@ -84,7 +85,7 @@ public class UserService {
         profile.setSmoke(requete.isSmoke());
         profile.setMoreInfo(requete.getMoreInfo());
 
-        DaoUser.getInstance().insert(profile);
+        DaoUser.getInstance().update(profile);
 
     }
 }

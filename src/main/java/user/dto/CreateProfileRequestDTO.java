@@ -13,6 +13,8 @@ import javax.xml.bind.annotation.XmlType;
 public class CreateProfileRequestDTO {
 
     // données relatives au profil
+    @XmlElement(name = "id_user")
+    private int id_user;
     @XmlElement(name = "sex")
     private boolean sex; // TRUE female, FALSE male
     @XmlElement(name = "hobby")
@@ -33,7 +35,6 @@ public class CreateProfileRequestDTO {
     public boolean isSex() {
         return sex;
     }
-
     public void setSex(boolean sex) {
         this.sex = sex;
     }
@@ -41,7 +42,6 @@ public class CreateProfileRequestDTO {
     public String getHobby() {
         return hobby;
     }
-
     public void setHobby(String hobby) {
         this.hobby = hobby;
     }
@@ -49,7 +49,6 @@ public class CreateProfileRequestDTO {
     public String getMusic() {
         return music;
     }
-
     public void setMusic(String music) {
         this.music = music;
     }
@@ -57,7 +56,6 @@ public class CreateProfileRequestDTO {
     public boolean isAnimal() {
         return animal;
     }
-
     public void setAnimal(boolean animal) {
         this.animal = animal;
     }
@@ -65,7 +63,6 @@ public class CreateProfileRequestDTO {
     public boolean isSmoke() {
         return smoke;
     }
-
     public void setSmoke(boolean smoke) {
         this.smoke = smoke;
     }
@@ -73,9 +70,16 @@ public class CreateProfileRequestDTO {
     public String getMoreInfo() {
         return moreInfo;
     }
-
     public void setMoreInfo(String moreInfo) {
         this.moreInfo = moreInfo;
+    }
+
+    public int getId_user() {
+        return id_user;
+    }
+
+    public void setId_user(int id_user) {
+        this.id_user = id_user;
     }
 
 }

@@ -9,11 +9,12 @@ import javax.xml.bind.annotation.XmlType;
 import java.util.Date;
 
 
-@XmlType(name="LoginResponseDTO")
+@XmlType(name = "LoginResponseDTO")
 @Produces(MediaType.APPLICATION_JSON)
 public class LoginResponseDTO {
 
-
+    @XmlElement(name = "id_user")
+    private int id_user;
     @XmlElement(name = "firstname")
     private String firstname;
     @XmlElement(name = "lastname")
@@ -23,10 +24,10 @@ public class LoginResponseDTO {
     @XmlElement(name = "username")
     private String username;
     @XmlElement(name = "birthdate")
-    @Temporal( TemporalType.DATE )
+    @Temporal(TemporalType.DATE)
     private Date birthdate;
     @XmlElement(name = "creationDate")
-    @Temporal( TemporalType.DATE )
+    @Temporal(TemporalType.DATE)
     private Date creationDate;
 
     public LoginResponseDTO() {
@@ -78,5 +79,13 @@ public class LoginResponseDTO {
 
     public void setCreationDate(Date creationDate) {
         this.creationDate = creationDate;
+    }
+
+    public int getId_user() {
+        return id_user;
+    }
+
+    public void setId_user(int id_user) {
+        this.id_user = id_user;
     }
 }

@@ -15,6 +15,15 @@ angular.module('app.autocomplete')
             $scope.searchParam = '';
         }
 
+
+        $scope.activateAutocompleteDeparture = function () {
+            autocompleteService.activateAutocompleteDeparture();
+        };
+
+        $scope.activateAutocompleteArrival = function () {
+            autocompleteService.activateAutocompleteArrival();
+        };
+
         $scope.searchParam = '';
 
         $scope.desactivateAutocomplete = function () {

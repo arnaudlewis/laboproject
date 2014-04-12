@@ -54,7 +54,7 @@ public class DaoUser extends Dao<User> {
 
         try {
             t.begin();
-            em.persist(obj);
+            em.merge(obj);
             t.commit();
         } catch (Exception e) {
             e.printStackTrace();
@@ -72,7 +72,7 @@ public class DaoUser extends Dao<User> {
 
         try {
             t.begin();
-            String sql = "UPDATE user e SET e.hobby='none'";
+            String sql = "UPDATE User e SET e.obj
             Query requete = em.createQuery(sql);
             t.commit();
         } catch (Exception e) {

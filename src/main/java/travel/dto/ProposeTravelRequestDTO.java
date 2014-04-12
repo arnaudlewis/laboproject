@@ -2,8 +2,6 @@ package travel.dto;
 
 import city.City;
 
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.core.MediaType;
 import javax.xml.bind.annotation.XmlElement;
@@ -11,24 +9,23 @@ import javax.xml.bind.annotation.XmlType;
 import java.util.Date;
 
 /**
- * Created by oliver on 04/04/14.
+ * Created by oliver on 05/04/14.
  */
-@XmlType(name = "SearchTravelRequestDTO")
+@XmlType(name = "ProposeTravelRequestDTO")
 @Consumes(MediaType.APPLICATION_JSON)
-public class SearchTravelRequestDTO {
+public class ProposeTravelRequestDTO {
 
-    @XmlElement(name = "id_travel")
-    private int id_travel;
-    @XmlElement(name = "arrival")
-    private City arrival;
+
     @XmlElement(name = "departure")
     private City departure;
+    @XmlElement(name = "arrival")
+    private City arrival;
     @XmlElement(name = "travelDate")
-    @Temporal(TemporalType.DATE)
     private Date travelDate;
 
-    public SearchTravelRequestDTO() {
+    public ProposeTravelRequestDTO() {
     }
+
 
     public City getDeparture() {
         return departure;
@@ -54,12 +51,5 @@ public class SearchTravelRequestDTO {
         this.travelDate = travelDate;
     }
 
-    public int getId_travel() {
-        return id_travel;
-    }
-
-    public void setId_travel(int id_travel) {
-        this.id_travel = id_travel;
-    }
 
 }

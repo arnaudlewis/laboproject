@@ -8,8 +8,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b05e7e6-d146-4dac-925f-67b6da85698d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/travel/dto/ProposeTravelRequestDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/travel/dto/ProposeTravelResponseDTO.java" />
+      <change type="DELETED" beforePath="C:\IdeaProjectWorkspace\laboproject\web\common\autocomplete\autoComplete-Selection.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\IdeaProjectWorkspace\laboproject\web\lib\jquery\src\var\trim.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/.bower.json" afterPath="$PROJECT_DIR$/web/lib/Slidebars/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/.bower.json" afterPath="$PROJECT_DIR$/web/lib/jquery/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/dto/CreateProfileRequestDTO.java" afterPath="$PROJECT_DIR$/src/main/java/user/dto/CreateProfileRequestDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/travel/dataAccess/DaoTravel.java" afterPath="$PROJECT_DIR$/src/main/java/travel/dataAccess/DaoTravel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java" afterPath="$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/data/Data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/dto/LoginResponseDTO.java" afterPath="$PROJECT_DIR$/src/main/java/user/dto/LoginResponseDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/web/lib/jquery/MIT-LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/travel/dto/SearchTravelRequestDTO.java" afterPath="$PROJECT_DIR$/src/main/java/travel/dto/SearchTravelRequestDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/travel/service/TravelService.java" afterPath="$PROJECT_DIR$/src/main/java/travel/service/TravelService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/effects/Tween.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/user/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/user/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/manipulation/_evalUrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/data/accepts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/core/access.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/addGetHookIf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/event/alias.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/exports/amd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/effects/animatedSelector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/animation-styles.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/animation-styles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/api-usage.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/api-usage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/arr.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/arr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/attributes/attr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/basic-template.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/basic-template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/bower.json" afterPath="$PROJECT_DIR$/web/lib/Slidebars/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/bower.json" afterPath="$PROJECT_DIR$/web/lib/jquery/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/callbacks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/class2type.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/class2type.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/attributes/classes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/concat.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/control-classes.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/control-classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/core.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/var/cssExpand.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/var/cssExpand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/autocomplete/ctrl.js" afterPath="$PROJECT_DIR$/web/common/autocomplete/ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/ctrl.js" afterPath="$PROJECT_DIR$/web/profile/ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/proposal/ctrl.js" afterPath="$PROJECT_DIR$/web/proposal/ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search/ctrl.js" afterPath="$PROJECT_DIR$/web/search/ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/curCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/custom-widths.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/custom-widths.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/data.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/data/var/data_priv.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/data/var/data_priv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/data/var/data_user.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/data/var/data_user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/defaultDisplay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/queue/delay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/deprecated.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/dimensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/effects.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/effects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/event.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/example-styles.css" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/example-styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/traversing/findFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/var/getStyles.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/var/getStyles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/exports/global.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/hasOwn.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/hasOwn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.css" afterPath="$PROJECT_DIR$/web/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/index.html" afterPath="$PROJECT_DIR$/web/profile/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/proposal/index.html" afterPath="$PROJECT_DIR$/web/proposal/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search/index.html" afterPath="$PROJECT_DIR$/web/search/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/indexOf.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/indexOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/core/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/intro.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/intro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/var/isHidden.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/var/isHidden.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/web/lib/jquery/dist/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/web/lib/jquery/dist/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/web/lib/jquery/dist/jquery.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax/jsonp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/left-slidebar-only.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/left-slidebar-only.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/license.txt" afterPath="$PROJECT_DIR$/web/lib/Slidebars/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax/load.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/manipulation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/mobile-only.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/mobile-only.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax/var/nonce.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax/var/nonce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/offset.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/optional-widths.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/optional-widths.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/outro.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/outro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/core/parseHTML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax/parseJSON.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax/parseXML.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/pnum.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/pnum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/attributes/prop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/push.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/push.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/queue.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/manipulation/var/rcheckableType.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/core/ready.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/common/remote/remote.js" afterPath="$PROJECT_DIR$/web/common/remote/remote.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/right-slidebar-only.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/right-slidebar-only.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/var/rmargin.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/var/rmargin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/traversing/var/rneedsContext.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/rnotwhite.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/rnotwhite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/var/rnumnonpx.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/var/rnumnonpx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax/var/rquery.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax/var/rquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/core/var/rsingleTag.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/core/var/rsingleTag.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/selector-native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/selector-sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/selector.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/serialize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/service.js" afterPath="$PROJECT_DIR$/web/login/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/service.js" afterPath="$PROJECT_DIR$/web/profile/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/proposal/service.js" afterPath="$PROJECT_DIR$/web/proposal/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search/service.js" afterPath="$PROJECT_DIR$/web/search/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signin/service.js" afterPath="$PROJECT_DIR$/web/signin/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/sizzle/dist/sizzle.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/sizzle/dist/sizzle.min.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/sizzle/dist/sizzle.min.map" afterPath="$PROJECT_DIR$/web/lib/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/slice.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/slice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/slidebars.jquery.json" afterPath="$PROJECT_DIR$/web/lib/Slidebars/slidebars.jquery.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/slidebars/slidebars.min.css" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/slidebars/slidebars.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/slidebars/slidebars.min.js" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/slidebars/slidebars.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/Slidebars/examples/static-slidebars.html" afterPath="$PROJECT_DIR$/web/lib/Slidebars/examples/static-slidebars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/strundefined.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/strundefined.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/attributes/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/event/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/manipulation/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/support.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/support.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/css/swap.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/css/swap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/var/toString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/traversing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/attributes/val.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/lib/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/web/lib/jquery/src/ajax/xhr.js" />
     </list>
     <list id="6870ed24-b39c-4562-8f81-386d882ee2e0" name="no submit" comment="" />
     <ignored path="laboproject.iws" />
@@ -65,6 +196,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/user/service/UserService.java" line="80" class="user.service.UserService" package="user.service">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -74,10 +222,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="97" selection-start="984" selection-end="984" vertical-scroll-proportion="0.7934509" vertical-offset="0" max-vertical-offset="1515">
+            <state line="21" column="97" selection-start="984" selection-end="984" vertical-scroll-proportion="-0.0" vertical-offset="357" max-vertical-offset="1717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remote.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/common/remote/remote.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -86,7 +243,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/profile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-10.208333" vertical-offset="115" max-vertical-offset="585">
+            <state line="17" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="2.8076923" vertical-offset="362" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -95,7 +252,45 @@
       <file leaf-file-name="ctrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/profile/ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="69" selection-start="625" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="3" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="799">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="0" selection-start="3135" selection-end="3135" vertical-scroll-proportion="0.33333334" vertical-offset="1256" max-vertical-offset="1632">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateProfileRequestDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/dto/CreateProfileRequestDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1071">
+              <folding>
+                <element signature="e#910#911#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaoUser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="547" max-vertical-offset="3842">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/profile/service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="49" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="629">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -106,34 +301,7 @@
       <file leaf-file-name="_main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/common/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="16" selection-start="753" selection-end="774" vertical-scroll-proportion="-5.75" vertical-offset="417" max-vertical-offset="1350">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_toggle-switch.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/common/toggle-switch/_toggle-switch.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1725">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_profile.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/profile/_profile.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="28" selection-start="1352" selection-end="1352" vertical-scroll-proportion="-12.625" vertical-offset="927" max-vertical-offset="1410">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+            <state line="37" column="16" selection-start="753" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -142,7 +310,7 @@
       <file leaf-file-name="_variable.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/common/_variable.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="445" selection-end="469" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="600">
+            <state line="23" column="0" selection-start="445" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -202,21 +370,21 @@
         <option value="$PROJECT_DIR$/web/proposal/_proposal.scss" />
         <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/web/common/remote/remote.js" />
         <option value="$PROJECT_DIR$/web/common/_mixin.scss" />
         <option value="$PROJECT_DIR$/web/common/translation/translation_en.json" />
         <option value="$PROJECT_DIR$/web/common/icon/service.js" />
-        <option value="$PROJECT_DIR$/web/profile/ctrl.js" />
         <option value="$PROJECT_DIR$/web/common/translation/translation_fr.json" />
         <option value="$PROJECT_DIR$/web/config.xml" />
         <option value="$PROJECT_DIR$/web/index.scss" />
         <option value="$PROJECT_DIR$/web/common/toggle-switch/toggle-switch-directive.js" />
-        <option value="$PROJECT_DIR$/web/profile/service.js" />
-        <option value="$PROJECT_DIR$/web/profile/index.html" />
         <option value="$PROJECT_DIR$/web/common/toggle-switch/_toggle-switch.scss" />
-        <option value="$PROJECT_DIR$/web/profile/_profile.scss" />
         <option value="$PROJECT_DIR$/web/bower.json" />
         <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/profile/_profile.scss" />
+        <option value="$PROJECT_DIR$/web/profile/index.html" />
+        <option value="$PROJECT_DIR$/web/common/remote/remote.js" />
+        <option value="$PROJECT_DIR$/web/profile/ctrl.js" />
+        <option value="$PROJECT_DIR$/web/profile/service.js" />
       </list>
     </option>
   </component>
@@ -243,8 +411,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -274,7 +444,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -431,9 +600,158 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="remote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laboproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,16 +782,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.laboprojectTomcat">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="name" value="Dart" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -496,9 +804,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -543,9 +848,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -613,18 +915,6 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -708,6 +998,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -725,12 +1021,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="laboproject" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.0.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -813,7 +1103,7 @@
       </method>
     </configuration>
     <configuration default="false" name="laboprojectTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.0-RC5" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="OPEN_IN_BROWSER_URL" value="http://192.168.1.13:8080/laboproject" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/laboproject" />
       <option name="BROWSER_ID" value="Chrome" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -938,6 +1228,7 @@
       <workItem from="1396664808102" duration="27000" />
       <workItem from="1396664897398" duration="26000" />
       <workItem from="1397251595700" duration="14219000" />
+      <workItem from="1397275705660" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="Style du menu&#10;Login complet&#10;style du formulaire d'inscription">
       <created>1395668266024</created>
@@ -967,36 +1258,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70986000" />
+    <option name="totallyTimeSpent" value="72476000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892704" sideWeight="0.5009242" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39826304" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18669528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3961039" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18655589" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39826304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3961039" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39826304" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17381974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2167382" sideWeight="0.4990758" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34491315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892704" sideWeight="0.5009242" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21601209" sideWeight="0.4990758" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34415585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1007,11 +1298,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.50089765" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32664755" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32664755" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1030,8 +1321,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1079,6 +1370,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/profile/_profile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="28" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="1394" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common/_variable.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="445" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/login/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="30" selection-start="567" selection-end="574" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="315" />
@@ -1114,11 +1426,6 @@
         <state line="10" column="42" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1155" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/search/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="9" selection-start="282" selection-end="282" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150" />
@@ -1132,11 +1439,6 @@
     <entry file="file://$PROJECT_DIR$/web/common/autocomplete/service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="44" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="945" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="2569" max-vertical-offset="3090" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/travel/Travel.java">
@@ -1185,9 +1487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/proposal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="8" column="6" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/proposal/_proposal.scss">
@@ -1199,16 +1499,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/search/ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="645">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/search/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="833">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/search/_search.scss">
@@ -1220,9 +1516,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-          <folding />
-        </state>
+        <state line="2" column="15" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1237,36 +1531,17 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-11.074074" vertical-offset="211" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="34" column="16" selection-start="1015" selection-end="1015" vertical-scroll-proportion="-11.074074" vertical-offset="211" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/lib/phonegap/lib/ios/CordovaLib/cordova.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="98880">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="98880" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/lib/fastclick/lib/fastclick.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11700">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/common/remote/remote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/_mixin.scss">
@@ -1278,38 +1553,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/translation/translation_en.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="-15.375" vertical-offset="36" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="-15.375" vertical-offset="36" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/icon/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="11350" selection-end="11350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1397260282000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1397260282000" expanded="true" signature="-1:-1" placeholder="{&quot;USER&quot;: '&lt;svg version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot; width=&quot;512px&quot; height=&quot;512px&quot; viewBox=&quot;0 0 512 512&quot; enable-background=&quot;new 0 0 512 512&quot; xml:space=&quot;preserve&quot;&gt; &lt;path id=&quot;user-3-icon&quot; d=&quot;M461.92,461.674H50.084c0-51.094-1.454-71.773,7.715-91.635c9.215-19.959,27.327-32.443,57.001-39.287 c74.719-17.211,74.507-23.09,65.745-39.225c-41.266-75.995-48.767-143.44-21.121-189.911c19.392-32.596,54.594-51.29,96.579-51.29 c41.669,0,76.652,18.427,95.979,50.555c33.879,56.319,10.36,132.425-20.429,190.473c-8.637,16.277-8.832,22.215,65.652,39.398 c29.673,6.844,47.785,19.328,56.999,39.287C463.343,389.832,461.92,409.938,461.92,461.674z M90.121,421.559h331.762 c0.015-36.076-2.381-44.496-33.693-51.719c-42.695-9.842-83.305-18.793-96.595-47.904c-6.652-14.57-5.132-31.184,4.521-49.379 c23.14-43.625,46.81-108.913,21.492-150.997c-12.071-20.067-33.95-31.118-61.604-31.118c-27.893,0-49.948,11.253-62.103,31.685 c-19.834,33.338-11.852,88.105,21.898,150.259c9.839,18.119,11.484,34.727,4.888,49.357c-13.301,29.5-54.105,38.25-96.87,48.098 C92.502,377.062,90.106,385.482,90.121,421.559z&quot;/&gt;&lt;/svg&gt;'...}" />
-            <marker date="1397260282000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1397260282000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1397260282000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1397260282000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="22" column="0" selection-start="11350" selection-end="11350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/profile/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/translation/translation_fr.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="39" selection-start="903" selection-end="903" vertical-scroll-proportion="-20.75" vertical-offset="12" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="34" column="39" selection-start="903" selection-end="903" vertical-scroll-proportion="-20.75" vertical-offset="12" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/config.xml">
@@ -1321,9 +1580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="13" column="24" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.scss">
@@ -1335,46 +1592,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/toggle-switch/toggle-switch-directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/profile/service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="495">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="16" selection-start="16" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="16" selection-start="753" selection-end="774" vertical-scroll-proportion="-5.75" vertical-offset="417" max-vertical-offset="1350">
+        <state line="37" column="16" selection-start="753" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1530">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/profile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-10.208333" vertical-offset="115" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/profile/ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="69" selection-start="625" selection-end="632" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/common/_variable.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="445" selection-end="469" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="600">
+        <state line="23" column="0" selection-start="445" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
@@ -1386,23 +1616,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/profile/_profile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="28" selection-start="1352" selection-end="1352" vertical-scroll-proportion="-12.625" vertical-offset="927" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+        <state line="13" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="97" selection-start="984" selection-end="984" vertical-scroll-proportion="0.7934509" vertical-offset="0" max-vertical-offset="1515">
+        <state line="21" column="97" selection-start="984" selection-end="984" vertical-scroll-proportion="-0.0" vertical-offset="357" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/_profile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="15" selection-start="1298" selection-end="1298" vertical-scroll-proportion="-3.9230769" vertical-offset="1258" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common/remote/remote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="2.8076923" vertical-offset="362" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/dataAccess/DaoUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="547" max-vertical-offset="3842">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="49" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="629">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/dto/CreateProfileRequestDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1071">
+          <folding>
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="3135" selection-end="3135" vertical-scroll-proportion="0.33333334" vertical-offset="1256" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>

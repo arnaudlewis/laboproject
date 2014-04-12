@@ -4,7 +4,10 @@ import user.dataAccess.DaoUser;
 public class Main {
 
     public static void main(String[] args) {
-        DaoUser.getInstance().insert(new User());
+        User user = DaoUser.getInstance().find(4);
+
+        user.setUsername("ESSAI");
+        DaoUser.getInstance().update(user);
     }
 
 }
