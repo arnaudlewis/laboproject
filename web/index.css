@@ -437,6 +437,10 @@ body input.alert_error {
     box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
 }
 
+body label {
+    font-weight: normal;
+}
+
 body button {
     margin: 0.5em 0;
     height: 2.5em;
@@ -582,7 +586,7 @@ header > #title {
     display: -webkit-flex;
     display: -webkit-flexbox;
     display: -moz-box;
-    isplay: -moz-dflexbox;
+    display: -moz-flexbox;
     display: -moz-flex;
     display: -ms-box;
     display: -ms-flexbox;
@@ -616,7 +620,7 @@ header > #title {
     display: -webkit-flex;
     display: -webkit-flexbox;
     display: -moz-box;
-    isplay: -moz-dflexbox;
+    display: -moz-flexbox;
     display: -moz-flex;
     display: -ms-box;
     display: -ms-flexbox;
@@ -707,6 +711,46 @@ header > #title {
     width: 100%;
 }
 
+#signin > form .sex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: -moz-flex;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: box;
+    display: flexbox;
+    display: flex;
+}
+
+#signin > form .sex > label {
+    width: 3em;
+    margin-top: 1em;
+}
+
+#signin > form .sex > span {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
+    text-align: center;
+}
+
+#signin > form .sex > span .switch .switch-right {
+    background-color: #ff96f1;
+}
+
+#signin > form .sex > span .switch .switch-left {
+    background-color: #5283c8;
+}
+
 #profile .page {
     margin-bottom: 1em;
 }
@@ -716,7 +760,7 @@ header > #title {
     display: -webkit-flex;
     display: -webkit-flexbox;
     display: -moz-box;
-    isplay: -moz-dflexbox;
+    display: -moz-flexbox;
     display: -moz-flex;
     display: -ms-box;
     display: -ms-flexbox;
@@ -796,7 +840,7 @@ header > #title {
     display: -webkit-flex;
     display: -webkit-flexbox;
     display: -moz-box;
-    isplay: -moz-dflexbox;
+    display: -moz-flexbox;
     display: -moz-flex;
     display: -ms-box;
     display: -ms-flexbox;
@@ -819,7 +863,6 @@ header > #title {
 
 #profile #preferences span > label {
     margin-top: 1em;
-    font-weight: normal;
 }
 
 #search {
@@ -857,7 +900,7 @@ header > #title {
     display: -webkit-flex;
     display: -webkit-flexbox;
     display: -moz-box;
-    isplay: -moz-dflexbox;
+    display: -moz-flexbox;
     display: -moz-flex;
     display: -ms-box;
     display: -ms-flexbox;
@@ -993,7 +1036,7 @@ header > #title {
 
 .switch .switch-left {
     color: #fff;
-    background: #005fcc;
+    background: #009060;
 }
 
 .switch .switch-right {
@@ -1055,7 +1098,7 @@ body > #sb-site {
     display: -webkit-flex;
     display: -webkit-flexbox;
     display: -moz-box;
-    isplay: -moz-dflexbox;
+    display: -moz-flexbox;
     display: -moz-flex;
     display: -ms-box;
     display: -ms-flexbox;
@@ -1089,7 +1132,7 @@ body > #sb-site > #main-view {
     display: -webkit-flex;
     display: -webkit-flexbox;
     display: -moz-box;
-    isplay: -moz-dflexbox;
+    display: -moz-flexbox;
     display: -moz-flex;
     display: -ms-box;
     display: -ms-flexbox;

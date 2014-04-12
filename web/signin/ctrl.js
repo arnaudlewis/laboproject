@@ -8,10 +8,10 @@ angular.module('app.signin')
         $scope.submit = function () {
             console.log('submit vient d etre execute');
             var creationDate = new Date();
-            signinService.createUser(creationDate, $scope.lastname, $scope.firstname, $scope.email, $scope.birthday, $scope.username, $scope.password);
+            signinService.createUser(creationDate, $scope.sex, $scope.lastname, $scope.firstname, $scope.email, $scope.birthday, $scope.username, $scope.password);
         };
 
-        $scope.$on('signinFailed', function (event) {
+        $scope.$on('requestFailed', function (event) {
             alertService.showAlert('Echec de la creation de compte');
         });
 
@@ -25,8 +25,8 @@ angular.module('app.signin')
         $scope.$on('signinFailed', function (event, usernameExist, emailExist) {
             // ternaire // {{emailExist ? (usernameExist ? "l'email et l'identifiant existent" : "l'émail existe") : "le username existe"}}
 
-            var alertUsername = $('#username');
-            var alertEmail = $('#email');
+            var alertUsername = $('#username'),
+                alertEmail = $('#email');
 
             $('input').removeClass();
 

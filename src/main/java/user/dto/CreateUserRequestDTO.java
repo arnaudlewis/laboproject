@@ -26,6 +26,8 @@ import java.util.Date;
 @Consumes(MediaType.APPLICATION_JSON)
 public class CreateUserRequestDTO {
 
+    @XmlElement(name = "sex")
+    private boolean sex;
     @XmlElement(name="creationDate")
     private Date creationDate;
     @XmlElement(name="firstname")
@@ -94,4 +96,13 @@ public class CreateUserRequestDTO {
     public void setBirthday(Date birthday) {
         this.birthday = birthday;
     }
+
+    public boolean isSex() {
+        return sex;
+    }
+
+    public void setSex(boolean sex) {
+        this.sex = sex;
+    }
+
 }

@@ -45,6 +45,7 @@ public class UserService {
         user.setBirthdate(signUpData.getBirthday());
         user.setUsername(signUpData.getUsername());
         user.setPassword(signUpData.getPassword());
+        user.setSex(signUpData.isSex());
         return user;
     }
 
@@ -84,6 +85,7 @@ public class UserService {
         profile.setAnimal(requete.isAnimal());
         profile.setSmoke(requete.isSmoke());
         profile.setMoreInfo(requete.getMoreInfo());
+
 
         DaoUser.getInstance().update(profile);
 

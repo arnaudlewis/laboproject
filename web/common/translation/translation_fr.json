@@ -24,6 +24,8 @@
     "user_PASSWORD": "Mot de passe",
     "user_AGE": "Age",
     "user_EMAIL": "Email",
+    "user_FEMALE": "Femme",
+    "user_MALE": "Homme",
 
     "search_TITLE": "Rechercher",
     "search_DATE_TITLE": "Date du trajet",
@@ -34,8 +36,10 @@
 
     "profile_HOBBY": "centres d'intêret",
     "profile_MUSIC": "musiques préférées",
-    "profile_TITLE": "Profile",
+    "profile_TITLE": "Profil",
     "profile_DESCRIPTION": "votre description",
+    "profile_SMOKER": "Fumeur",
+    "profile_ANIMAL": "Animal",
 
     "duplicate_USERNAME_EMAIL": "Identifiant et e-mail existant",
     "duplicate_USERNAME": "Identifiant existant",

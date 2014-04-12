@@ -53,10 +53,10 @@
   }
 
   #description {
-    $width-textarea : 100%;
-    $height-textarea : 5em;
+    $width-textarea: 100%;
+    $height-textarea: 5em;
     textarea {
-      max-width : $width-textarea;
+      max-width: $width-textarea;
       min-width: $width-textarea;
       max-height: $height-textarea;
       min-height: $height-textarea;
@@ -69,10 +69,9 @@
       width: 100%;
     }
     span {
-      padding : 0.5em 0;
+      padding: 0.5em 0;
       border-bottom: 1px solid #cecece;
       @include displayFlex;
-
 
       > input, label {
         @include flex(1);
@@ -80,7 +79,7 @@
 
       > label {
         margin-top: 1em;
-        font-weight: normal;
+
       }
 
     }

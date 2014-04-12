@@ -25,10 +25,10 @@
         <span><input type="text" name="music" ng-keyup="formValidation()" ng-model="music"
                      placeholder="{{translation.profile_MUSIC}}"/></span>
         <span>
-         <label>Animal</label><toggle-switch model="animal"></toggle-switch>
+         <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="animal"></toggle-switch>
         </span>
         <span>
-        <label>Fumeur</label><toggle-switch model="smoke"></toggle-switch>
+        <label>{{translation.profile_SMOKER}}</label><toggle-switch model="smoke"></toggle-switch>
         </span>
 
         <button class="btn-validation disabled" disabled id="btn-profile" ng-click="submit()" type="submit">
