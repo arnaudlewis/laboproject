@@ -1,7 +1,7 @@
 <div id="proposal" class="page" ng-controller="proposalCtrl">
     <form ng-submit="submit()">
 
-        <div ng-include src="'common/autocomplete/autocomplete-selection.html'"></div>
+        <div ng-include src="'common/autocomplete/autocomplete.html'"></div>
 
         <date ng-model="travelDate"></date>
         <button class="btn-validation disabled" ng-keyup="formValidation()" id="btn-proposal" disabled type="submit">
