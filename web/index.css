@@ -1088,6 +1088,10 @@ header > #title {
     /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 }
 
+.date-selector {
+    width: 100%;
+}
+
 body {
     position: fixed;
 }

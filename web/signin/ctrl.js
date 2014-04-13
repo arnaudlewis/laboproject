@@ -47,7 +47,7 @@ angular.module('app.signin')
             var btnSignup = $('#btn-signup');
 
             if ($scope.firstname.length > 0 && $scope.lastname.length > 0 && $scope.email.length > 0
-                && $scope.username.length > 0 && $scope.password.length > 0 && $scope.birthday) {
+                && $scope.username.length > 0 && $scope.password.length > 0) {
                 btnSignup.removeAttr('disabled');
                 btnSignup.removeClass('disabled');
             } else {
