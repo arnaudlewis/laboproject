@@ -4,11 +4,14 @@
 #login {
   display: table;
   width: 100%;
-  @include flex(1);
-  height: 100vh;
+  top: 60%;
+  height: 20em;
+  margin-top: -10em;
+  position: absolute;
+  left: 0;
 
   > #title-login {
-    position: absolute;
+    position: fixed;
     border: 2px solid dimgray;
     height: 4em;
     left: 50%;

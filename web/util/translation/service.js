@@ -7,7 +7,7 @@ angular.module('app.translation', ['ngResource'])
         'use strict';
 
         function initLang(language) {
-            var languageFilePath = 'common/translation/translation_' + language + '.json';
+            var languageFilePath = 'util/translation/translation_' + language + '.json';
             $resource(languageFilePath).get(function (data) {
                 $rootScope.translation = data;
             });

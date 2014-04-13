@@ -14,6 +14,14 @@ body {
 
   }
 
+  h1 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 1em 0;
+    display: block;
+  }
+
   header {
     width: 100%;
     height: $header-height;

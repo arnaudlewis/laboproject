@@ -31,17 +31,6 @@
     <span id="alertMessage">{{message}}</span>
 </div>
 
-<div id="autocomplete" class="autocomplete" ng-controller="autocompleteCtrl">
-    <div class="search">
-        <input id="autocomplete-search" ng-keyup="loadResults()" ng-model="searchParam"/>
-        <button ng-click="desactivateAutocomplete()" class="btn-nav">{{ translation.CANCEL }}</button>
-    </div>
-    <div id="autocomplete-result" ng-show="searchParam.length > 0">
-        <span ng-if="results.length > 0" ng-click="selectCity(result)" ng-repeat="result in results track by $index">{{ result.name_city }}</span>
-        <span ng-if="results.length === 0">{{ translation.autocomplete_NORESULTS }}</span>
-    </div>
-</div>
-
 
 <div id="sb-site">
     <div id="header-view" ui-view="headerView"></div>
@@ -59,14 +48,15 @@
 </script>
 
 
-<script src="common/translation/service.js"></script>
-<script src="common/router/router.js"></script>
-<script src="common/remote/remote.js"></script>
-<script src="common/icon/service.js"></script>
+<script src="util/translation/service.js"></script>
+<script src="util/router/router.js"></script>
+<script src="util/remote/remote.js"></script>
+<script src="util/icon/service.js"></script>
+<script src="util/alert/service.js"></script>
+<script src="util/alert/ctrl.js"></script>
+
 <script src="common/header/service.js"></script>
 <script src="common/header/ctrl.js"></script>
-<script src="common/alert/service.js"></script>
-<script src="common/alert/ctrl.js"></script>
 <script src="common/menu/menu.js"></script>
 <script src="common/autocomplete/service.js"></script>
 <script src="common/autocomplete/ctrl.js"></script>

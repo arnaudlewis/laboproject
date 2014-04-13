@@ -9,6 +9,10 @@
     "login_SIGNIN": "S'inscrire",
 
     "signin_TITLE": "Inscription",
+    "signin_PERSONAL": "Informations personnelles",
+    "signin_CONNECTION": "Informations d'authentification",
+    "signin_DRIVER": "Préférences de conducteur",
+    "signin_TRAVELLER": "Préférences de voyageur",
 
     "home_TITLE": "Homepage",
     "home_DISCONNECT": "Déconnexion",

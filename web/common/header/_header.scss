@@ -7,7 +7,17 @@ header {
   }
 
   > .nav {
-    width: 3em;
+    width: 4em;
+
+    &#navRight {
+      text-align: right;
+      padding-right: 1em;
+    }
+
+    &#navLeft {
+      text-align: left;
+      padding-left: 1em;
+    }
 
     svg {
       margin-top: 0.5em;

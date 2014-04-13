@@ -1,20 +1,45 @@
-<div id="signin" class="page" ng-controller="signinCtrl">
+<div id="signin" ng-controller="signinCtrl">
 
-    <form ng-submit="submit()">
-        <span class="sex">
-         <label>{{translation.user_FEMALE}}</label><span><toggle-switch model="sex"></toggle-switch></span><label>{{translation.user_MALE}}</label>
+    <div class="personal page">
+        <h1>{{ translation.signin_PERSONAL }}</h1>
+
+         <span class="sex">
+            <label>{{translation.user_FEMALE}}</label>
+             <span><toggle-switch model="sex"></toggle-switch></span>
+             <label>{{translation.user_MALE}}</label>
         </span>
+
         <input type="text" ng-model="firstname" ng-keyup="formValidation()"
                placeholder="{{translation.user_FIRSTNAME}}"/></br>
         <input type="text" ng-model="lastname" ng-keyup="formValidation()"
                placeholder="{{translation.user_LASTNAME}}"/></br>
         <input id="email" type="text" ng-model="email" ng-keyup="formValidation()"
                placeholder="{{translation.user_EMAIL}}"/></br>
-        <date ng-model="birthday"></date>
+        <date free="true" ng-model="birthday"></date>
+    </div>
+
+    <div class="connection page">
+        <h1>{{ translation.signin_CONNECTION }}</h1>
+
         <input id="username" type="text" ng-model="username" ng-keyup="formValidation()"
-               placeholder="{{translation.user_USERNAME}}"/></br>
+               placeholder="{{translation.user_USERNAME}}"/>
         <input type="password" ng-model="password" ng-keyup="formValidation()"
-               placeholder="{{translation.user_PASSWORD}}"/></br>
-        <button class="btn-validation disabled" id="btn-signup" disabled type="submit">{{translation.VALIDATE}}</button>
-    </form>
+               placeholder="{{translation.user_PASSWORD}}"/>
+    </div>
+
+    <div class="driver page">
+        <h1>{{ translation.signin_DRIVER }}</h1>
+
+
+    </div>
+
+    <!--<div class="traveller page">-->
+    <!--<h1>{{ translation.signin_TRAVELLER }}</h1>-->
+
+
+    <!--</div>-->
+
+    <button class="btn-validation disabled" id="btn-signup" disabled ng-click="submit()" type="submit">
+        {{translation.VALIDATE}}
+    </button>
 </div>
