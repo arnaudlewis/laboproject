@@ -15,7 +15,8 @@ import java.util.Date;
 @Consumes(MediaType.APPLICATION_JSON)
 public class ProposeTravelRequestDTO {
 
-
+    @XmlElement(name = "id_user")
+    private int id_user;
     @XmlElement(name = "departure")
     private City departure;
     @XmlElement(name = "arrival")
@@ -38,7 +39,6 @@ public class ProposeTravelRequestDTO {
     public City getArrival() {
         return arrival;
     }
-
     public void setArrival(City arrival) {
         this.arrival = arrival;
     }
@@ -46,10 +46,15 @@ public class ProposeTravelRequestDTO {
     public Date getTravelDate() {
         return travelDate;
     }
-
     public void setTravelDate(Date travelDate) {
         this.travelDate = travelDate;
     }
 
+    public int getId_user() {
+        return id_user;
+    }
 
+    public void setId_user(int id_user) {
+        this.id_user = id_user;
+    }
 }

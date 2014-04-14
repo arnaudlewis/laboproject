@@ -7,6 +7,7 @@ import travel.dto.ProposeTravelRequestDTO;
 import travel.dto.ProposeTravelResponseDTO;
 import travel.dto.SearchTravelRequestDTO;
 import travel.dto.SearchTravelResponseDTO;
+import user.dataAccess.DaoUser;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -43,6 +44,7 @@ public class TravelService {
         ProposeTravelResponseDTO reponse = new ProposeTravelResponseDTO();
         Travel voyage = new Travel();
 
+        voyage.setDriver(DaoUser.getInstance().find(requete.getId_user()));
         voyage.setDeparture(requete.getDeparture());
         voyage.setArrival(requete.getArrival());
         voyage.setTravelDate(requete.getTravelDate());
