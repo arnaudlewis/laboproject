@@ -408,8 +408,8 @@ body > #sb-site {
 }
 
 body h1 {
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 1.1em;
+    font-weight: 500;
     text-align: left;
     margin: 0 0 1em 0;
     display: block;
@@ -429,6 +429,11 @@ body footer {
     color: white;
 }
 
+body label {
+    font-weight: 500;
+    color: #3e3e3e;
+}
+
 body input {
     height: 2.5em;
     padding: 0.5em;
@@ -443,10 +448,6 @@ body input.alert_error {
     -webkit-box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
     -o-box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
     box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
-}
-
-body label {
-    font-weight: normal;
 }
 
 body button {
@@ -486,6 +487,10 @@ body .page {
     border-radius: 0.3em;
     background-color: white;
     box-sizing: border-box;
+}
+
+body .page > * {
+    width: 100%;
 }
 
 #autocomplete {
@@ -601,6 +606,51 @@ body .page {
 
 .travelCities .arrival {
     border: none;
+}
+
+.autocomplete-field {
+    text-align: left;
+}
+
+.autocomplete-field > label {
+    margin: 0.5em 1em 1em 0;
+}
+
+.autocomplete-field > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: -moz-flex;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: box;
+    display: flexbox;
+    display: flex;
+}
+
+.autocomplete-field > div > .icon svg {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline;
+    margin-right: 0.5em;
+}
+
+.autocomplete-field > div > .field {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
 }
 
 .date-selector {
@@ -1002,15 +1052,62 @@ header > #title {
     width: 100%;
 }
 
-#proposal > form {
-    width: 90%;
-    margin: auto;
-    background-color: white;
-    text-align: center;
+#proposal .page {
+    margin-bottom: 1em;
 }
 
-#proposal > form > * {
+#proposal > .parameters > span, #proposal > .parameters button {
     width: 100%;
+}
+
+#proposal > .parameters span {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #cecece;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: -moz-flex;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: box;
+    display: flexbox;
+    display: flex;
+}
+
+#proposal > .parameters span > input, #proposal > .parameters span label {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
+    display: inline;
+}
+
+#proposal > .parameters span > label {
+    margin-top: 1em;
+}
+
+#proposal > .parameters span > .readable {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
+    margin-top: 1em;
+    display: inline;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 #home {

@@ -1,7 +1,11 @@
 <div id="search" class="page" ng-controller="searchCtrl">
     <form ng-submit="submit()">
+
+        <autocomplete ng-model="departure" icon="{{ icon.FLAG_START }}"
+                      label="{{ translation.DEPARTURE }}"></autocomplete>
+        <autocomplete ng-model="arrival" icon="{{ icon.FLAG_END }}" label="{{ translation.ARRIVAL }}"></autocomplete>
+
         <date ng-model="travelDate"></date>
-        <date ng-model="travelDate2"></date>
         <button class="btn-validation" type="submit">{{translation.VALIDATE}}</button>
     </form>
 </div>

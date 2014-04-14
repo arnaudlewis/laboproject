@@ -13,14 +13,12 @@ public class UserService {
     @POST
     @Path("/signin")
     public CreateUserResponseDTO signin(CreateUserRequestDTO request) {
-        boolean usernameExist = false;
-        boolean emailExist = false;
+        boolean usernameExist;
+        boolean emailExist;
         CreateUserResponseDTO reponse = new CreateUserResponseDTO();
         User createdUser = createUserFromSignUpData(request);
-        // pour contrôler les doublons
         usernameExist = DaoUser.getInstance().checkDuplicateUsername(request.getUsername());
         emailExist = DaoUser.getInstance().checkDuplicateEmail(request.getEmail());
-        //pour insérer un user je dois vérifier que l'email et le username n'exite pas
         if (!usernameExist && !emailExist) {
             reponse.setId_user(DaoUser.getInstance().insert(createdUser));
             reponse.setUsernameExist(true);

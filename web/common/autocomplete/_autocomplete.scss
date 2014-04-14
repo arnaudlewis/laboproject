@@ -77,3 +77,30 @@
     border: none;
   }
 }
+
+.autocomplete-field {
+  text-align: left;
+
+  > label {
+    margin: 0.5em 1em 1em 0;
+
+  }
+  > div {
+    @include displayFlex;
+
+    > .icon {
+
+      svg {
+        width: 1.5em;
+        height: 1.5em;
+        display: inline;
+        margin-right: 0.5em;
+      }
+    }
+
+    > .field {
+      @include lineClamp(1);
+      @include flex(1);
+    }
+  }
+}

@@ -1,13 +1,33 @@
-<div id="proposal" class="page" ng-controller="proposalCtrl">
-    <form ng-submit="submit()">
+<div id="proposal" ng-controller="proposalCtrl">
 
-        <autocomplete ng-model="departure" label="{{ translation.DEPARTURE }}"></autocomplete>
-        <autocomplete ng-model="arrival" label="{{ translation.ARRIVAL }}"></autocomplete>
+    <div class="search page">
+        <h1>Votre recherche</h1>
+
+        <autocomplete ng-model="departure" icon="{{ icon.FLAG_START }}"
+                      label="{{ translation.DEPARTURE }}"></autocomplete>
+        <autocomplete ng-model="arrival" icon="{{ icon.FLAG_END }}"
+                      label="{{ translation.ARRIVAL }}"></autocomplete>
 
         <date ng-model="travelDate"></date>
 
-        <button class="btn-validation" id="btn-proposal" type="submit">
-        {{translation.VALIDATE}}
+    </div>
+
+    <div class="parameters page">
+        <h1>Conditions de voyage</h1>
+
+        <span>
+            <label>Style Musical</label><div class="readable">{{ user.music }}</div>
+        </span>
+        <span>
+         <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="user.animal"></toggle-switch>
+        </span>
+        <span>
+        <label>{{translation.profile_SMOKER}}</label><toggle-switch model="user.smoke"></toggle-switch>
+        </span>
+
+        <button class="btn-validation" ng-click="submit()" id="btn-proposal" type="submit">
+            {{translation.VALIDATE}}
         </button>
-    </form>
+
+    </div>
 </div>

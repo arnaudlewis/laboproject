@@ -20,6 +20,9 @@ public class City implements Serializable {
     private int latitude;
     private int longitude;
 
+    //fumeur
+    //animal
+
     public City() {
     }
 

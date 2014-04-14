@@ -1,16 +1,23 @@
 /*global angular */
 /*global console*/
 /*global $ */
+/*global window */
 
 angular.module('app.proposal')
     .controller('proposalCtrl', function ($scope, proposalService, alertService, $timeout, $state, $rootScope) {
         'use strict';
 
+        function initProposal() {
+            $scope.user = JSON.parse(window.localStorage.user);
+        }
+
+        initProposal();
+
         $scope.submit = function () {
             if ($scope.arrival && $scope.departure && $scope.travelDate) {
                 proposalService.proposeTravel($scope.departure, $scope.arrival, $scope.travelDate);
             } else {
-                alertService.showAlert($rootScope.translation.proposal_WARNING_VALIDATION);
+                alertService.showAlert($rootScope.translation.WARNING_VALIDATION);
             }
         };
 

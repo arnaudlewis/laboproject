@@ -2,7 +2,7 @@
 
 angular.module('app.autocomplete')
 
-    .directive('autocomplete', function (autocompleteService, $rootScope) {
+    .directive('autocomplete', function (autocompleteService, $rootScope, $sce) {
         'use strict';
         return {
             restrict: 'E',
@@ -14,7 +14,8 @@ angular.module('app.autocomplete')
             link: function (scope, element, attrs, ngModel) {
 
                 scope.label = attrs.label;
-                scope.placeholder = $rootScope.translation.SELECT;
+                scope.placeholder = $rootScope.translation.SELECT_CITY;
+                scope.icon = $sce.trustAsHtml(attrs.icon);
 
                 scope.activateAutocomplete = function () {
                     autocompleteService.activateAutocomplete(scope);
@@ -23,6 +24,7 @@ angular.module('app.autocomplete')
                 scope.$on('selectedCity', function (event, city) {
                     scope.ngModel = ngModel = city;
                 });
+
 
             }
         };

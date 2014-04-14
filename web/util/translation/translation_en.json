@@ -4,7 +4,8 @@
     "CANCEL": "Cancel",
     "DEPARTURE": "Departure: ",
     "ARRIVAL": "Arrival: ",
-    "SELECT": "Select",
+    "SELECT_CITY": "Select a city",
+    "WARNING_VALIDATION": "You must fill all fields to complete your search",
 
     "autocomplete_NORESULTS": "No results found",
 
@@ -50,7 +51,5 @@
     "duplicate_USERNAME": "Username already exist",
     "duplicate_EMAIL": "E-mail already exist",
 
-    "proposal_TITLE": "Travel proposal",
-    "proposal_WARNING_VALIDATION": "You must fill all fields to complete your search"
-
+    "proposal_TITLE": "Travel proposal"
 }

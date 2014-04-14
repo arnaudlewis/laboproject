@@ -15,8 +15,8 @@ body {
   }
 
   h1 {
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 1.1em;
+    font-weight: 500;
     text-align: left;
     margin: 0 0 1em 0;
     display: block;
@@ -38,6 +38,11 @@ body {
 
   }
 
+  label {
+    font-weight: 500;
+    color: #3e3e3e;
+  }
+
   input {
     height: $input-height;
     padding: 0.5em;
@@ -49,10 +54,6 @@ body {
       border-color: red;
       @include boxshadow(0.1em, 0.1em, 1.5em, 0.1em, #fe0000);
     }
-  }
-
-  label {
-    font-weight: normal;
   }
 
   button {
@@ -92,6 +93,10 @@ body {
     border-radius: 0.3em;
     background-color: $page-color;
     box-sizing: border-box;
+
+    > * {
+      width: 100%;
+    }
   }
 
 }

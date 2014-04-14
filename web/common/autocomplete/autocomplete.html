@@ -1,4 +1,8 @@
 <div class="autocomplete-field">
     <label>{{ label }}</label>
-    <span ng-click="activateAutocomplete()" ng-model="ngModel">{{ ngModel ? ngModel.name_city : placeholder }}</span>
+
+    <div>
+        <span class="icon" ng-bind-html="icon"></span>
+        <span class="field" ng-click="activateAutocomplete()" ng-model="ngModel">{{ ngModel ? ngModel.name_city : placeholder }}</span>
+    </div>
 </div>

@@ -3,18 +3,36 @@
 
 #proposal {
   width: 100%;
-  //border-radius: 0.5em;
 
-  > form {
-    width: 90%;
-    margin: auto;
-    background-color: white;
-    text-align: center;
+  .page {
+    margin-bottom: 1em;
+  }
 
-    > * {
+  > .parameters {
+    > span, button {
       width: 100%;
     }
+    span {
+      padding: 0.5em 0;
+      border-bottom: 1px solid #cecece;
+      @include displayFlex;
 
+      > input, label, {
+        @include flex(1);
+        display: inline;
+      }
+
+      > label {
+        margin-top: 1em;
+      }
+
+      > .readable {
+        @include flex(1);
+        margin-top: 1em;
+        display: inline;
+        @include lineClamp(2);
+      }
+    }
   }
 
 }
