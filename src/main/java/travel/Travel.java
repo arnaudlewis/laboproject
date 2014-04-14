@@ -2,6 +2,7 @@ package travel;
 
 
 import city.City;
+import user.User;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -26,7 +27,8 @@ public class Travel implements Serializable {
     private double price;
     @Temporal(TemporalType.DATE)
     private Date travelDate;
-
+    @ManyToOne
+    private User driver;
 
     public Travel() {
 
@@ -90,4 +92,11 @@ public class Travel implements Serializable {
         this.travelDate = travelDate;
     }
 
+    public User getDriver() {
+        return driver;
+    }
+
+    public void setDriver(User driver) {
+        this.driver = driver;
+    }
 }

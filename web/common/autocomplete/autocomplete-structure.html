@@ -1,0 +1,10 @@
+<div id="autocomplete" class="autocomplete" ng-controller="autocompleteCtrl">
+    <div class="search">
+        <input id="autocomplete-search" ng-keyup="loadResults()" ng-model="searchParam"/>
+        <button ng-click="desactivateAutocomplete()" class="btn-nav">{{ translation.CANCEL }}</button>
+    </div>
+    <div id="autocomplete-result" ng-show="searchParam.length > 0">
+        <span ng-if="results.length > 0" ng-click="selectCity(result)" ng-repeat="result in results track by $index">{{ result.name_city }}</span>
+        <span ng-if="results.length === 0">{{ translation.autocomplete_NORESULTS }}</span>
+    </div>
+</div>

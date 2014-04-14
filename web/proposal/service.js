@@ -1,6 +1,6 @@
 /*global angular */
 /*global console*/
-angular.module('app.proposal', ['app.autocomplete'])
+angular.module('app.proposal', [])
 
     .service('proposalService', function ($http, $rootScope) {
         'use strict';

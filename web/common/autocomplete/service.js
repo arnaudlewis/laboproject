@@ -4,10 +4,10 @@
 
 angular.module('app.autocomplete', [])
 
-    .service('autocompleteService', ['$http', '$rootScope', 'DEPARTURE', 'ARRIVAL', function ($http, $rootScope, DEOARTURE, ARRIVAL) {
+    .service('autocompleteService', ['$http', '$rootScope', function ($http, $rootScope) {
         'use strict';
 
-        var typeOfAutocomplete;
+        var currentScope;
 
         function loadCities(searchParam) {
             $http({
@@ -24,7 +24,8 @@ angular.module('app.autocomplete', [])
                 });
         }
 
-        function activate() {
+        function activate(scope) {
+            currentScope = scope;
             var autocompleteSearch = $('#autocomplete-search');
             autocompleteSearch.val('');
             $('#autocomplete').fadeIn();
@@ -37,22 +38,17 @@ angular.module('app.autocomplete', [])
                 loadCities(searchParam);
             },
 
-            activateAutocompleteDeparture: function () {
-                typeOfAutocomplete = "DEPARTURE";
-                activate();
-            },
-
-            activateAutocompleteArrival: function (arrival) {
-                typeOfAutocomplete = "ARRIVAL";
-                activate();
+            activateAutocomplete: function (scope) {
+                activate(scope);
             },
 
             desactivateAutocomplete: function () {
                 $('#autocomplete').fadeOut();
             },
 
-            getTypeOfAutocomplete: function () {
-                return typeOfAutocomplete;
+            selectCity: function (city) {
+                this.desactivateAutocomplete();
+                currentScope.$broadcast('selectedCity', city);
             }
         };
 

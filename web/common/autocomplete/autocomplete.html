@@ -1,22 +1,4 @@
-<div class="travelCities" ng-controller="autocompleteCtrl">
-    <div class="departure">
-        <label>{{ translation.DEPARTURE }}</label>
-        <span class="departure" ng-click="activateAutocompleteDeparture()">{{ departure.name_city }}</span>
-    </div>
-    <div class="arrival">
-        <label>{{ translation.ARRIVAL }}</label>
-        <span class="arrival" ng-click="activateAutocompleteArrival()">{{ arrival.name_city }}</span>
-    </div>
-</div>
-
-
-<div id="autocomplete" class="autocomplete" ng-controller="autocompleteCtrl">
-    <div class="search">
-        <input id="autocomplete-search" ng-keyup="loadResults()" ng-model="searchParam"/>
-        <button ng-click="desactivateAutocomplete()" class="btn-nav">{{ translation.CANCEL }}</button>
-    </div>
-    <div id="autocomplete-result" ng-show="searchParam.length > 0">
-        <span ng-if="results.length > 0" ng-click="selectCity(result)" ng-repeat="result in results track by $index">{{ result.name_city }}</span>
-        <span ng-if="results.length === 0">{{ translation.autocomplete_NORESULTS }}</span>
-    </div>
+<div class="autocomplete-field">
+    <label>{{ label }}</label>
+    <span ng-click="activateAutocomplete()" ng-model="ngModel">{{ ngModel ? ngModel.name_city : placeholder }}</span>
 </div>

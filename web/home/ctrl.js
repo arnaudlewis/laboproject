@@ -11,6 +11,10 @@ angular.module('app.home', [])
         $scope.exitIcon = $sce.trustAsHtml($rootScope.icon.EXIT);
 
         $scope.disconnect = function () {
+            if (menuService.isOpen()) {
+                menuService.close();
+            }
+
             menuService.disconnect();
         };
 

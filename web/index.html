@@ -25,11 +25,10 @@
 
 </head>
 <body>
-<div id="windowAlert" class="alert" ng-controller="alertCtrl">
-    <span id="iconAlert" ng-bind-html="iconAlert"></span>
-    <hr/>
-    <span id="alertMessage">{{message}}</span>
-</div>
+
+<div ng-include src="'util/alert/alert-structure.html'"></div>
+
+<div ng-include src="'common/autocomplete/autocomplete-structure.html'"></div>
 
 
 <div id="sb-site">
@@ -62,6 +61,7 @@
 <script src="common/autocomplete/ctrl.js"></script>
 <script src="common/toggle-switch/toggle-switch-directive.js"></script>
 <script src="common/date/date-directive.js"></script>
+<script src="common/autocomplete/autocomplete-directive.js"></script>
 
 <script src="search/service.js"></script>
 <script src="search/ctrl.js"></script>
