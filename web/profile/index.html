@@ -15,20 +15,20 @@
     </div>
 
     <div id="description" class="page">
-        <textarea ng-model="moreInfo" ng-keyup="formValidation()"
+        <textarea ng-model="user.moreInfo" ng-keyup="formValidation()"
                   placeholder="{{translation.profile_DESCRIPTION}}"></textarea>
     </div>
 
     <div id="preferences" class="page">
-        <span><input type="text" name="hobby" ng-keyup="formValidation()" ng_model="hobby"
+        <span><input type="text" name="hobby" ng-keyup="formValidation()" ng-model="user.hobby"
                      placeholder="{{translation.profile_HOBBY}}"/></span>
-        <span><input type="text" name="music" ng-keyup="formValidation()" ng-model="music"
+        <span><input type="text" name="music" ng-keyup="formValidation()" ng-model="user.music"
                      placeholder="{{translation.profile_MUSIC}}"/></span>
         <span>
-         <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="animal"></toggle-switch>
+         <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="user.animal"></toggle-switch>
         </span>
         <span>
-        <label>{{translation.profile_SMOKER}}</label><toggle-switch model="smoke"></toggle-switch>
+        <label>{{translation.profile_SMOKER}}</label><toggle-switch model="user.smoke"></toggle-switch>
         </span>
 
         <button class="btn-validation disabled" disabled id="btn-profile" ng-click="submit()" type="submit">

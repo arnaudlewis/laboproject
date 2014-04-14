@@ -6,15 +6,15 @@ angular.module('app.profile', ['app.toggle-switch'])
 
     .service('profileService', function ($http, $rootScope, $state) {
         'use strict';
-        function createProfile(sex, hobby, music, animal, smoke, moreInfo) {
-            var id_user = window.localStorage.id_user;
+        function createProfile(user) {
+            var id_user = JSON.parse(window.localStorage.user).id_user;
             $http({
                 method: 'POST',
                 url: 'rest/user/profile',
-                data: {id_user: id_user, sex: sex, hobby: hobby, music: music, animal: animal, smoke: smoke, moreInfo: moreInfo}
+                data: {id_user: id_user, hobby: user.hobby, music: user.music, animal: user.animal, smoke: user.smoke, moreInfo: user.moreInfo}
             })
-                .success(function (status) {
-                    console.log("Profile creation SUCCESS");
+                .success(function (data) {
+                    window.localStorage.user = JSON.stringify(user);
                     $rootScope.$broadcast('profileUpdateSUCCESS');
 
                 })
@@ -22,11 +22,13 @@ angular.module('app.profile', ['app.toggle-switch'])
                     console.log("Profile creation FAILED");
                     $rootScope.$broadcast('profileUpdateFAILED');
                 });
+
+
         }
 
         return {
-            createProfileUser: function (sex, hobby, music, animal, smoke, moreInfo) {
-                createProfile(sex, hobby, music, animal, smoke, moreInfo);
+            createProfileUser: function (user) {
+                createProfile(user);
             }
         };
     });

@@ -7,7 +7,7 @@ angular.module('app.login')
     .controller('loginCtrl', ['loginService', 'alertService', '$scope', '$rootScope', '$sce', '$state', function (loginService, alertService, $scope, $rootScope, $sce, $state) {
         'use strict';
 
-        if (localStorage.getItem('username')) {
+        if (window.localStorage.getItem('user')) {
             $state.go('main.home');
         }
 

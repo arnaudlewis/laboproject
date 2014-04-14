@@ -7,13 +7,8 @@ angular.module('app.login', ['angular-md5'])
         'use strict';
 
         function write(data) {
-            window.localStorage.firstname = data.firstname;
-            window.localStorage.lastname = data.lastname;
-            window.localStorage.username = data.username;
-            window.localStorage.email = data.email;
-            window.localStorage.birthdate = data.birthdate;
-            window.localStorage.creationDate = data.creationDate;
-            window.localStorage.id_user = data.id_user;
+            window.localStorage.user = JSON.stringify(data);
+
         }
 
         function loginRequestServer(username, password) {

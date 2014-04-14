@@ -4,18 +4,19 @@
 
 angular.module('app.menu', [])
 
-    .service('menuService', ['$state', function ($state) {
+    .service('menuService', ['$state', '$rootScope', function ($state, $rootScope) {
         'use strict';
 
         var menu;
 
         function disconnection() {
-            cleanStorage();
+            cleanUserData();
             $state.go('login');
         }
 
 
-        function cleanStorage() {
+        function cleanUserData() {
+            $rootScope.currentUser = null;
             window.localStorage.clear();
 
         }

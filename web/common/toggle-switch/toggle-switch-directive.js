@@ -33,6 +33,6 @@ angular.module('app.toggle-switch', ['ng'])
                 if (!attrs.disabled) {
                     attrs.disabled = false;
                 }
-            },
+            }
         };
     });
