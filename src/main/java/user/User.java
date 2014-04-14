@@ -28,7 +28,7 @@ public class User implements Serializable {
     private Date birthdate;
     @Temporal(TemporalType.DATE)
     private Date creationDate;
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "driver")
     private Collection<Travel> travels;
 
     //données relatives au profil
@@ -157,11 +157,4 @@ public class User implements Serializable {
         this.moreInfo = moreInfo;
     }
 
-    public Collection<Travel> getTravels() {
-        return travels;
-    }
-
-    public void setTravels(Collection<Travel> travels) {
-        this.travels = travels;
-    }
 }

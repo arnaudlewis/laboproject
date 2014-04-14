@@ -29,6 +29,19 @@ public class LoginResponseDTO {
     @XmlElement(name = "creationDate")
     @Temporal(TemporalType.DATE)
     private Date creationDate;
+    @XmlElement(name = "music")
+    private String music;
+    @XmlElement(name = "sex")
+    private boolean sex; // TRUE female, FALSE male
+    @XmlElement(name = "hobby")
+    private String hobby;
+    @XmlElement(name = "animal")
+    private boolean animal;
+    @XmlElement(name = "smoke")
+    private boolean smoke;
+    @XmlElement(name = "moreInfo")
+    private String moreInfo;
+
 
     public LoginResponseDTO() {
     }
@@ -88,4 +101,53 @@ public class LoginResponseDTO {
     public void setId_user(int id_user) {
         this.id_user = id_user;
     }
+
+    public String getMusic() {
+        return music;
+    }
+
+    public void setMusic(String music) {
+        this.music = music;
+    }
+
+    public boolean isSex() {
+        return sex;
+    }
+
+    public void setSex(boolean sex) {
+        this.sex = sex;
+    }
+
+    public String getHobby() {
+        return hobby;
+    }
+
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
+    }
+
+    public boolean isAnimal() {
+        return animal;
+    }
+
+    public void setAnimal(boolean animal) {
+        this.animal = animal;
+    }
+
+    public boolean isSmoke() {
+        return smoke;
+    }
+
+    public void setSmoke(boolean smoke) {
+        this.smoke = smoke;
+    }
+
+    public String getMoreInfo() {
+        return moreInfo;
+    }
+
+    public void setMoreInfo(String moreInfo) {
+        this.moreInfo = moreInfo;
+    }
+
 }
