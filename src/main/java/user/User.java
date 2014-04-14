@@ -1,7 +1,10 @@
 package user;
 
+import travel.Travel;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.Date;
 
 /**
@@ -25,6 +28,8 @@ public class User implements Serializable {
     private Date birthdate;
     @Temporal(TemporalType.DATE)
     private Date creationDate;
+    @OneToMany(mappedBy = "user")
+    private Collection<Travel> travels;
 
     //données relatives au profil
     private boolean sex; // TRUE female, FALSE male
@@ -152,4 +157,11 @@ public class User implements Serializable {
         this.moreInfo = moreInfo;
     }
 
+    public Collection<Travel> getTravels() {
+        return travels;
+    }
+
+    public void setTravels(Collection<Travel> travels) {
+        this.travels = travels;
+    }
 }

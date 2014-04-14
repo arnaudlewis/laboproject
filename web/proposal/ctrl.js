@@ -1,26 +1,18 @@
 /*global angular */
 /*global console*/
+/*global $ */
 
 angular.module('app.proposal')
-    .controller('proposalCtrl', function ($scope, autocompleteService, proposalService, alertService, $timeout, $state) {
+    .controller('proposalCtrl', function ($scope, proposalService, alertService, $timeout, $state, $rootScope) {
         'use strict';
 
         $scope.submit = function () {
-            console.log("Le module de proposition vient d etre execute");
-            proposalService.proposeTravel($scope.departure, $scope.arrival, $scope.travelDate);
+            if ($scope.arrival && $scope.departure && $scope.travelDate) {
+                proposalService.proposeTravel($scope.departure, $scope.arrival, $scope.travelDate);
+            } else {
+                alertService.showAlert($rootScope.translation.proposal_WARNING_VALIDATION);
+            }
         };
-
-        $scope.departure = $scope.arrival = {name_city: '____'};
-
-        $scope.$on('departureCitySelected', function (event, city) {
-            $scope.departure = city;
-            $scope.formValidation();
-        });
-
-        $scope.$on('arrivalCitySelected', function (event, city) {
-            $scope.arrival = city;
-            $scope.formValidation();
-        });
 
         $scope.$on('travelProposalSUCCESS', function (event) {
             alertService.showSuccess('Travel Proposal SUCCESS');
@@ -33,19 +25,5 @@ angular.module('app.proposal')
         $scope.$on('travelProposalFAILED', function (event) {
             alertService.showError('Travel Proposal FAILED');
         });
-
-        $scope.formValidation = function () {
-            var btnProposal = $('#btn-proposal');
-
-            if ($scope.arrival !== null && $scope.departure !== null || $scope.travelDate) {
-                btnProposal.removeAttr('disabled');
-                btnProposal.removeClass('disabled');
-            } else {
-                btnProposal.prop('disabled', true);
-                btnProposal.addClass('disabled');
-            }
-        };
-        //$scope.departure = $scope.arrival = null;
-
 
     });

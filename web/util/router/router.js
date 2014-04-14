@@ -8,7 +8,12 @@ angular.module('app.router', ['ui.router'])
         $stateProvider
             .state('main', {
                 abstract: true,
-                url: "/main"
+                url: "/main",
+                views: {
+                    "menuView@": {
+                        templateUrl: "common/menu/menu.html"
+                    }
+                }
             })
             .state('login', {
                 url: "/login",
@@ -23,11 +28,9 @@ angular.module('app.router', ['ui.router'])
                 views: {
                     "mainView@": {
                         templateUrl: "home/index.html"
-                    }, "headerView@": {
-                        templateUrl: "home/header.html"
                     },
-                    "menuView@": {
-                        templateUrl: "common/menu/menu.html"
+                    "headerView@": {
+                        templateUrl: "home/header.html"
                     }
                 }
             })
@@ -39,9 +42,6 @@ angular.module('app.router', ['ui.router'])
                     },
                     "headerView@": {
                         templateUrl: "search/header.html"
-                    },
-                    "menuView@": {
-                        templateUrl: "common/menu/menu.html"
                     }
                 }
             })
@@ -53,9 +53,6 @@ angular.module('app.router', ['ui.router'])
                     },
                     "headerView@": {
                         templateUrl: "proposal/header.html"
-                    },
-                    "menuView@": {
-                        templateUrl: "common/menu/menu.html"
                     }
                 }
             })
@@ -67,9 +64,6 @@ angular.module('app.router', ['ui.router'])
                     },
                     "headerView@": {
                         templateUrl: "profile/header.html"
-                    },
-                    "menuView@": {
-                        templateUrl: "common/menu/menu.html"
                     }
                 }
             })
@@ -90,9 +84,6 @@ angular.module('app.router', ['ui.router'])
                     },
                     "headerView@": {
                         templateUrl: "signin/header.html"
-                    },
-                    "menuView@": {
-                        templateUrl: "common/menu/menu.html"
                     }
                 }
             });

@@ -3,6 +3,7 @@
     "CANCEL": "Annuler",
     "DEPARTURE": "Départ: ",
     "ARRIVAL": "Arrivée: ",
+    "SELECT": "Selectionner",
 
     "autocomplete_NORESULTS": "Aucun résultat trouvé",
 
@@ -49,6 +50,7 @@
     "duplicate_USERNAME": "Identifiant existant",
     "duplicate_EMAIL": "E-mail existant",
 
-    "proposal_TITLE": "Proposer un trajet"
+    "proposal_TITLE": "Proposer un trajet",
+    "proposal_WARNING_VALIDATION": "Vous devez remplir tous les champs du formulaire pour effectuer votre recherche"
 
 }
