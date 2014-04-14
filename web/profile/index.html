@@ -20,10 +20,16 @@
     </div>
 
     <div id="preferences" class="page">
-        <span><input type="text" name="hobby" ng-keyup="formValidation()" ng-model="user.hobby"
-                     placeholder="{{translation.profile_HOBBY}}"/></span>
-        <span><input type="text" name="music" ng-keyup="formValidation()" ng-model="user.music"
-                     placeholder="{{translation.profile_MUSIC}}"/></span>
+        <span>
+             <label>Hobbies</label>
+            <input type="text" name="hobby" ng-keyup="formValidation()" ng-model="user.hobby"
+                   placeholder="{{translation.profile_HOBBY}}"/>
+        </span>
+        <span>
+             <label>Style Musical</label>
+            <input type="text" name="music" ng-keyup="formValidation()" ng-model="user.music"
+                   placeholder="{{translation.profile_MUSIC}}"/>
+        </span>
         <span>
          <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="user.animal"></toggle-switch>
         </span>
