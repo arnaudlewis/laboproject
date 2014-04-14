@@ -4,12 +4,12 @@
         <div id="proposal" ui-sref="main.proposal">
             <span ng-bind-html="proposalIcon"></span>
 
-            <p>proposer</p>
+            <p>{{translation.home_PROPOSAL}}</p>
         </div>
         <div id="search" ui-sref="main.search">
             <span ng-bind-html="searchIcon"></span>
 
-            <p>rechercher</p>
+            <p>{{translation.home_SEARCH}}</p>
         </div>
     </div>
 
@@ -17,17 +17,17 @@
         <div id="profile" ui-sref="main.profile">
             <span ng-bind-html="profileIcon"></span>
 
-            <p>profil</p>
+            <p>{{translation.home_PROFILE}}</p>
         </div>
         <div id="history">
             <span ng-bind-html="historyIcon"></span>
 
-            <p>historique</p>
+            <p>{{translation.home_HISTORY}}</p>
         </div>
         <div id="exit" ng-click="disconnect()">
             <span ng-bind-html="exitIcon"></span>
 
-            <p>deconnexion</p>
+            <p>{{translation.home_DISCONNECT}}</p>
         </div>
     </div>
 
