@@ -37,6 +37,7 @@
 
     "search_TITLE": "Rechercher",
     "search_DATE_TITLE": "Date du trajet",
+    "search_NO_RESULT": "Aucun trajet ne correspond à vos critères",
 
     "travel_DEPARTURE": "Depart",
     "travel_ARRIVAL": "Arrivée",

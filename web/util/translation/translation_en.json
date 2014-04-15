@@ -26,6 +26,8 @@
     "home_SEARCH": "Search",
     "home_PROPOSAL": "Proposal",
 
+    "search_NO_RESULT": "Any travel correspond to your criterias",
+
     "user_FIRSTNAME": "Firstname",
     "user_LASTNAME": "Lastname",
     "user_BIRTHDAY": "Birthday",
