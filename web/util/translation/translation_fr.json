@@ -46,9 +46,9 @@
     "travel_ARRIVAL": "arrivée",
     "travel_JOURNEY_DATE": "date du voyage",
     "travel_SEARCH_FAILED": "Echec de la requête de recherche de trajet",
-    "travel_SEARCH_SUCCESS": "Envoi de la recherche réussie",
+    "travel_SEARCH_SUCCESS": "Envoi de la recherche réussi",
     "travel_PROPOSAL_FAILED": "Echec de la proposition de trajet",
-    "travel_PROPOSAL_SUCCESS": "Envoi de la proposition de trajet réussie",
+    "travel_PROPOSAL_SUCCESS": "Envoi de la proposition de trajet réussi",
 
     "profile_HOBBY": "centres d'intêret",
     "profile_MUSIC": "musiques",
