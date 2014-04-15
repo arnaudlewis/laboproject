@@ -10,6 +10,7 @@
     "autocomplete_NORESULTS": "Aucun résultat trouvé",
 
     "login_SIGNIN": "S'inscrire",
+    "login_FAILURE": "Echec lors de l'authentification",
 
     "signin_TITLE": "Inscription",
     "signin_PERSONAL": "Informations personnelles",
@@ -37,23 +38,29 @@
     "search_TITLE": "Rechercher",
     "search_DATE_TITLE": "Date du trajet",
 
-    "travel_DEPARTURE": "depart",
-    "travel_ARRIVAL": "arrivée",
-    "travel_JOURNEY_DATE": "date du voyage",
+    "travel_DEPARTURE": "Depart",
+    "travel_ARRIVAL": "Arrivée",
+    "travel_JOURNEY_DATE": "Date du voyage",
 
-    "profile_HOBBY": "centres d'intêret",
-    "profile_MUSIC": "musiques",
+    "profile_HOBBY": "Hobbies",
+    "profile_MUSIC": "Musiques",
     "profile_TITLE": "Profil",
-    "profile_DESCRIPTION": "votre description",
+    "profile_DESCRIPTION": "Votre description",
     "profile_SMOKER": "Fumeur",
     "profile_ANIMAL": "Animal",
     "profile_CONDITIONS": "Conditions de voyage",
+    "profile_WITH_MUSIC": "Musique à bord",
+    "profile_UPDATE_FAILED": "Echec de la mise à jour du profil",
+    "profile_UPDATE_SUCCESS": "Votre profil a bien été mis à jour",
 
     "duplicate_USERNAME_EMAIL": "Identifiant et e-mail existant",
     "duplicate_USERNAME": "Identifiant existant",
     "duplicate_EMAIL": "E-mail existant",
 
     "proposal_TITLE": "Proposer un trajet",
+    "proposal_PASSENGERS": "Passagers",
+    "proposal_TRAVEL_FAILED": "La création du trajet a échoué",
+    "proposal_TRAVEL_SUCCESS": "Le trajet est maintenant disponible pour nos utilisateurs",
 
     "result_TITLE": "Trajets disponibles"
 }

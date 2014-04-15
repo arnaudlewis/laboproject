@@ -9,6 +9,8 @@ angular.module('app.profile', ['app.toggle-switch'])
         function createProfile(user) {
             user.driverPreferences.animal = user.driverPreferences.animal ? 1 : 0;
             user.driverPreferences.smoke = user.driverPreferences.smoke ? 1 : 0;
+            user.driverPreferences.withMusic = user.driverPreferences.withMusic ? 1 : 0;
+
             $http({
                 method: 'POST',
                 url: 'rest/user/profile',
@@ -20,7 +22,6 @@ angular.module('app.profile', ['app.toggle-switch'])
 
                 })
                 .error(function (status) {
-                    console.log("Profile creation FAILED");
                     $rootScope.$broadcast('profileUpdateFAILED');
                 });
 

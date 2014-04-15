@@ -11,6 +11,7 @@
     "autocomplete_NORESULTS": "No results found",
 
     "login_SIGNIN": "Sign up",
+    "login_FAILURE": "Authentication failed",
 
     "signin_TITLE": "Sign Up",
     "signin_PERSONAL": "Personal informations",
@@ -37,23 +38,29 @@
     "search_TITLE": "Search",
     "search_DATE_TITLE": "Travel Date",
 
-    "travel_DEPARTURE": "departure",
-    "travel_ARRIVAL": "arrival",
+    "travel_DEPARTURE": "Departure",
+    "travel_ARRIVAL": "Arrival",
     "travel_JOURNEY_DATE": "journey-date",
 
-    "profile_HOBBY": "hobbies",
-    "profile_MUSIC": "music",
+    "profile_HOBBY": "Hobbies",
+    "profile_MUSIC": "Music",
     "profile_TITLE": "Profile",
     "profile_DESCRIPTION": "Tell us more about you",
     "profile_SMOKER": "Smoker",
     "profile_ANIMAL": "Animal",
     "profile_CONDITIONS": "Travel Conditions",
+    "profile_WITH_MUSIC": "Music onboard",
+    "profile_UPDATE_FAILED": "Update failed",
+    "profile_UPDATE_SUCCESS": "Your profile has just been updated",
 
     "duplicate_USERNAME_EMAIL": "Username and e-mail already exist",
     "duplicate_USERNAME": "Username already exist",
     "duplicate_EMAIL": "E-mail already exist",
 
     "proposal_TITLE": "Travel proposal",
+    "proposal_PASSENGERS": "Available seat",
+    "proposal_TRAVEL_FAILED": "Creation of your travel failed",
+    "proposal_TRAVEL_SUCCESS": "Your travel is now available for our users",
 
     "result_TITLE": "Travels available"
 

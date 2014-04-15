@@ -14,6 +14,8 @@ public class Preference implements Serializable {
     private int animal;
     @Column(name = "smoke", nullable = true)
     private int smoke;
+    @Column(name = "withMusic", nullable = true)
+    private int withMusic;
 
 
     public Preference() {
@@ -41,5 +43,13 @@ public class Preference implements Serializable {
 
     public void setId_preference(int id_preference) {
         this.id_preference = id_preference;
+    }
+
+    public int getWithMusic() {
+        return withMusic;
+    }
+
+    public void setWithMusic(int withMusic) {
+        this.withMusic = withMusic;
     }
 }

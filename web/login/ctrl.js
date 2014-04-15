@@ -32,7 +32,7 @@ angular.module('app.login')
         };
 
         $scope.$on('loginFailed', function (event) {
-            alertService.showAlert('Echec de login');
+            alertService.showAlert($rootScope.translation.login_FAILURE);
         });
 
         $scope.$on('loggedUser', function (event) {

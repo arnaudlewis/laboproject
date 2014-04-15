@@ -10,13 +10,24 @@
 
         <price ng-model="travel.price" label="{{ translation.PRICE }}"></price>
 
+        <div class="passenger">
+            <div class="designation">
+                <label>{{ translation.proposal_PASSENGERS }}</label>
+            </div>
+
+            <div class="value">
+                <span ng-bind-html="iconPassenger"></span><input class="field" ng-model="travel.nbPassenger"/>
+            </div>
+        </div>
+
     </div>
 
     <div class="parameters page">
+
         <h1>{{translation.profile_CONDITIONS}}</h1>
 
         <span>
-            <label>{{translation.profile_MUSIC}}</label><div class="readable">{{ user.music }}</div>
+         <label>{{translation.profile_WITH_MUSIC}}</label><toggle-switch model="preference.withMusic"></toggle-switch>
         </span>
         <span>
          <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="preference.animal"></toggle-switch>
@@ -24,10 +35,8 @@
         <span>
         <label>{{translation.profile_SMOKER}}</label><toggle-switch model="preference.smoke"></toggle-switch>
         </span>
-
         <button class="btn-validation" ng-click="submit()" id="btn-proposal" type="submit">
             {{translation.VALIDATE}}
         </button>
-
     </div>
 </div>

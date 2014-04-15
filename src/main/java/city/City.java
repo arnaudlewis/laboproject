@@ -17,14 +17,14 @@ public class City implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id_city;
     private String name_city;
-    private int latitude;
-    private int longitude;
+    private Long latitude;
+    private Long longitude;
 
 
     public City() {
     }
 
-    public City(String name_city, int latitude, int longitude, int id_city) {
+    public City(String name_city, Long latitude, Long longitude, int id_city) {
         this.id_city = id_city;
         this.name_city = name_city;
         this.latitude = latitude;
@@ -47,19 +47,19 @@ public class City implements Serializable {
         this.name_city = name_city;
     }
 
-    public int getLatitude() {
+    public Long getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(int latitude) {
+    public void setLatitude(Long latitude) {
         this.latitude = latitude;
     }
 
-    public int getLongitude() {
+    public Long getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(int longitude) {
+    public void setLongitude(Long longitude) {
         this.longitude = longitude;
     }
 }

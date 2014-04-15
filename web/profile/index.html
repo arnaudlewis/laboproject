@@ -30,6 +30,12 @@
             <input type="text" name="music" ng-keyup="formValidation()" ng-model="user.music"
                    placeholder="{{translation.profile_MUSIC}}"/>
         </span>
+
+        <span>
+        <label>{{translation.profile_WITH_MUSIC}}</label><toggle-switch
+                model="user.driverPreferences.withMusic"></toggle-switch>
+        </span>
+
         <span>
          <label>{{translation.profile_ANIMAL}}</label><toggle-switch
                 model="user.driverPreferences.animal"></toggle-switch>

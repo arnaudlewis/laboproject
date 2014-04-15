@@ -15,6 +15,7 @@ angular.module('app.signin')
             $scope.preference = {};
             $scope.preference.animal = false;
             $scope.preference.smoke = false;
+            $scope.preference.withMusic = false;
 
             $scope.iconMale = $sce.trustAsHtml($rootScope.icon.MALE);
             $scope.iconFemale = $sce.trustAsHtml($rootScope.icon.FEMALE);

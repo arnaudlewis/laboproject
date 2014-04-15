@@ -7,6 +7,7 @@ import user.User;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.sql.Time;
 import java.util.Date;
 import java.util.List;
 
@@ -32,6 +33,8 @@ public class Travel implements Serializable {
     private User driver;
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private Preference preferences;
+    private int nbPassenger;
+    private Time travelTime;
 
     public Travel() {
 
@@ -109,5 +112,21 @@ public class Travel implements Serializable {
 
     public void setPreferences(Preference preferences) {
         this.preferences = preferences;
+    }
+
+    public int getNgPassenger() {
+        return nbPassenger;
+    }
+
+    public void setNbPassenger(int nbPassenger) {
+        this.nbPassenger = nbPassenger;
+    }
+
+    public Time getTravelTime() {
+        return travelTime;
+    }
+
+    public void setTravelTime(Time travelTime) {
+        this.travelTime = travelTime;
     }
 }

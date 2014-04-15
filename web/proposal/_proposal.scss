@@ -3,9 +3,38 @@
 
 #proposal {
   width: 100%;
-
   .page {
     margin-bottom: 1em;
+  }
+
+  .passenger {
+    text-align: left;
+    @include displayFlex;
+
+    > .designation {
+      @include flex(1);
+      > label {
+        margin: 1em 1em 1em 0;
+
+      }
+    }
+
+    > .value {
+      text-align: right;
+      @include flex(1);
+      > input {
+        width: 6em;
+        margin-left: 0.7em;
+      }
+      > span {
+        svg {
+          line-height: 3em;
+          width: 2em;
+          height: 2em;
+          display: inline;
+        }
+      }
+    }
   }
 
   > .parameters {

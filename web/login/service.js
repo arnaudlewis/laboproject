@@ -18,7 +18,7 @@ angular.module('app.login', ['angular-md5'])
             })
                 .success(function (data) {
                     $rootScope.connect = data.connect;
-                    if (data !== null) {
+                    if (typeof data === 'object' && data.username) {
                         write(data);
                         $rootScope.$broadcast('loggedUser');
                     } else {

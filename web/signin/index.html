@@ -1,6 +1,7 @@
 <div id="signin" ng-controller="signinCtrl">
 
     <div class="personal page">
+
         <h1>{{ translation.signin_PERSONAL }}<span style="color:red">*</span></h1>
 
         <!--true pour femme -->
@@ -13,15 +14,16 @@
         </div>
 
         <input type="text" ng-model="user.firstname" ng-keyup="formValidation()"
-               placeholder="{{translation.user_FIRSTNAME}}"/></br>
+               placeholder="{{translation.user_FIRSTNAME}}"/>
         <input type="text" ng-model="user.lastname" ng-keyup="formValidation()"
-               placeholder="{{translation.user_LASTNAME}}"/></br>
+               placeholder="{{translation.user_LASTNAME}}"/>
         <input id="email" type="text" ng-model="user.email" ng-keyup="formValidation()"
-               placeholder="{{translation.user_EMAIL}}"/></br>
-        <date free="true" ng-model="birthday"></date>
+               placeholder="{{translation.user_EMAIL}}"/>
+        <date free="true" ng-model="user.birthdate"></date>
     </div>
 
     <div class="connection page">
+
         <h1>{{ translation.signin_CONNECTION }}<span style="color:red">*</span></h1>
 
         <input id="username" type="text" ng-model="user.username" ng-keyup="formValidation()"
@@ -31,15 +33,23 @@
     </div>
 
     <div class="driver page">
+
         <h1>{{ translation.signin_DRIVER }}</h1>
+
         <span>
             <input type="text" name="hobby" ng-keyup="formValidation()" ng-model="user.hobby"
                    placeholder="{{translation.profile_HOBBY}}"/>
         </span>
+
         <span>
             <input type="text" name="music" ng-keyup="formValidation()" ng-model="user.music"
                    placeholder="{{translation.profile_MUSIC}}"/>
         </span>
+
+        <span>
+        <label>{{translation.profile_WITH_MUSIC}}</label><toggle-switch model="preference.withMusic"></toggle-switch>
+        </span>
+
         <span>
          <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="preference.animal"></toggle-switch>
         </span>

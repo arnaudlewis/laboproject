@@ -9,6 +9,7 @@ angular.module('app.proposal', [])
         function propose(travel, preference, user) {
             preference.animal = preference.animal ? 1 : 0;
             preference.smoke = preference.smoke ? 1 : 0;
+            preference.withMusic = preference.withMusic ? 1 : 0;
             $http({
                 method: 'POST',
                 url: 'rest/travel/propose',

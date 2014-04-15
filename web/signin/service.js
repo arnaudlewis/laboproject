@@ -10,6 +10,7 @@ angular.module('app.signin', ['angular-md5', 'app.header'])
             user.password = md5.createHash(user.password);
             preference.animal = preference.animal ? 1 : 0;
             preference.smoke = preference.smoke ? 1 : 0;
+            preference.withMusic = preference.withMusic ? 1 : 0;
             $http({
                 method: 'POST',
                 url: 'rest/user/signin',

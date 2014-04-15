@@ -4,12 +4,14 @@
 /*global window */
 
 angular.module('app.proposal')
-    .controller('proposalCtrl', function ($scope, proposalService, alertService, $timeout, $state, $rootScope) {
+    .controller('proposalCtrl', function ($scope, proposalService, alertService, $timeout, $state, $rootScope, $sce) {
         'use strict';
 
         function initProposal() {
+            $scope.travel = {nbPassenger: 3};
             $scope.user = JSON.parse(window.localStorage.user);
-            $scope.preference = { animal: $scope.user.driverPreferences.animal, smoke: $scope.user.driverPreferences.smoke};
+            $scope.preference = { animal: $scope.user.driverPreferences.animal, smoke: $scope.user.driverPreferences.smoke, withMusic: $scope.user.driverPreferences.withMusic};
+            $scope.iconPassenger = $sce.trustAsHtml($rootScope.icon.PASSENGERS);
         }
 
         initProposal();
@@ -17,6 +19,9 @@ angular.module('app.proposal')
         $scope.submit = function () {
             if ($scope.travel.price.length === 0) {
                 $scope.travel.price = 0;
+            }
+            if ($scope.travel.nbPassenger.length === 0) {
+                $scope.travel.nbPassenger = 3;
             }
             if ($scope.travel.arrival && $scope.travel.departure && $scope.travel.travelDate) {
                 proposalService.proposeTravel($scope.travel, $scope.preference, $scope.user);
@@ -26,7 +31,7 @@ angular.module('app.proposal')
         };
 
         $scope.$on('travelProposalSUCCESS', function (event) {
-            alertService.showSuccess('Travel Proposal SUCCESS');
+            alertService.showSuccess($rootScope.translation.proposal_TRAVEL_SUCCESS);
 
             $timeout(function () {
                 $state.go('main.home');
@@ -34,7 +39,7 @@ angular.module('app.proposal')
         });
 
         $scope.$on('travelProposalFAILED', function (event) {
-            alertService.showError('Travel Proposal FAILED');
+            alertService.showError(rootScope.translation.proposal_TRAVEL_FAILED);
         });
 
     });

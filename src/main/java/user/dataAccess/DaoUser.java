@@ -205,6 +205,7 @@ public class DaoUser extends Dao<User> {
     public User authentication(String username, String password) {
         EntityManager em = getEntityManagerFactory().createEntityManager();
         EntityTransaction t = em.getTransaction();
+        User loggedUser;
 
         try {
             t.begin();
@@ -212,11 +213,11 @@ public class DaoUser extends Dao<User> {
             TypedQuery<User> query = em.createQuery(sql, User.class);
             query.setParameter("username", username);
             query.setParameter("password", password);
-            return query.getSingleResult();
+            loggedUser = query.getSingleResult();
 
         } catch (Exception e) {
             e.printStackTrace();
-            return null;
+            loggedUser = null;
 
         } finally {
             if (t.isActive()) {
@@ -224,5 +225,6 @@ public class DaoUser extends Dao<User> {
                 em.close();
             }
         }
+        return loggedUser;
     }
 }
