@@ -53,5 +53,7 @@
     "duplicate_USERNAME": "Identifiant existant",
     "duplicate_EMAIL": "E-mail existant",
 
-    "proposal_TITLE": "Proposer un trajet"
+    "proposal_TITLE": "Proposer un trajet",
+
+    "result_TITLE": "Trajets disponibles"
 }

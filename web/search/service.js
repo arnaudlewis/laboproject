@@ -16,7 +16,6 @@ angular.module('app.search', ['app.autocomplete'])
                     console.log('envoi de la recherche SUCCESS');
                     console.log(data.searchResultsList);
                     $rootScope.$broadcast('searchList', data);
-                    //$rootScope.searchList = data.searchResultsList;
                 })
                 .error(function (status) {
                     console.log('envoi de la recherche FAILED');

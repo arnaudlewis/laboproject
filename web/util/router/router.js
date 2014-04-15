@@ -45,6 +45,19 @@ angular.module('app.router', ['ui.router'])
                     }
                 }
             })
+
+            .state('main.search.result', {
+                url: "/result",
+                views: {
+                    "headerView@": {
+                        templateUrl: "result/header.html"
+                    },
+                    "resultView@main.search": {
+                        templateUrl: "result/index.html"
+                    }
+                }
+            })
+
             .state('main.proposal', {
                 url: "/proposal",
                 views: {

@@ -3,13 +3,18 @@
 
 angular.module('app.search')
 
-    .controller('searchCtrl', function ($scope, searchService, $rootScope, alertService) {
+    .controller('searchCtrl', function ($scope, searchService, $rootScope, alertService, $state) {
         'use strict';
         console.log('Le module de recherche vient d execute');
         $scope.list = [];
 
-        $rootScope.$on('searchList', function (data) {
+        $rootScope.$on('searchList', function (event, data) {
             $scope.list = data;
+            if ($scope.list.length === 0) {
+                alertService.showAlert("Aucun trajet n'est disponible selon vos criteres");
+            } else {
+                $state.go('main.search.result');
+            }
         });
 
         $scope.submit = function () {

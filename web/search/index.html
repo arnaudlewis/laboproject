@@ -3,9 +3,12 @@
 
         <autocomplete ng-model="departure" icon="{{ icon.FLAG_START }}"
                       label="{{ translation.DEPARTURE }}"></autocomplete>
-        <autocomplete ng-model="arrival" icon="{{ icon.FLAG_END }}" label="{{ translation.ARRIVAL }}"></autocomplete>
+        <autocomplete ng-model="arrival" icon="{{ icon.FLAG_END }}"
+                      label="{{ translation.ARRIVAL }}"></autocomplete>
 
         <date ng-model="travelDate"></date>
         <button class="btn-validation" type="submit">{{translation.VALIDATE}}</button>
     </form>
 </div>
+
+<div ui-view="resultView"></div>

@@ -407,6 +407,20 @@ body > #sb-site {
     background: linear-gradient(to bottom, #00b060, #cadab7);
 }
 
+body .nested-view {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 4em 1em 1em 1em;
+    background: -webkit-linear-gradient(top, #00b060, #cadab7);
+    background: -moz-linear-gradient(top, #00b060, #cadab7);
+    background: -ms-linear-gradient(top, #00b060, #cadab7);
+    background: -o-linear-gradient(top, #00b060, #cadab7);
+    background: linear-gradient(to bottom, #00b060, #cadab7);
+}
+
 body h1 {
     font-size: 1.1em;
     font-weight: 500;
@@ -421,6 +435,7 @@ body header {
     background-color: #009060;
     color: white;
     position: absolute;
+    z-index: 1;
 }
 
 body footer {
@@ -894,7 +909,6 @@ header > #title {
     height: 20em;
     margin-top: -10em;
     position: absolute;
-    left: 0;
 }
 
 #login > #title-login {
@@ -1340,7 +1354,6 @@ body > #sb-site {
 }
 
 body > #sb-site > #main-view {
-    padding: 1em;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
     -webkit-box-flex: 1;
@@ -1371,6 +1384,17 @@ body > #sb-site > #main-view {
     -ms-box-orient: column;
     flex-direction: column;
     box-orient: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 4em 1em 1em 1em;
+    background: -webkit-linear-gradient(top, #00b060, #cadab7);
+    background: -moz-linear-gradient(top, #00b060, #cadab7);
+    background: -ms-linear-gradient(top, #00b060, #cadab7);
+    background: -o-linear-gradient(top, #00b060, #cadab7);
+    background: linear-gradient(to bottom, #00b060, #cadab7);
 }
 
 body > #sb-site > #header-view {

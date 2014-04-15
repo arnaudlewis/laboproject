@@ -53,6 +53,8 @@
     "duplicate_USERNAME": "Username already exist",
     "duplicate_EMAIL": "E-mail already exist",
 
-    "proposal_TITLE": "Travel proposal"
+    "proposal_TITLE": "Travel proposal",
+
+    "result_TITLE": "Travels available"
 
 }
