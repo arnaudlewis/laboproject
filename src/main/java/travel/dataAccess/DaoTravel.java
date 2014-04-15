@@ -137,10 +137,11 @@ public class DaoTravel extends Dao<Travel> {
         List<Travel> resultList;
         try {
             t.begin();
-            String sql = "SELECT e FROM Travel e WHERE e.departure.id_city = :id_departure AND e.arrival.id_city= :id_arrival";
-            TypedQuery<Travel> requete = em.createNamedQuery(sql, Travel.class);
+            String sql = "SELECT e FROM Travel e WHERE e.departure.id_city = :id_departure AND e.arrival.id_city= :id_arrival  AND e.travelDate = :travelDate";
+            TypedQuery<Travel> requete = em.createQuery(sql, Travel.class);
             requete.setParameter("id_departure", departure.getId_city());
             requete.setParameter("id_arrival", arrival.getId_city());
+            requete.setParameter("travelDate", travelDate);
             resultList = requete.getResultList();
             t.commit();
         } catch (Exception e) {
