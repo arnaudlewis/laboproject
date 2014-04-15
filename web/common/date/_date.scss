@@ -1,3 +1,10 @@
+@import "../mixin";
+
+date {
+  @include displayFlex;
+}
+
 .date-selector {
   width: 100%;
+  @include flex(1);
 }

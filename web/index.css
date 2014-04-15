@@ -669,8 +669,31 @@ body .page > * {
     box-flex: 1;
 }
 
+date {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: -moz-flex;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: box;
+    display: flexbox;
+    display: flex;
+}
+
 .date-selector {
     width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
 }
 
 .price {
