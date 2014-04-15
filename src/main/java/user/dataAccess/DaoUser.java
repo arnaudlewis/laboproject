@@ -199,7 +199,7 @@ public class DaoUser extends Dao<User> {
 
             }
         }
-        return userList.size() > 0;
+        return userList != null && userList.size() > 0;
     }
 
     public User authentication(String username, String password) {

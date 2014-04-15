@@ -17,11 +17,13 @@ public class DaoCity extends Dao<City> {
 
     private final int LIMIT = 8;
 
-    private DaoCity() {}
+    private DaoCity() {
+    }
 
     public static DaoCity getInstance() {
         return instance;
     }
+
     @Override
     public int insert(City obj) {
         EntityManager em = getEntityManagerFactory().createEntityManager();
@@ -48,12 +50,40 @@ public class DaoCity extends Dao<City> {
 
     @Override
     public void update(City obj) {
+        EntityManager em = getEntityManagerFactory().createEntityManager();
+        EntityTransaction t = em.getTransaction();
 
+        try {
+            t.begin();
+            em.merge(obj);
+            t.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (t.isActive()) {
+                t.rollback();
+                em.close();
+            }
+        }
     }
 
     @Override
     public void delete(City obj) {
+        EntityManager em = getEntityManagerFactory().createEntityManager();
+        EntityTransaction t = em.getTransaction();
 
+        try {
+            t.begin();
+            em.remove(obj);
+            t.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (t.isActive()) {
+                t.rollback();
+                em.close();
+            }
+        }
     }
 
     @Override

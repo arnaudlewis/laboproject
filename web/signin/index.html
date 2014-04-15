@@ -1,45 +1,57 @@
 <div id="signin" ng-controller="signinCtrl">
 
     <div class="personal page">
-        <h1>{{ translation.signin_PERSONAL }}</h1>
+        <h1>{{ translation.signin_PERSONAL }}<span style="color:red">*</span></h1>
 
+        <!--true pour femme -->
+        <div class="container-sex">
+            <label>Sexe</label>
          <span class="sex">
-            <label>{{translation.user_FEMALE}}</label>
-             <span><toggle-switch model="sex"></toggle-switch></span>
-             <label>{{translation.user_MALE}}</label>
+             <span class="male active" ng-click="selectSex(false)" ng-bind-html="iconMale"></span>
+             <span class="female" ng-click="selectSex(true)" ng-bind-html="iconFemale"></span>
         </span>
+        </div>
 
-        <input type="text" ng-model="firstname" ng-keyup="formValidation()"
+        <input type="text" ng-model="user.firstname" ng-keyup="formValidation()"
                placeholder="{{translation.user_FIRSTNAME}}"/></br>
-        <input type="text" ng-model="lastname" ng-keyup="formValidation()"
+        <input type="text" ng-model="user.lastname" ng-keyup="formValidation()"
                placeholder="{{translation.user_LASTNAME}}"/></br>
-        <input id="email" type="text" ng-model="email" ng-keyup="formValidation()"
+        <input id="email" type="text" ng-model="user.email" ng-keyup="formValidation()"
                placeholder="{{translation.user_EMAIL}}"/></br>
         <date free="true" ng-model="birthday"></date>
     </div>
 
     <div class="connection page">
-        <h1>{{ translation.signin_CONNECTION }}</h1>
+        <h1>{{ translation.signin_CONNECTION }}<span style="color:red">*</span></h1>
 
-        <input id="username" type="text" ng-model="username" ng-keyup="formValidation()"
+        <input id="username" type="text" ng-model="user.username" ng-keyup="formValidation()"
                placeholder="{{translation.user_USERNAME}}"/>
-        <input type="password" ng-model="password" ng-keyup="formValidation()"
+        <input type="password" ng-model="user.password" ng-keyup="formValidation()"
                placeholder="{{translation.user_PASSWORD}}"/>
     </div>
 
     <div class="driver page">
         <h1>{{ translation.signin_DRIVER }}</h1>
+        <span>
+            <input type="text" name="hobby" ng-keyup="formValidation()" ng-model="user.hobby"
+                   placeholder="{{translation.profile_HOBBY}}"/>
+        </span>
+        <span>
+            <input type="text" name="music" ng-keyup="formValidation()" ng-model="user.music"
+                   placeholder="{{translation.profile_MUSIC}}"/>
+        </span>
+        <span>
+         <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="preference.animal"></toggle-switch>
+        </span>
+        <span>
+        <label>{{translation.profile_SMOKER}}</label><toggle-switch model="preference.smoke"></toggle-switch>
+        </span>
 
+
+        <button class="btn-validation disabled" id="btn-signup" disabled ng-click="submit()" type="submit">
+            {{translation.VALIDATE}}
+        </button>
 
     </div>
 
-    <!--<div class="traveller page">-->
-    <!--<h1>{{ translation.signin_TRAVELLER }}</h1>-->
-
-
-    <!--</div>-->
-
-    <button class="btn-validation disabled" id="btn-signup" disabled ng-click="submit()" type="submit">
-        {{translation.VALIDATE}}
-    </button>
 </div>

@@ -29,17 +29,5 @@ angular.module('app.profile')
                 $state.go('main.home');
             }, 2000);
         });
-
-        $scope.formValidation = function () {
-            var btnProfile = $('#btn-profile');
-
-            if ($scope.user.moreInfo.length > 0 && $scope.user.hobby.length > 0 && $scope.user.music.length > 0) {
-                btnProfile.removeAttr('disabled');
-                btnProfile.removeClass('disabled');
-            } else {
-                btnProfile.prop('disabled', true);
-                btnProfile.addClass('disabled');
-            }
-        };
     });
 

@@ -1,8 +1,9 @@
 /*global angular */
+/*global window */
 
 angular.module('app.home', [])
 
-    .controller('homeCtrl', function ($scope, $state, $rootScope, $sce, menuService) {
+    .controller('homeCtrl', function ($scope, $state, $rootScope, $sce, menuService, translationService) {
 
         $scope.proposalIcon = $sce.trustAsHtml($rootScope.icon.SPEEDOMETER);
         $scope.searchIcon = $sce.trustAsHtml($rootScope.icon.MAGNIFIER);
@@ -14,8 +15,8 @@ angular.module('app.home', [])
             if (menuService.isOpen()) {
                 menuService.close();
             }
-
-            menuService.disconnect();
+            window.localStorage.clear();
+            $state.go('login');
         };
 
         $scope.redirectToState = function (stateToGo) {
@@ -23,6 +24,10 @@ angular.module('app.home', [])
                 menuService.close();
             }
             $state.go(stateToGo);
+        };
+
+        $scope.changeLanguage = function (language) {
+            translationService.change(language);
         };
 
     });

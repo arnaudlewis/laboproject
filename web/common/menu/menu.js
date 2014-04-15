@@ -9,18 +9,6 @@ angular.module('app.menu', [])
 
         var menu;
 
-        function disconnection() {
-            cleanUserData();
-            $state.go('login');
-        }
-
-
-        function cleanUserData() {
-            $rootScope.currentUser = null;
-            window.localStorage.clear();
-
-        }
-
         function setupMenu() {
             menu = new $.slidebars();
         }
@@ -40,10 +28,6 @@ angular.module('app.menu', [])
 
             close: function () {
                 menu.close();
-            },
-
-            disconnect: function () {
-                disconnection();
             }
         };
     }]);

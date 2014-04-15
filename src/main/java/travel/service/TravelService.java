@@ -4,7 +4,6 @@ import city.City;
 import travel.Travel;
 import travel.dataAccess.DaoTravel;
 import travel.dto.ProposeTravelRequestDTO;
-import travel.dto.ProposeTravelResponseDTO;
 import travel.dto.SearchTravelRequestDTO;
 import travel.dto.SearchTravelResponseDTO;
 
@@ -31,7 +30,6 @@ public class TravelService {
         City arr = requete.getArrival();
         Date date = requete.getTravelDate();
 
-//        reponse.setSearchResultsList(DaoTravel.getInstance().findAll());
         reponse.setSearchResultsList(DaoTravel.getInstance().searchByCriteria(dep, arr, date));
 
         return reponse;
@@ -39,16 +37,13 @@ public class TravelService {
 
     @POST
     @Path("/propose")
-    public ProposeTravelResponseDTO propose(ProposeTravelRequestDTO requete) {
-        ProposeTravelResponseDTO reponse = new ProposeTravelResponseDTO();
-        Travel voyage = new Travel();
+    @Produces(MediaType.APPLICATION_JSON)
+    public int propose(ProposeTravelRequestDTO request) {
+        Travel newTravel = request.getTravel();
+        newTravel.setPreferences(request.getPreference());
+        newTravel.setDriver(request.getUser());
 
-        voyage.setDeparture(requete.getDeparture());
-        voyage.setArrival(requete.getArrival());
-        voyage.setTravelDate(requete.getTravelDate());
-
-        reponse.setId_travel(DaoTravel.getInstance().insert(voyage));
-        return reponse;
+        return DaoTravel.getInstance().insert(newTravel);
     }
 
     @GET

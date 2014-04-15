@@ -2,95 +2,56 @@ package user.service;
 
 import user.User;
 import user.dataAccess.DaoUser;
-import user.dto.*;
+import user.dto.CreateUserRequestDTO;
+import user.dto.CreateUserResponseDTO;
+import user.dto.LoginRequestDTO;
+import user.dto.UpdateProfileRequestDTO;
 
+import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 
 @Path("/user")
 public class UserService {
 
     @POST
     @Path("/signin")
+    @Consumes(MediaType.APPLICATION_JSON)
     public CreateUserResponseDTO signin(CreateUserRequestDTO request) {
         boolean usernameExist;
         boolean emailExist;
         CreateUserResponseDTO reponse = new CreateUserResponseDTO();
-        User createdUser = createUserFromSignUpData(request);
-        usernameExist = DaoUser.getInstance().checkDuplicateUsername(request.getUsername());
-        emailExist = DaoUser.getInstance().checkDuplicateEmail(request.getEmail());
+
+        usernameExist = DaoUser.getInstance().checkDuplicateUsername(request.getUser().getUsername());
+        emailExist = DaoUser.getInstance().checkDuplicateEmail(request.getUser().getEmail());
+
         if (!usernameExist && !emailExist) {
-            reponse.setId_user(DaoUser.getInstance().insert(createdUser));
-            reponse.setUsernameExist(true);
-            reponse.setEmailExist(true);
+            User newUser = request.getUser();
+            newUser.setDriverPreferences(request.getPreference());
+            reponse.setId_user(DaoUser.getInstance().insert(newUser));
         } else {
             reponse.setId_user(-1);
-            reponse.setUsernameExist(usernameExist);
-            reponse.setEmailExist(emailExist);
-            System.out.println("UTILISATEUR deja EXISTANT");
         }
+        reponse.setUsernameExist(usernameExist);
+        reponse.setEmailExist(emailExist);
+
         return reponse;
 
     }
 
-
-    private User createUserFromSignUpData(CreateUserRequestDTO signUpData) {
-        User user = new User();
-        user.setCreationDate(signUpData.getCreationDate());
-        user.setFirstname(signUpData.getFirstname());
-        user.setLastname(signUpData.getLastname());
-        user.setEmail(signUpData.getEmail());
-        user.setBirthdate(signUpData.getBirthday());
-        user.setUsername(signUpData.getUsername());
-        user.setPassword(signUpData.getPassword());
-        user.setSex(signUpData.isSex());
-        return user;
-    }
-
     @Path("/connect")
+    @Produces(MediaType.APPLICATION_JSON)
     @POST
-    public LoginResponseDTO authentication(LoginRequestDTO request) {
-
-        LoginResponseDTO response = new LoginResponseDTO();
-
-        User loggedUser = DaoUser.getInstance().authentication(request.getUsername(), request.getPassword());
-        if (loggedUser != null) {
-            setUserToResponse(response, loggedUser);
-        }
-        return response;
-    }
-
-    private void setUserToResponse(LoginResponseDTO response, User loggedUser) {
-        response.setUsername(loggedUser.getUsername());
-        response.setFirstname(loggedUser.getFirstname());
-        response.setLastname(loggedUser.getLastname());
-        response.setBirthdate(loggedUser.getBirthdate());
-        response.setCreationDate(loggedUser.getCreationDate());
-        response.setEmail(loggedUser.getEmail());
-        response.setId_user(loggedUser.getId_user());
-        response.setSex(loggedUser.isSex());
-        response.setMusic(loggedUser.getMusic());
-        response.setAnimal(loggedUser.isAnimal());
-        response.setMoreInfo(loggedUser.getMoreInfo());
-        response.setHobby(loggedUser.getHobby());
-        response.setSmoke(loggedUser.isSmoke());
+    public User authentication(LoginRequestDTO request) {
+        return DaoUser.getInstance().authentication(request.getUsername(), request.getPassword());
     }
 
     @POST
     @Path("/profile")
-    public void createProfile(CreateProfileRequestDTO requete) {
-
-        //CreateProfileResponseDTO reponseProfile = new CreateProfileResponseDTO();
-        User profile = DaoUser.getInstance().find(requete.getId_user());
-
-        profile.setHobby(requete.getHobby());
-        profile.setMusic(requete.getMusic());
-        profile.setAnimal(requete.isAnimal());
-        profile.setSmoke(requete.isSmoke());
-        profile.setMoreInfo(requete.getMoreInfo());
-
-        DaoUser.getInstance().update(profile);
-
+    public void createProfile(UpdateProfileRequestDTO request) {
+        DaoUser.getInstance().update(request.getUser());
     }
 }
 

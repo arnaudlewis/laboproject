@@ -1,0 +1,32 @@
+.price {
+  text-align: left;
+  @include displayFlex;
+
+  > .designation {
+    @include flex(1);
+    > label {
+      margin: 0.5em 1em 1em 0;
+
+    }
+
+    > .icon {
+      height: 100%;
+      svg {
+        line-height: 3em;
+        width: 2em;
+        height: 2em;
+        display: inline;
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  > .value {
+    text-align: right;
+    @include flex(1);
+    > input {
+      width: 6em;
+      margin-left: 0.7em;
+    }
+  }
+}

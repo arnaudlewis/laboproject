@@ -1,12 +1,14 @@
 <div id="proposal" ng-controller="proposalCtrl">
 
     <div class="search page">
-        <autocomplete ng-model="departure" icon="{{ icon.FLAG_START }}"
+        <autocomplete ng-model="travel.departure" icon="{{ icon.FLAG_START }}"
                       label="{{ translation.DEPARTURE }}"></autocomplete>
-        <autocomplete ng-model="arrival" icon="{{ icon.FLAG_END }}"
+        <autocomplete ng-model="travel.arrival" icon="{{ icon.FLAG_END }}"
                       label="{{ translation.ARRIVAL }}"></autocomplete>
 
-        <date ng-model="travelDate"></date>
+        <date ng-model="travel.travelDate"></date>
+
+        <price ng-model="travel.price" label="{{ translation.PRICE }}"></price>
 
     </div>
 
@@ -17,10 +19,10 @@
             <label>Style Musical</label><div class="readable">{{ user.music }}</div>
         </span>
         <span>
-         <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="user.animal"></toggle-switch>
+         <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="preference.animal"></toggle-switch>
         </span>
         <span>
-        <label>{{translation.profile_SMOKER}}</label><toggle-switch model="user.smoke"></toggle-switch>
+        <label>{{translation.profile_SMOKER}}</label><toggle-switch model="preference.smoke"></toggle-switch>
         </span>
 
         <button class="btn-validation" ng-click="submit()" id="btn-proposal" type="submit">

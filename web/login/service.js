@@ -8,7 +8,6 @@ angular.module('app.login', ['angular-md5'])
 
         function write(data) {
             window.localStorage.user = JSON.stringify(data);
-
         }
 
         function loginRequestServer(username, password) {
@@ -19,7 +18,7 @@ angular.module('app.login', ['angular-md5'])
             })
                 .success(function (data) {
                     $rootScope.connect = data.connect;
-                    if (data.username !== null) {
+                    if (data !== null) {
                         write(data);
                         $rootScope.$broadcast('loggedUser');
                     } else {

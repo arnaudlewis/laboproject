@@ -2,6 +2,7 @@ package travel;
 
 
 import city.City;
+import preference.Preference;
 import user.User;
 
 import javax.persistence.*;
@@ -29,6 +30,8 @@ public class Travel implements Serializable {
     private Date travelDate;
     @ManyToOne
     private User driver;
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    private Preference preferences;
 
     public Travel() {
 
@@ -98,5 +101,13 @@ public class Travel implements Serializable {
 
     public void setDriver(User driver) {
         this.driver = driver;
+    }
+
+    public Preference getPreferences() {
+        return preferences;
+    }
+
+    public void setPreferences(Preference preferences) {
+        this.preferences = preferences;
     }
 }

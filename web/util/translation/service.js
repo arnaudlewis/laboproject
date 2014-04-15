@@ -3,7 +3,7 @@
 angular.module('app.translation', ['ngResource'])
 
 
-    .service('translationService', ['$rootScope', '$resource', function ($rootScope, $resource) {
+    .service('translationService', ['$rootScope', '$resource', '$state', function ($rootScope, $resource, $state) {
         'use strict';
 
         function initLang(language) {
@@ -16,6 +16,11 @@ angular.module('app.translation', ['ngResource'])
         return {
             getTranslation: function (language) {
                 initLang(language);
+            },
+
+            change: function (language) {
+                initLang(language);
+                $state.go('main.home');
             }
         };
 

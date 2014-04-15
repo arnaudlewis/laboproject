@@ -31,13 +31,15 @@
                    placeholder="{{translation.profile_MUSIC}}"/>
         </span>
         <span>
-         <label>{{translation.profile_ANIMAL}}</label><toggle-switch model="user.animal"></toggle-switch>
+         <label>{{translation.profile_ANIMAL}}</label><toggle-switch
+                model="user.driverPreferences.animal"></toggle-switch>
         </span>
         <span>
-        <label>{{translation.profile_SMOKER}}</label><toggle-switch model="user.smoke"></toggle-switch>
+        <label>{{translation.profile_SMOKER}}</label><toggle-switch
+                model="user.driverPreferences.smoke"></toggle-switch>
         </span>
 
-        <button class="btn-validation disabled" disabled id="btn-profile" ng-click="submit()" type="submit">
+        <button class="btn-validation" id="btn-profile" ng-click="submit()" type="submit">
             {{translation.VALIDATE}}
         </button>
 

@@ -1,38 +1,37 @@
-package travel.dataAccess;
+package preference.dataAccess;
 
-import city.City;
 import common.dataAccess.Dao;
-import travel.Travel;
+import preference.Preference;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import javax.persistence.TypedQuery;
-import java.util.Date;
 import java.util.List;
 
 /**
- * Created by eric on 26/02/14.
+ * Created by arnaud on 14/04/2014.
  */
-public class DaoTravel extends Dao<Travel> {
+public class DaoPreference extends Dao<Preference> {
 
-    private static final DaoTravel instance = new DaoTravel();
+    private static final DaoPreference instance = new DaoPreference();
 
-    public static DaoTravel getInstance() {
+    private DaoPreference() {
+
+    }
+
+    public static DaoPreference getInstance() {
         return instance;
     }
 
-    private DaoTravel() {
-    }
-
     @Override
-    public int insert(Travel obj) {
+    public int insert(Preference obj) {
         EntityManager em = getEntityManagerFactory().createEntityManager();
         EntityTransaction t = em.getTransaction();
 
         try {
             t.begin();
             em.persist(obj);
-            int id = obj.getId_travel();
+            int id = obj.getId_preference();
             t.commit();
             return id;
         } catch (Exception e) {
@@ -47,7 +46,7 @@ public class DaoTravel extends Dao<Travel> {
     }
 
     @Override
-    public void update(Travel obj) {
+    public void update(Preference obj) {
         EntityManager em = getEntityManagerFactory().createEntityManager();
         EntityTransaction t = em.getTransaction();
 
@@ -63,11 +62,10 @@ public class DaoTravel extends Dao<Travel> {
                 em.close();
             }
         }
-
     }
 
     @Override
-    public void delete(Travel obj) {
+    public void delete(Preference obj) {
         EntityManager em = getEntityManagerFactory().createEntityManager();
         EntityTransaction t = em.getTransaction();
 
@@ -86,18 +84,18 @@ public class DaoTravel extends Dao<Travel> {
     }
 
     @Override
-    public Travel find(int id) {
+    public Preference find(int id) {
         EntityManager em = getEntityManagerFactory().createEntityManager();
         EntityTransaction t = em.getTransaction();
-        Travel findedTravel;
+        Preference findedPreference;
 
         try {
             t.begin();
-            findedTravel = em.find(Travel.class, id);
+            findedPreference = em.find(Preference.class, id);
             t.commit();
         } catch (Exception e) {
             e.printStackTrace();
-            findedTravel = null;
+            findedPreference = null;
         } finally {
             if (t.isActive()) {
                 t.rollback();
@@ -105,42 +103,18 @@ public class DaoTravel extends Dao<Travel> {
             }
         }
 
-        return findedTravel;
+        return findedPreference;
     }
 
     @Override
-    public List<Travel> findAll() {
+    public List<Preference> findAll() {
         EntityManager em = getEntityManagerFactory().createEntityManager();
         EntityTransaction t = em.getTransaction();
-        List<Travel> resultList;
+        List<Preference> resultList;
         try {
             t.begin();
-            String sql = "SELECT e FROM Travel e";
-            TypedQuery<Travel> requete = em.createQuery(sql, Travel.class);
-            resultList = requete.getResultList();
-            t.commit();
-        } catch (Exception e) {
-            e.printStackTrace();
-            resultList = null;
-        } finally {
-            if (t.isActive()) {
-                t.rollback();
-                em.close();
-            }
-        }
-        return resultList;
-    }
-
-    public List<Travel> searchByCriteria(City departure, City arrival, Date travelDate) {
-        EntityManager em = getEntityManagerFactory().createEntityManager();
-        EntityTransaction t = em.getTransaction();
-        List<Travel> resultList;
-        try {
-            t.begin();
-            String sql = "SELECT e FROM Travel e WHERE e.departure.id_city = :id_departure AND e.arrival.id_city= :id_arrival";
-            TypedQuery<Travel> requete = em.createNamedQuery(sql, Travel.class);
-            requete.setParameter("id_departure", departure.getId_city());
-            requete.setParameter("id_arrival", arrival.getId_city());
+            String sql = "SELECT e FROM Preference e";
+            TypedQuery<Preference> requete = em.createQuery(sql, Preference.class);
             resultList = requete.getResultList();
             t.commit();
         } catch (Exception e) {

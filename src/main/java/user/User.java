@@ -1,10 +1,9 @@
 package user;
 
-import travel.Travel;
+import preference.Preference;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Collection;
 import java.util.Date;
 
 /**
@@ -28,15 +27,14 @@ public class User implements Serializable {
     private Date birthdate;
     @Temporal(TemporalType.DATE)
     private Date creationDate;
-    @OneToMany(mappedBy = "driver")
-    private Collection<Travel> travels;
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Preference driverPreferences;
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Preference travellerPreferences;
 
-    //données relatives au profil
     private boolean sex; // TRUE female, FALSE male
     private String hobby;
     private String music;
-    private boolean animal;
-    private boolean smoke;
     private String moreInfo;
 
     public User() {
@@ -133,22 +131,6 @@ public class User implements Serializable {
         this.music = music;
     }
 
-    public boolean isAnimal() {
-        return animal;
-    }
-
-    public void setAnimal(boolean animal) {
-        this.animal = animal;
-    }
-
-    public boolean isSmoke() {
-        return smoke;
-    }
-
-    public void setSmoke(boolean smoke) {
-        this.smoke = smoke;
-    }
-
     public String getMoreInfo() {
         return moreInfo;
     }
@@ -157,4 +139,19 @@ public class User implements Serializable {
         this.moreInfo = moreInfo;
     }
 
+    public Preference getDriverPreferences() {
+        return driverPreferences;
+    }
+
+    public void setDriverPreferences(Preference driverPreferences) {
+        this.driverPreferences = driverPreferences;
+    }
+
+    public Preference getTravellerPreferences() {
+        return travellerPreferences;
+    }
+
+    public void setTravellerPreferences(Preference travellerPreferences) {
+        this.travellerPreferences = travellerPreferences;
+    }
 }

@@ -13,25 +13,68 @@
 
   }
 
-  .sex {
-    @include displayFlex;
-
-    > label {
-      width: 4em;
-      margin-top: 1em;
-
+  > .driver {
+    > span, button {
+      width: 100%;
     }
-    > span {
-      @include flex(1);
-      text-align: center;
-      .switch .switch-right {
-        background-color: #ff96f1;
+    span {
+      padding: 0.5em 0;
+      border-bottom: 1px solid #cecece;
+      @include displayFlex;
+
+      > label {
+        @include flex(1);
       }
-      .switch .switch-left {
-        background-color: #5283c8;
+
+      > input {
+        @include flex(1);
+      }
+
+      > label {
+        margin-top: 1em;
+
       }
 
     }
   }
 
+  .container-sex {
+    @include displayFlex;
+
+    label {
+      @include flex(1);
+    }
+
+    .sex {
+      width: 5em;
+      height: 2em;
+      @include flex(1);
+      text-align: right;
+
+      svg {
+        width: 1.5em;
+        height: 1.5em;
+        fill: dimgrey;
+      }
+
+      .male {
+        border-right: 1px solid #c3c3c3;
+        padding-right: 1em;
+        &.active {
+          svg {
+            fill: #458eff;
+          }
+        }
+      }
+
+      .female {
+        padding-left: 1em;
+        &.active {
+          svg {
+            fill: #ff94ee;
+          }
+        }
+      }
+    }
+  }
 }

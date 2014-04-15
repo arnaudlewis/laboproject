@@ -1,55 +1,50 @@
 package travel.dto;
 
-import city.City;
+import preference.Preference;
+import travel.Travel;
+import user.User;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.core.MediaType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
-import java.util.Date;
 
-/**
- * Created by oliver on 05/04/14.
- */
 @XmlType(name = "ProposeTravelRequestDTO")
 @Consumes(MediaType.APPLICATION_JSON)
 public class ProposeTravelRequestDTO {
 
 
-    @XmlElement(name = "departure")
-    private City departure;
-    @XmlElement(name = "arrival")
-    private City arrival;
-    @XmlElement(name = "travelDate")
-    private Date travelDate;
+    @XmlElement(name = "travel")
+    private Travel travel;
+    @XmlElement(name = "preference")
+    private Preference preference;
+    @XmlElement(name = "user")
+    private User user;
 
     public ProposeTravelRequestDTO() {
     }
 
-
-    public City getDeparture() {
-        return departure;
+    public Travel getTravel() {
+        return travel;
     }
 
-    public void setDeparture(City departure) {
-        this.departure = departure;
+    public void setTravel(Travel travel) {
+        this.travel = travel;
     }
 
-    public City getArrival() {
-        return arrival;
+    public Preference getPreference() {
+        return preference;
     }
 
-    public void setArrival(City arrival) {
-        this.arrival = arrival;
+    public void setPreference(Preference preference) {
+        this.preference = preference;
     }
 
-    public Date getTravelDate() {
-        return travelDate;
+    public User getUser() {
+        return user;
     }
 
-    public void setTravelDate(Date travelDate) {
-        this.travelDate = travelDate;
+    public void setUser(User user) {
+        this.user = user;
     }
-
-
 }

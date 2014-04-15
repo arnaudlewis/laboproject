@@ -9,13 +9,17 @@ angular.module('app.proposal')
 
         function initProposal() {
             $scope.user = JSON.parse(window.localStorage.user);
+            $scope.preference = { animal: $scope.user.driverPreferences.animal, smoke: $scope.user.driverPreferences.smoke};
         }
 
         initProposal();
 
         $scope.submit = function () {
-            if ($scope.arrival && $scope.departure && $scope.travelDate) {
-                proposalService.proposeTravel($scope.departure, $scope.arrival, $scope.travelDate);
+            if ($scope.travel.price.length === 0) {
+                $scope.travel.price = 0;
+            }
+            if ($scope.travel.arrival && $scope.travel.departure && $scope.travel.travelDate) {
+                proposalService.proposeTravel($scope.travel, $scope.preference, $scope.user);
             } else {
                 alertService.showAlert($rootScope.translation.WARNING_VALIDATION);
             }

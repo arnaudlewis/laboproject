@@ -4,28 +4,29 @@
 angular.module('app.signin', ['angular-md5', 'app.header'])
 
     .service('signinService', function ($rootScope, $http, md5) {
-        'use strict'; // pour JSLint
-        function create(creationDate, sex, nom, prenom, mail, birthday, username, password) {
-            console.log('la creation d utilisateur vient d etre execute');
+        'use strict';
+
+        function create(user, preference) {
+            user.password = md5.createHash(user.password);
+            preference.animal = preference.animal ? 1 : 0;
+            preference.smoke = preference.smoke ? 1 : 0;
             $http({
                 method: 'POST',
                 url: 'rest/user/signin',
-                data: {creationDate: creationDate, sex: sex, lastname: nom, firstname: prenom, email: mail, birthday: birthday, username: username, password: md5.createHash(password)}
+                data: {user: user, preference: preference}
             })
                 .success(function (data) {
                     data.id_user !== -1 ? $rootScope.$broadcast("signinSuccess") : $rootScope.$broadcast("signinFailed", data.usernameExist, data.emailExist);
                 })
-                .error(function (status) {
+                .error(function () {
                     $rootScope.$broadcast("requestFailed");
-                    console.log('echec de la requête');
-                    console.log(status);
                 });
 
         }
 
         return {
-            createUser: function (creationDate, sex, nom, prenom, mail, birthday, username, password) {
-                create(creationDate, sex, nom, prenom, mail, birthday, username, password);
+            createUser: function (user, preference) {
+                create(user, preference);
             }
         };
     });

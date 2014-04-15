@@ -7,11 +7,12 @@ angular.module('app.profile', ['app.toggle-switch'])
     .service('profileService', function ($http, $rootScope, $state) {
         'use strict';
         function createProfile(user) {
-            var id_user = JSON.parse(window.localStorage.user).id_user;
+            user.driverPreferences.animal = user.driverPreferences.animal ? 1 : 0;
+            user.driverPreferences.smoke = user.driverPreferences.smoke ? 1 : 0;
             $http({
                 method: 'POST',
                 url: 'rest/user/profile',
-                data: {id_user: id_user, hobby: user.hobby, music: user.music, animal: user.animal, smoke: user.smoke, moreInfo: user.moreInfo}
+                data: {user: user}
             })
                 .success(function (data) {
                     window.localStorage.user = JSON.stringify(user);

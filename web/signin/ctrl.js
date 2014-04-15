@@ -1,14 +1,30 @@
 /*global angular */
 /*global console */
+/*global $ */
 
 angular.module('app.signin')
 
-    .controller('signinCtrl', function (md5, $timeout, $rootScope, signinService, $scope, headerService, alertService, $state) {
-        'use strict'; // pour JSLint
+    .controller('signinCtrl', function (md5, $timeout, $rootScope, signinService, $scope, headerService, alertService, $state, $sce) {
+        'use strict';
+
+        function initSignin() {
+            $scope.user = {};
+            $scope.user.firstname = $scope.user.lastname = $scope.user.email = $scope.user.username = $scope.user.password = $scope.user.hobby = $scope.user.music = '';
+            $scope.user.sex = false;
+
+            $scope.preference = {};
+            $scope.preference.animal = false;
+            $scope.preference.smoke = false;
+
+            $scope.iconMale = $sce.trustAsHtml($rootScope.icon.MALE);
+            $scope.iconFemale = $sce.trustAsHtml($rootScope.icon.FEMALE);
+        }
+
+        initSignin();
+
         $scope.submit = function () {
-            console.log('submit vient d etre execute');
-            var creationDate = new Date();
-            signinService.createUser(creationDate, $scope.sex, $scope.lastname, $scope.firstname, $scope.email, $scope.birthday, $scope.username, $scope.password);
+            $scope.user.creationDate = new Date();
+            signinService.createUser($scope.user, $scope.preference);
         };
 
         $scope.$on('requestFailed', function (event) {
@@ -23,7 +39,6 @@ angular.module('app.signin')
         });
 
         $scope.$on('signinFailed', function (event, usernameExist, emailExist) {
-            // ternaire // {{emailExist ? (usernameExist ? "l'email et l'identifiant existent" : "l'émail existe") : "le username existe"}}
 
             var alertUsername = $('#username'),
                 alertEmail = $('#email');
@@ -46,8 +61,8 @@ angular.module('app.signin')
         $scope.formValidation = function () {
             var btnSignup = $('#btn-signup');
 
-            if ($scope.firstname.length > 0 && $scope.lastname.length > 0 && $scope.email.length > 0
-                && $scope.username.length > 0 && $scope.password.length > 0) {
+            if ($scope.user.firstname.length > 0 && $scope.user.lastname.length > 0 && $scope.user.email.length > 0
+                && $scope.user.username.length > 0 && $scope.user.password.length > 0) {
                 btnSignup.removeAttr('disabled');
                 btnSignup.removeClass('disabled');
             } else {
@@ -55,8 +70,14 @@ angular.module('app.signin')
                 btnSignup.addClass('disabled');
             }
         };
-        $scope.firstname = $scope.lastname = $scope.email = $scope.username = $scope.password = '';
-
-        headerService.setup('BACK', $rootScope.translation.signin_TITLE, 'MENU');
-
+        $scope.selectSex = function (sexValue) {
+            $scope.user.sex = sexValue;
+            if (sexValue) {
+                $('.female').addClass('active');
+                $('.male').removeClass('active');
+            } else {
+                $('.male').addClass('active');
+                $('.female').removeClass('active');
+            }
+        };
     });

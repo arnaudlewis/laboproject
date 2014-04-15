@@ -455,6 +455,7 @@ body button {
     height: 2.5em;
     border-radius: 0.3em;
     padding: 0 1em 0 1em;
+    width: 100%;
 }
 
 body button.btn-validation {
@@ -655,6 +656,66 @@ body .page > * {
 
 .date-selector {
     width: 100%;
+}
+
+.price {
+    text-align: left;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: -moz-flex;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: box;
+    display: flexbox;
+    display: flex;
+}
+
+.price > .designation {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
+}
+
+.price > .designation > label {
+    margin: 0.5em 1em 1em 0;
+}
+
+.price > .designation > .icon {
+    height: 100%;
+}
+
+.price > .designation > .icon svg {
+    line-height: 3em;
+    width: 2em;
+    height: 2em;
+    display: inline;
+    margin-right: 0.5em;
+}
+
+.price > .value {
+    text-align: right;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
+}
+
+.price > .value > input {
+    width: 6em;
+    margin-left: 0.7em;
 }
 
 header {
@@ -879,7 +940,13 @@ header > #title {
     width: 100%;
 }
 
-#signin .sex {
+#signin > .driver > span, #signin > .driver button {
+    width: 100%;
+}
+
+#signin > .driver span {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #cecece;
     display: -webkit-box;
     display: -webkit-flex;
     display: -webkit-flexbox;
@@ -894,12 +961,7 @@ header > #title {
     display: flex;
 }
 
-#signin .sex > label {
-    width: 4em;
-    margin-top: 1em;
-}
-
-#signin .sex > span {
+#signin > .driver span > label {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-box-flex: 1;
@@ -908,15 +970,84 @@ header > #title {
     -moz-flex: 1;
     flex: 1;
     box-flex: 1;
-    text-align: center;
 }
 
-#signin .sex > span .switch .switch-right {
-    background-color: #ff96f1;
+#signin > .driver span > input {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
 }
 
-#signin .sex > span .switch .switch-left {
-    background-color: #5283c8;
+#signin > .driver span > label {
+    margin-top: 1em;
+}
+
+#signin .container-sex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -webkit-flexbox;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: -moz-flex;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: box;
+    display: flexbox;
+    display: flex;
+}
+
+#signin .container-sex label {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
+}
+
+#signin .container-sex .sex {
+    width: 5em;
+    height: 2em;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-box-flex: 1;
+    -ms-flex: 1;
+    -moz-box-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+    box-flex: 1;
+    text-align: right;
+}
+
+#signin .container-sex .sex svg {
+    width: 1.5em;
+    height: 1.5em;
+    fill: dimgrey;
+}
+
+#signin .container-sex .sex .male {
+    border-right: 1px solid #c3c3c3;
+    padding-right: 1em;
+}
+
+#signin .container-sex .sex .male.active svg {
+    fill: #458eff;
+}
+
+#signin .container-sex .sex .female {
+    padding-left: 1em;
+}
+
+#signin .container-sex .sex .female.active svg {
+    fill: #ff94ee;
 }
 
 #profile .page {
@@ -1114,6 +1245,7 @@ header > #title {
     flex: 1;
     box-flex: 1;
     margin-top: 1em;
+    text-align: right;
     display: inline;
     display: -webkit-box;
     -webkit-line-clamp: 2;

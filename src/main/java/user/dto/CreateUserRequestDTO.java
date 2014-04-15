@@ -1,24 +1,23 @@
 package user.dto;
 
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
+import preference.Preference;
+import user.User;
+
 import javax.ws.rs.Consumes;
 import javax.ws.rs.core.MediaType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
-import java.util.Date;
 
 /**
- *
  * Cette classe (de type assembleur) s'occupe de récupérer les paramètres issues du formulaire
  * d'inscription. A savoir, le formulaire est créé en utilisant le framework AngularJS
  * AngularJS transmets un fichier JSON à cette classe, d'où la
  * ligne @Consumes(MediaType.APPLICATION_JSON)
- *
+ * <p/>
  * Les objets de cette classe seront utilisé pour notre web service UserService.
- *
+ * <p/>
  * Remarque: on aurait pu mettre le @Consumes(MediaType.APPLICATION_JSON dans notre web service
- *
+ * <p/>
  * Created by oliver on 01/03/14.
  */
 
@@ -26,83 +25,28 @@ import java.util.Date;
 @Consumes(MediaType.APPLICATION_JSON)
 public class CreateUserRequestDTO {
 
-    @XmlElement(name = "sex")
-    private boolean sex;
-    @XmlElement(name="creationDate")
-    private Date creationDate;
-    @XmlElement(name="firstname")
-    private String firstname;
-    @XmlElement(name="lastname")
-    private String lastname;
-    @XmlElement(name="email")
-    private String email;
-    @XmlElement(name="birthday")
-    @Temporal(TemporalType.DATE)
-    private Date birthday;
-    @XmlElement(name="username")
-    private String username;
-    @XmlElement(name="password")
-    private String password;
+    @XmlElement(name = "user")
+    private User user;
+    @XmlElement(name = "preference")
+    private Preference preference;
 
-
-    public CreateUserRequestDTO(){
+    public User getUser() {
+        return user;
     }
 
-    public Date getCreationDate() {
-        return creationDate;
-    }
-    public void setCreationDate(Date creationDate) {
-        this.creationDate = creationDate;
+    public void setUser(User user) {
+        this.user = user;
     }
 
-    public String getFirstname() {
-        return firstname;
-    }
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public CreateUserRequestDTO() {
+
     }
 
-    public String getLastname() {
-        return lastname;
-    }
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public Preference getPreference() {
+        return preference;
     }
 
-    public String getEmail() {
-        return email;
+    public void setPreference(Preference preference) {
+        this.preference = preference;
     }
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
-
-    public boolean isSex() {
-        return sex;
-    }
-
-    public void setSex(boolean sex) {
-        this.sex = sex;
-    }
-
 }
