@@ -29,11 +29,11 @@ angular.module('app.signin')
         };
 
         $scope.$on('requestFailed', function (event) {
-            alertService.showAlert('Echec de la creation de compte');
+            alertService.showAlert($rootScope.translation.account_CREATION_FAILED);
         });
 
         $scope.$on('signinSuccess', function (event) {
-            alertService.showSuccess('Creation de compte reussi');
+            alertService.showSuccess($rootScope.translation.account_CREATION_SUCCESS);
             $timeout(function () {
                 $state.go('login');
             }, 2000);

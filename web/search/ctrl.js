@@ -6,12 +6,12 @@ angular.module('app.search')
     .controller('searchCtrl', function ($scope, searchService, $rootScope, alertService, $state) {
         'use strict';
         console.log('Le module de recherche vient d execute');
-        $scope.list = [];
+        $scope.resultList = [];
 
-        $rootScope.$on('searchList', function (event, data) {
-            $scope.list = data;
-            if ($scope.list.length === 0) {
-                alertService.showAlert("Aucun trajet n'est disponible selon vos criteres");
+        $scope.$on('searchList', function (event, data) {
+            $scope.resultList = data;
+            if ($scope.resultList.length === 0) {
+                alertService.showAlert($rootScope.translation.search_NO_RESULT);
             } else {
                 $state.go('main.search.result');
             }
