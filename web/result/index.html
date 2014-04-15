@@ -1,5 +1,7 @@
 <div class="nested-view">
-    <div id="result" class="page">
-        projet à la con
+    <div id="result" ng-controller="resultCtrl">
+        <div ng-repeat="result in list">
+            {{result.price}}€ {{result.driver.firstname}}
+        </div>
     </div>
 </div>

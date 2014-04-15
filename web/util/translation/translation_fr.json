@@ -9,6 +9,9 @@
 
     "autocomplete_NORESULTS": "Aucun résultat trouvé",
 
+    "account_CREATION_FAILED": "Echec de la création d'un nouveau compte",
+    "account_CREATION_SUCCESS": "Création de compte réussie",
+
     "login_SIGNIN": "S'inscrire",
 
     "signin_TITLE": "Inscription",
@@ -33,13 +36,19 @@
     "user_EMAIL": "Email",
     "user_FEMALE": "Femme",
     "user_MALE": "Homme",
+    "user_LOGIN_FAILED": "Echec d'authentification",
 
     "search_TITLE": "Rechercher",
     "search_DATE_TITLE": "Date du trajet",
+    "search_NO_RESULT": "Aucun résultat ne correspond à vos critères de recherche",
 
     "travel_DEPARTURE": "depart",
     "travel_ARRIVAL": "arrivée",
     "travel_JOURNEY_DATE": "date du voyage",
+    "travel_SEARCH_FAILED": "Echec de la requête de recherche de trajet",
+    "travel_SEARCH_SUCCESS": "Envoi de la recherche réussie",
+    "travel_PROPOSAL_FAILED": "Echec de la proposition de trajet",
+    "travel_PROPOSAL_SUCCESS": "Envoi de la proposition de trajet réussie",
 
     "profile_HOBBY": "centres d'intêret",
     "profile_MUSIC": "musiques",
@@ -48,6 +57,8 @@
     "profile_SMOKER": "Fumeur",
     "profile_ANIMAL": "Animal",
     "profile_CONDITIONS": "Conditions de voyage",
+    "profile_update_SUCCESS": "Mise à jour du profil réussie",
+    "profile_update_FAILED": "Echec de la mise à jour du profil",
 
     "duplicate_USERNAME_EMAIL": "Identifiant et e-mail existant",
     "duplicate_USERNAME": "Identifiant existant",

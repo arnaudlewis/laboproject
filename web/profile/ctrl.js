@@ -20,11 +20,11 @@ angular.module('app.profile')
         };
 
         $scope.$on('profileUpdateFAILED', function (event) {
-            alertService.showError("Profile Update failed");
+            alertService.showError($rootScope.translation.profile_update_FAILED);
         });
 
         $scope.$on('profileUpdateSUCCESS', function (event) {
-            alertService.showSuccess("Profile Update SUCCESS");
+            alertService.showSuccess($rootScope.translation.profile_update_SUCCESS);
             $timeout(function () {
                 $state.go('main.home');
             }, 2000);

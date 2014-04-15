@@ -8,10 +8,10 @@ angular.module('app.search')
         console.log('Le module de recherche vient d execute');
         $scope.list = [];
 
-        $rootScope.$on('searchList', function (event, data) {
+        $scope.$on('searchList', function (event, data) {
             $scope.list = data;
             if ($scope.list.length === 0) {
-                alertService.showAlert("Aucun trajet n'est disponible selon vos criteres");
+                alertService.showAlert($rootScope.translation.search_NO_RESULT);
             } else {
                 $state.go('main.search.result');
             }

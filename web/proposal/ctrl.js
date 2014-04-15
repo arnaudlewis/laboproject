@@ -26,7 +26,7 @@ angular.module('app.proposal')
         };
 
         $scope.$on('travelProposalSUCCESS', function (event) {
-            alertService.showSuccess('Travel Proposal SUCCESS');
+            alertService.showSuccess($rootScope.translation.travel_PROPOSAL_SUCCESS);
 
             $timeout(function () {
                 $state.go('main.home');
@@ -34,7 +34,7 @@ angular.module('app.proposal')
         });
 
         $scope.$on('travelProposalFAILED', function (event) {
-            alertService.showError('Travel Proposal FAILED');
+            alertService.showError($rootScope.translation.travel_PROPOSAL_FAILED);
         });
 
     });

@@ -10,6 +10,9 @@
 
     "autocomplete_NORESULTS": "No results found",
 
+    "account_CREATION_FAILED": "Account creation failed",
+    "account_CREATION_SUCCESS": "Account creation succeeded",
+
     "login_SIGNIN": "Sign up",
 
     "signin_TITLE": "Sign Up",
@@ -34,12 +37,18 @@
     "user_EMAIL": "Email",
     "user_FEMALE": "Female",
     "user_MALE": "Male",
+    "user_LOGIN_FAILED": "Login failed",
     "search_TITLE": "Search",
     "search_DATE_TITLE": "Travel Date",
+    "search_NO_RESULT": "No result match with your search",
 
     "travel_DEPARTURE": "departure",
     "travel_ARRIVAL": "arrival",
     "travel_JOURNEY_DATE": "journey-date",
+    "travel_SEARCH_FAILED": "travel search failed",
+    "travel_SEARCH_SUCCESS": "travel search succeeded",
+    "travel_PROPOSAL_FAILED": "travel proposal failed",
+    "travel_PROPOSAL_SUCCESS": "travel proposal succeeded",
 
     "profile_HOBBY": "hobbies",
     "profile_MUSIC": "music",
@@ -48,6 +57,8 @@
     "profile_SMOKER": "Smoker",
     "profile_ANIMAL": "Animal",
     "profile_CONDITIONS": "Travel Conditions",
+    "profile_update_SUCCESS": "Profile update succeeded",
+    "profile_update_FAILED": "Profile update failed",
 
     "duplicate_USERNAME_EMAIL": "Username and e-mail already exist",
     "duplicate_USERNAME": "Username already exist",
