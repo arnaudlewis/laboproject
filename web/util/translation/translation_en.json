@@ -2,8 +2,8 @@
 
     "VALIDATE": "Validate",
     "CANCEL": "Cancel",
-    "DEPARTURE": "Departure: ",
-    "ARRIVAL": "Arrival: ",
+    "DEPARTURE": "Departure",
+    "ARRIVAL": "Arrival",
     "SELECT_CITY": "Select a city",
     "WARNING_VALIDATION": "You must fill all fields to complete your search",
     "PRICE": "Price",
@@ -47,10 +47,12 @@
     "profile_DESCRIPTION": "Tell us more about you",
     "profile_SMOKER": "Smoker",
     "profile_ANIMAL": "Animal",
+    "profile_CONDITIONS": "Travel Conditions",
 
     "duplicate_USERNAME_EMAIL": "Username and e-mail already exist",
     "duplicate_USERNAME": "Username already exist",
     "duplicate_EMAIL": "E-mail already exist",
 
     "proposal_TITLE": "Travel proposal"
+
 }

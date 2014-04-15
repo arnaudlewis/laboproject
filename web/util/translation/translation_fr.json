@@ -22,7 +22,7 @@
     "home_HISTORY": "Historique",
     "home_PROFILE": "Profil",
     "home_SEARCH": "Recherche",
-    "home_PROPOSAL": "Proposer un trajet",
+    "home_PROPOSAL": "Proposer",
 
     "user_FIRSTNAME": "Prénom",
     "user_LASTNAME": "Nom",
@@ -42,11 +42,12 @@
     "travel_JOURNEY_DATE": "date du voyage",
 
     "profile_HOBBY": "centres d'intêret",
-    "profile_MUSIC": "musiques préférées",
+    "profile_MUSIC": "musiques",
     "profile_TITLE": "Profil",
     "profile_DESCRIPTION": "votre description",
     "profile_SMOKER": "Fumeur",
     "profile_ANIMAL": "Animal",
+    "profile_CONDITIONS": "Conditions de voyage",
 
     "duplicate_USERNAME_EMAIL": "Identifiant et e-mail existant",
     "duplicate_USERNAME": "Identifiant existant",
