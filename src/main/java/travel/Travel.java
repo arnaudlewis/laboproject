@@ -114,7 +114,7 @@ public class Travel implements Serializable {
         this.preferences = preferences;
     }
 
-    public int getNgPassenger() {
+    public int getNbPassenger() {
         return nbPassenger;
     }
 

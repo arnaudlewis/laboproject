@@ -1,7 +1,27 @@
 <div class="nested-view">
-    <div id="result" ng-controller="resultCtrl">
-        <div ng-repeat="result in resultList">
-        {{result.price}}€ {{result.driver.firstname}}
+
+    <div ng-controller="resultCtrl">
+        <div id="search-resume">
+        <span class="item-header departure">
+            <span ng-bind-html="iconDeparture"></span>
+            {{ departure.name_city }}
+        </span>
+
+        <span class="item-header date">
+            <span ng-bind-html="iconDate"></span>
+            {{ travelDate }}
+        </span>
+
+        <span class="item-header arrival">
+            <span ng-bind-html="iconArrival"></span>
+            {{ arrival.name_city }}
+        </span>
+        </div>
+
+        <div id="result" ng-controller="resultCtrl">
+            <div ng-repeat="result in resultList">
+                <item-result ng-model="result"></item-result>
+            </div>
         </div>
     </div>
 </div>

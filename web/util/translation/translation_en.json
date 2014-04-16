@@ -39,6 +39,7 @@
     "user_MALE": "Male",
     "search_TITLE": "Search",
     "search_DATE_TITLE": "Travel Date",
+    "user_AGE_COUNT": " years old",
 
     "travel_DEPARTURE": "Departure",
     "travel_ARRIVAL": "Arrival",
@@ -64,6 +65,8 @@
     "proposal_TRAVEL_FAILED": "Creation of your travel failed",
     "proposal_TRAVEL_SUCCESS": "Your travel is now available for our users",
 
-    "result_TITLE": "Travels available"
+    "result_TITLE": "Travels available",
+    "result_AVAILABLE_SEAT": "Available seat"
+
 
 }

@@ -1,0 +1,38 @@
+<div class="item-result">
+
+    <div class="driver">
+        <div class="name">
+            {{ result.driver.firstname }}
+            {{ (result.driver.lastname).substr(0,1) }}
+            <div class="icon" ng-bind-html="iconSex"></div>
+        </div>
+
+        <div class="details">
+            <span class="icon" ng-bind-html="iconProfile"></span>
+
+            <div class="age">{{ age }} {{translation.user_AGE_COUNT }}</div>
+        </div>
+
+
+    </div>
+
+    <div class="travel">
+
+        <div class="destination">
+            <span class="departure">{{ result.departure.name_city }}</span>
+            -->
+            <span class="arrival">{{ result.arrival.name_city }}</span>
+        </div>
+
+        <div class="price-date">
+            <span class="date">{{ result.travelDate }}</span>
+            <span class="price">{{ result.price }} €</span>
+        </div>
+
+        <div class="passenger">
+            <label>{{ translation.result_AVAILABLE_SEAT }}</label>
+            <span>{{ result.nbPassenger }}</span>
+        </div>
+
+    </div>
+</div>

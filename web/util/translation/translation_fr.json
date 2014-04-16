@@ -34,6 +34,7 @@
     "user_EMAIL": "Email",
     "user_FEMALE": "Femme",
     "user_MALE": "Homme",
+    "user_AGE_COUNT": " ans",
 
     "search_TITLE": "Rechercher",
     "search_DATE_TITLE": "Date du trajet",
@@ -63,5 +64,6 @@
     "proposal_TRAVEL_FAILED": "La création du trajet a échoué",
     "proposal_TRAVEL_SUCCESS": "Le trajet est maintenant disponible pour nos utilisateurs",
 
-    "result_TITLE": "Trajets disponibles"
+    "result_TITLE": "Trajets disponibles",
+    "result_AVAILABLE_SEAT": "Places restantes"
 }
