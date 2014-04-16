@@ -8,12 +8,13 @@ angular.module('app.router', ['ui.router'])
         $stateProvider
             .state('main', {
                 abstract: true,
-                url: "/main",
-                views: {
-                    "menuView@": {
-                        templateUrl: "common/menu/menu.html"
-                    }
-                }
+                url: "/main"
+//                ,
+//                views: {
+//                    "menuView@": {
+//                        templateUrl: "common/menu/menu.html"
+//                    }
+//                }
             })
             .state('login', {
                 url: "/login",

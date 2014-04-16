@@ -18,6 +18,8 @@
     "signin_CONNECTION": "Authentication informations",
     "signin_DRIVER": "Driver's preferences",
     "signin_TRAVELLER": "Traveller's preferences",
+    "signin_VALIDATION_FORM": "Please fill the form",
+    "account_CREATION_SUCCESS": "Creation completed, you'll be redirect",
 
     "home_TITLE": "Homepage",
     "home_DISCONNECT": "Disconnect",

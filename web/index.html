@@ -30,14 +30,24 @@
 
 <div ng-include src="'common/autocomplete/autocomplete-structure.html'"></div>
 
-
 <div id="sb-site">
     <div id="header-view" ui-view="headerView"></div>
     <div id="main-view" class="view" ui-view="mainView"></div>
 </div>
 
 <div class="sb-slidebar sb-right">
-    <div id="menu-view" ui-view="menuView"></div>
+    <!--<div id="menu-view" ui-view="menuView"></div>-->
+    <div id="menu" ng-controller="homeCtrl">
+        <ul class="sb-menu">
+            <li ng-click="redirectToState('main.proposal')"><span>{{ translation.home_PROPOSAL }}</span></li>
+            <li ng-click="redirectToState('main.search')"><span>{{ translation.home_SEARCH }}</span></li>
+            <li ng-click="redirectToState('main.profile')"><span>{{ translation.home_PROFILE }}</span></li>
+            <li ng-click="redirectToState('main.history')"><span>{{ translation.home_HISTORY }}</span></li>
+            <li ng-click="disconnect()"><span>{{ translation.home_DISCONNECT }}</span></li>
+            <li ng-click="changeLanguage('fr')"><span>French</span></li>
+            <li ng-click="changeLanguage('en')"><span>English</span></li>
+        </ul>
+    </div>
 </div>
 
 <script>

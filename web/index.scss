@@ -12,6 +12,7 @@
 
 body {
   position: fixed;
+
   > #sb-site {
     height: 100%;
     @include stretch();

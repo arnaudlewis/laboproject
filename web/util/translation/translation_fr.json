@@ -17,6 +17,8 @@
     "signin_CONNECTION": "Informations d'authentification",
     "signin_DRIVER": "Préférences de conducteur",
     "signin_TRAVELLER": "Préférences de voyageur",
+    "signin_VALIDATION_FORM": "Veuillez compléter le formulaire",
+    "account_CREATION_SUCCESS": "Création du compte effectuée, vous allez être redirigé",
 
     "home_TITLE": "Homepage",
     "home_DISCONNECT": "Déconnexion",

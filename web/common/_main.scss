@@ -67,7 +67,7 @@ body {
 
     &.alert_error {
       border-color: red;
-      @include boxshadow(0.1em, 0.1em, 1.5em, 0.1em, #fe0000);
+      @include boxshadow(0, 0, 0.4em, 1px, #ff695d);
     }
   }
 

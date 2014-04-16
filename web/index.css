@@ -463,10 +463,10 @@ body input {
 
 body input.alert_error {
     border-color: red;
-    -moz-box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
-    -webkit-box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
-    -o-box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
-    box-shadow: 0.1em 0.1em 1.5em 0.1em #fe0000;
+    -moz-box-shadow: 0 0 0.4em 1px #ff695d;
+    -webkit-box-shadow: 0 0 0.4em 1px #ff695d;
+    -o-box-shadow: 0 0 0.4em 1px #ff695d;
+    box-shadow: 0 0 0.4em 1px #ff695d;
 }
 
 body button {

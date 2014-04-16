@@ -125,7 +125,7 @@ public class DaoCity extends Dao<City> {
             t.begin();
             String sql = "select e from City e where e.name_city like :searchParam";
             TypedQuery<City> query = em.createQuery(sql, City.class);
-            query.setParameter("searchParam", "%" + searchParam + "%");
+            query.setParameter("searchParam", searchParam + "%");
             query.setMaxResults(LIMIT);
             t.commit();
             listCity = query.getResultList();

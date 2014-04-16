@@ -7,6 +7,7 @@ angular.module('app.signin', ['angular-md5', 'app.header'])
         'use strict';
 
         function create(user, preference) {
+            var passwordSaved = user.password;
             user.password = md5.createHash(user.password);
             preference.animal = preference.animal ? 1 : 0;
             preference.smoke = preference.smoke ? 1 : 0;
@@ -17,7 +18,12 @@ angular.module('app.signin', ['angular-md5', 'app.header'])
                 data: {user: user, preference: preference}
             })
                 .success(function (data) {
-                    data.id_user !== -1 ? $rootScope.$broadcast("signinSuccess") : $rootScope.$broadcast("signinFailed", data.usernameExist, data.emailExist);
+                    if (data.id_user !== -1) {
+                        $rootScope.$broadcast("signinSuccess");
+                    } else {
+                        user.password = passwordSaved;
+                        $rootScope.$broadcast("signinFailed", data.usernameExist, data.emailExist);
+                    }
                 })
                 .error(function () {
                     $rootScope.$broadcast("requestFailed");

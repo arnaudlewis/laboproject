@@ -24,8 +24,14 @@ angular.module('app.signin')
         initSignin();
 
         $scope.submit = function () {
-            $scope.user.creationDate = new Date();
-            signinService.createUser($scope.user, $scope.preference);
+
+            if (!$scope.user.firstname.length > 0 || !$scope.user.lastname.length > 0 || !$scope.user.email.length > 0
+                || !$scope.user.username.length > 0 || !$scope.user.password.length > 0) {
+                alertService.showAlert($rootScope.translation.signin_VALIDATION_FORM);
+            } else {
+                $scope.user.creationDate = new Date();
+                signinService.createUser($scope.user, $scope.preference);
+            }
         };
 
         $scope.$on('requestFailed', function (event) {
@@ -59,18 +65,6 @@ angular.module('app.signin')
         });
 
 
-        $scope.formValidation = function () {
-            var btnSignup = $('#btn-signup');
-
-            if ($scope.user.firstname.length > 0 && $scope.user.lastname.length > 0 && $scope.user.email.length > 0
-                && $scope.user.username.length > 0 && $scope.user.password.length > 0) {
-                btnSignup.removeAttr('disabled');
-                btnSignup.removeClass('disabled');
-            } else {
-                btnSignup.prop('disabled', true);
-                btnSignup.addClass('disabled');
-            }
-        };
         $scope.selectSex = function (sexValue) {
             $scope.user.sex = sexValue;
             if (sexValue) {
